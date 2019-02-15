@@ -180,6 +180,11 @@ h1 {
   transform: scale(0.9);
 }
 
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* flexbox shit for the cols */
 
 .row {
