@@ -117,10 +117,6 @@ src: url("fonts/BebasNeue-Book.ttf");
 
 /* BODY */
 
-.jumbotron {
-    background: #f0ffe7;
-}
-
 body {
     background: #f0ffe7;
     padding: none;
@@ -129,26 +125,6 @@ body {
     font-size: 1.8em;
 }
 
-/* BLOCKS */
-
-.mainblock {
-    min-height: 70vh;
-    padding: 4vh;
-    text-align: center;
-    color: #fff;
-}
-
-#about{
-    background: #ffbf00
-}
-
-#code {
-    background: #e83f6f
-}
-
-#photo {
-    background: #2274a5
-}
 
 h1 {
     margin-bottom: 25px;
