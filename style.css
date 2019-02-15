@@ -132,8 +132,8 @@ body {
 /* BLOCKS */
 
 .mainblock {
-    height: 70vh;
-    padding: 7vh;
+    min-height: 70vh;
+    padding: 4vh;
     text-align: center;
     color: #fff;
 }
@@ -156,7 +156,7 @@ h1 {
 
 #mainfooter {
     background: #262626;
-    height: 10vh;
+    min-height: 10vh;
     padding: 1.3em;
     text-align: center;
     color: white;
@@ -178,4 +178,18 @@ h1 {
 
 .zoom:hover {
   transform: scale(0.9);
+}
+
+/* flexbox shit for the cols */
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
