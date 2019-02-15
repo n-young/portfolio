@@ -80,7 +80,7 @@ src: url("fonts/BebasNeue-Book.ttf");
     background: #f0ffe7;
     padding: 20px;
     border: none;
-    min-height: 20vh;
+    max-height: 20vh;
     font-family: "Bebas Neue";
 }
 
