@@ -1,0 +1,8 @@
+.mainblock {
+    min-height: 70vh;
+    min-width: 100%;
+    padding: 4vh;
+    text-align: center;
+    background: #ffbf00;
+    color: #fff;
+}
