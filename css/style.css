@@ -76,58 +76,32 @@ src: url("fonts/BebasNeue-Book.ttf");
 
 /* NAVBAR */
 
-.navbar-fixed-top {
-    background: #f0ffe7;
-    padding: 20px;
-    border: none;
-    max-height: 20vh;
-    font-family: "Bebas Neue";
-}
-
-.navbar-header {
-    width:100%;
-    text-align: center;
-    font-family: "Bebas Neue";
-    font-size: 3.5em;
-    padding-bottom: 10px;
-    color: #262626;
-    text-decoration: none;
-}
-
-.navbar-header:hover {
-    color: #262626;
-    text-decoration: none;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-    font-size: 1.5em;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar-option {
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 /* BODY */
 
 body {
     background: #f0ffe7;
-    padding: none;
-    padding-top: 20vh;
     font-family: "Raleway", sans-serif;
     font-size: 1.8em;
 }
 
+#mainname {
+	font: normal 23vw "Bebas Neue";
+	color: #262626;
+	margin-bottom: -3vh;;
+}
 
-h1 {
-    margin-bottom: 25px;
+.underline {
+	height: 1vh;
+	width: 80vw;
+	margin-bottom: 10vh;
+	background-color: #262626;
+}
+
+#mainlanding {
+	height: 90vh;
+	display: flex;
+	align-items: flex-end;
 }
 
 #mainfooter {
@@ -149,7 +123,7 @@ h1 {
 
 .zoom {
   transition: transform .2s; /* Animation */
-  
+
 }
 
 .zoom:hover {
