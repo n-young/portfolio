@@ -1,17 +1,17 @@
 @font-face {
-font-family: "Bebas Neue";
-src: url("fonts/BebasNeue-Book.ttf");
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue-Book.ttf");
 }
 
 /* TRANSITIONS */
-
 @keyframes slideUp {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
 #transition-1 {
@@ -24,7 +24,7 @@ src: url("fonts/BebasNeue-Book.ttf");
     background: #f0ffe7;
     animation: 1s ease 1s 1 slideUp;
     animation-fill-mode: forwards;
-    }
+}
 
 #transition-2 {
     position: absolute;
@@ -74,34 +74,48 @@ src: url("fonts/BebasNeue-Book.ttf");
     transform: translateY(-100%);
 }
 
+/* LANDING */
+#mainname {
+    font: normal 23vw "Bebas Neue";
+    color: #262626;
+    margin-bottom: -3vw;
+    margin-left: 2vw;
+}
+
+.underline {
+	position: relative;
+    height: 10px;
+    width: 80vw;
+	margin-top: none;
+	margin-bottom: 10vh;
+    background-color: #262626;
+}
+
+#mainlanding {
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+}
+
 /* NAVBAR */
+#navbar-nick-default {
+	display: flex;
+	align-content: flex-start;
+}
 
+.navbar-option {
+	max-width:33vw;
+}
 
-/* BODY */
-
+/* BODY & FOOTER */
 body {
     background: #f0ffe7;
     font-family: "Raleway", sans-serif;
     font-size: 1.8em;
 }
 
-#mainname {
-	font: normal 23vw "Bebas Neue";
-	color: #262626;
-	margin-bottom: -3vh;;
-}
-
-.underline {
-	height: 1vh;
-	width: 80vw;
-	margin-bottom: 10vh;
-	background-color: #262626;
-}
-
-#mainlanding {
-	height: 90vh;
-	display: flex;
-	align-items: flex-end;
+.descpage {
+	min-height: 100vh;
 }
 
 #mainfooter {
@@ -114,37 +128,7 @@ body {
 }
 
 .bottom {
-   position: absolute;
-   bottom: 0;
-   right: 0;
-}
-
-/* ZOOMS */
-
-.zoom {
-  transition: transform .2s; /* Animation */
-
-}
-
-.zoom:hover {
-  transform: scale(0.9);
-}
-
-a:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* flexbox shit for the cols */
-
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
-}
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
