@@ -76,10 +76,14 @@
 
 /* LANDING */
 #mainname {
-    font: normal 23vw "Bebas Neue";
+    font: 300 23vw "Bebas Neue";
     color: #262626;
     margin-bottom: -3vw;
     margin-left: 2vw;
+}
+
+#nn {
+	font-weight: 500;
 }
 
 .underline {
