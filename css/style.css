@@ -82,7 +82,7 @@
     margin-left: 2vw;
 }
 
-#nn {
+#boldname {
 	font-weight: 500;
 }
 
@@ -91,12 +91,18 @@
     height: 10px;
     width: 80vw;
 	margin-top: none;
-	margin-bottom: 10vh;
+	margin-bottom: 2vh;
     background-color: #262626;
 }
 
+#typedholder {
+	margin-bottom: 3vh;
+	margin-left: 2vw;
+	font: 500 8vh "Bebas Neue";
+}
+
 #mainlanding {
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: flex-end;
 }

@@ -13,6 +13,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script src="script/script.js"></script>
 </head>
 
 <body>
@@ -23,9 +26,35 @@
 	<div id="transition-5"></div>
 
 	<div id="mainlanding">
-		<h1 id="mainname"><span id="nn">N.</span> Young</h1>
+		<h1 id="mainname"><span id="boldname">N.</span> Young</h1>
 	</div>
 	<div class="underline"></div>
+	<div id="typedholder">
+		&gt <span id="typed"></span>
+	</div>
+	<div id="typed-strings">
+		<p>Programmer</p>
+		<p>Photographer</p>
+		<p>Public Speaker</p>
+		<p>Event Organizer</p>
+		<p>Guitar Enthusiast</p>
+		<p>Student(?)</p>
+		<p>Nick Young</p>
+	</div>
+	<script>
+		var typed = new Typed('#typed', {
+			stringsElement: '#typed-strings',
+			startDelay: 2000,
+			typeSpeed: 50,
+			backSpeed: 30,
+			backDelay: 1000,
+			smartBackspace: false,
+			shuffle: true,
+			loop: true,
+			loopCount: Infinity,
+			showCursor: false
+		});
+	</script>
 
 	<nav class="my-navbar">
 		<a class="my-navbar-option" href="about.html">about</a>
