@@ -1,9 +1,9 @@
-@font-face {
+/*@font-face {
     font-family: "Bebas Neue";
     src: url("fonts/BebasNeue-Book.ttf");
     src: url("fonts/BebasNeue-Book.otf");
 	-webkit-font-smoothing: antialiased;
-}
+}*/
 
 /* TRANSITIONS */
 @keyframes slideUp {
@@ -114,7 +114,8 @@
 	position: sticky;
 	top:0;
 	display: flex;
-	height: 7vh;
+	align-items: flex-end;
+	height: 9vh;
 	background-color: #262626;
 }
 
@@ -123,11 +124,25 @@
 	text-align: center;
 	font: normal 6vh "Bebas Neue";
 	color: #fff;
+	background-color: #262626;
 }
 
 .my-navbar-option:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+#aboutoption:hover {
+	background-color: #ffbf00
+}
+#codeoption:hover {
+	background-color: 	#e83f6f
+}
+#photooption:hover {
+	background-color: 	#2274a5
+}
+#contactoption:hover {
+	background-color: 	#f0ffe7;
 }
 
 /* BODY & FOOTER */
