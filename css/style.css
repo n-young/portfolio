@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Bebas Neue";
     src: url("fonts/BebasNeue-Book.ttf");
-    src: url("fonts/BebasNeue-Book.otf");
+    src: url("fonts/BebasNeue-Book.ttf");
 }
 
 /* TRANSITIONS */
@@ -132,7 +132,7 @@
 /* BODY & FOOTER */
 body {
     background: #f0ffe7;
-    font-family: "Raleway", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 1.8em;
 }
 
@@ -153,4 +153,21 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+/* BLOCKS */
+
+#mainabout{
+    background: #ffbf00
+}
+
+#maincoding {
+    background: #e83f6f
+}
+
+#mainphotos {
+    background: #2274a5
+}
+
+#maincontact {
+	background: #f0ffe7;
 }
