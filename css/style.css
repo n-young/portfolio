@@ -2,6 +2,7 @@
     font-family: "Bebas Neue";
     src: url("fonts/BebasNeue-Book.ttf");
     src: url("fonts/BebasNeue-Book.otf");
+	-webkit-font-smoothing: antialiased;
 }
 
 /* TRANSITIONS */
