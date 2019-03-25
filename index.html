@@ -30,22 +30,20 @@
 		</div>
 		<div class="underline"></div>
 		<div id="typedholder">
-			&gt <span id="typed"></span>
+			&gt <span id="typed">Nick Young</span>
 		</div>
 		<div id="typed-strings">
 			<p>Programmer</p>
 			<p>Photographer</p>
 			<p>Videographer</p>
 			<p>Public Speaker</p>
-			<p>Conference Organizer</p>
+			<p>Event Planner</p>
 			<p>Guitar Enthusiast</p>
-			<p>Student(?)</p>
-			<p>Nick Young</p>
 		</div>
 		<script>
 			var typed = new Typed('#typed', {
 				stringsElement: '#typed-strings',
-				startDelay: 2000,
+				startDelay: 5000,
 				typeSpeed: 50,
 				backSpeed: 30,
 				backDelay: 1000,
@@ -66,29 +64,30 @@
 		</div>
 	</div>
 	<nav class="my-navbar">
-		<a class="my-navbar-option" id="aboutoption" href="">about</a>
-		<a class="my-navbar-option" id="codeoption" href="">code</a>
-		<a class="my-navbar-option" id="photooption" href="">photo</a>
-		<a class="my-navbar-option" id="contactoption" href="">contact</a>
+		<a class="my-navbar-option" id="aboutoption" href="#mainabout">about</a>
+		<a class="my-navbar-option" id="codeoption" href="#maincoding">code</a>
+		<a class="my-navbar-option" id="photooption" href="#mainphotos">photo</a>
+		<a class="my-navbar-option" id="contactoption" href="#maincontact">contact</a>
 	</nav>
 
 
-	<div class="container-fluid descpage" id="mainabout">
-		About
-		Contacts
+	<div class="row descpage" id="mainabout">
+		<div class="col-lg-4" style="background: white;">
+asdsa
+		</div>
 	</div>
 
-	<div class="container-fluid descpage" id="maincoding">
+	<div class="row descpage" id="maincoding">
 		Main skills
 		Main projects
 	</div>
 
-	<div class="container-fluid descpage" id="mainphotos">
+	<div class="row descpage" id="mainphotos">
 		Camera specs
 		Portfolio
 	</div>
 
-	<div class="container-fluid descpage" id="maincontact">
+	<div class="row descpage" id="maincontact">
 		Links to insta, vsco, github, linkedin, email, youtube, facebook
 	</div>
 

@@ -1,11 +1,6 @@
-/*
-@font-face{
-	font-family:"BebasNeue";
-	src:url("Fonts/Bebas.eot") format("eot"),
-	url("Fonts/Bebas.woff2") format("woff2"),
-	url("Fonts/Bebas.woff") format("woff"),
-	url("Fonts/Bebas.ttf") format("truetype");
-}*/
+html {
+	scroll-behavior: smooth;
+}
 @font-face {
     font-family: "BebasNeue Yeet";
     src: url("Boob/BebasNeue-Thin.otf") format("opentype"),
@@ -233,11 +228,13 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
-    height: 9vh;
+    height: 3vh;
     z-index: 1;
 }
 
 #basebar {
+	position: sticky;
+	top:0;
     background: #f0ffe7;
     width: 100%;
 }
