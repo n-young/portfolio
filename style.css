@@ -1,6 +1,9 @@
 html {
 	scroll-behavior: smooth;
 }
+
+/* FONTS */
+
 @font-face {
     font-family: "BebasNeue Yeet";
     src: url("Boob/BebasNeue-Thin.otf") format("opentype"),
@@ -37,6 +40,7 @@ html {
 }
 
 /* TRANSITIONS */
+
 @keyframes slideUp {
     0% {
         transform: translateY(0%);
@@ -108,6 +112,13 @@ html {
 }
 
 /* LANDING */
+
+#mainlanding {
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+
 #mainname {
     font: 200 23vw "BebasNeue Yeet";
     color: #262626;
@@ -134,13 +145,8 @@ html {
     font: 400 8vh "BebasNeue Yeet";
 }
 
-#mainlanding {
-    height: 85vh;
-    display: flex;
-    align-items: flex-end;
-}
-
 /* NAVBAR */
+
 .my-navbar {
     width: 100%;
     position: sticky;
@@ -165,15 +171,16 @@ html {
 }
 
 #aboutoption:hover {
-    background-color: #ffbf00
+    background-color: #ffbf00;
+    color: #262626;
 }
 
 #codeoption:hover {
-    background-color: #e83f6f
+    background-color: #e83f6f;
 }
 
 #photooption:hover {
-    background-color: #2274a5
+    background-color: #2274a5;
 }
 
 #contactoption:hover {
@@ -181,7 +188,8 @@ html {
     color: #262626;
 }
 
-/* BODY & FOOTER */
+
+/* MAINS */
 body {
     background: #f0ffe7;
     font-family: "BebasNeue Yeet", sans-serif;
@@ -189,25 +197,9 @@ body {
 }
 
 .descpage {
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
-#mainfooter {
-    background: #262626;
-    min-height: 10vh;
-    padding: 1em;
-    text-align: center;
-    color: white;
-    position: relative;
-}
-
-.bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-/* BLOCKS AND BARS */
 #mainabout {
     background: #ffbf00
 }
@@ -223,6 +215,42 @@ body {
 #maincontact {
     background: #f0ffe7;
 }
+
+.row {
+	padding: 40px;
+	margin:0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+h1 {
+	font-size: 90px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: "Raleway";
+	font-size: 55px;
+	font-style: italic;
+}
+
+p {
+	font-family: "Raleway";
+	font-size: 30px;
+}
+
+.highlight {
+	background: white;
+	color: #262626;
+}
+
+/* BARS */
 
 .progressbar {
     width: 100%;
@@ -252,4 +280,21 @@ body {
 #photobar {
     background: #2274a5;
     width: 0%;
+}
+
+/* FOOTER */
+
+#mainfooter {
+    background: #262626;
+    min-height: 10vh;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
