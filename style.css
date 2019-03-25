@@ -1,44 +1,12 @@
-/*
 @font-face{
 	font-family:"BebasNeue";
-	src:url("Fonts/Bebas.eot") format("eot"),
+
+	src:url(".../Fonts/Bebas.eot") format("eot"),
 	url("Fonts/Bebas.woff2") format("woff2"),
 	url("Fonts/Bebas.woff") format("woff"),
 	url("Fonts/Bebas.ttf") format("truetype");
-}*/
-
-@font-face{
-	font-family:"BebasNeue Yeet";
-	src:url("Boob/BebasNeue-Thin.otf") format("opentype"),
-	url("Boob/BebasNeue-Thin.ttf") format("truetype");
-	font-weight: 100;
 }
 
-@font-face{
-	font-family:"BebasNeue Yeet";
-	src:url("Boob/BebasNeue-Light.otf") format("opentype"),
-	url("Boob/BebasNeue-Light.ttf") format("truetype");
-	font-weight: 200;
-}
-@font-face{
-	font-family:"BebasNeue Yeet";
-	src:url("Boob/BebasNeue-Book.otf") format("opentype"),
-	url("Boob/BebasNeue-Book.ttf") format("truetype");
-	font-weight: 400;
-}
-
-@font-face{
-	font-family:"BebasNeue Yeet";
-	src:url("Boob/BebasNeue-Regular.otf") format("opentype"),
-	url("Boob/BebasNeue-Regular.ttf") format("truetype");
-	font-weight: 600;
-}
-@font-face{
-	font-family:"BebasNeue Yeet";
-	src:url("Boob/BebasNeue-Bold.otf") format("opentype"),
-	url("Boob/BebasNeue-Bold.ttf") format("truetype");
-	font-weight: 800;
-}
 /* TRANSITIONS */
 @keyframes slideUp {
     0% {
@@ -112,7 +80,7 @@
 
 /* LANDING */
 #mainname {
-    font: 400 23vw "BebasNeue Yeet";
+    font: 300 23vw "BebasNeue";
     color: #262626;
     margin-bottom: -3vw;
     margin-left: 2vw;
