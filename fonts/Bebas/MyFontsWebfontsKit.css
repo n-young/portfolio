@@ -23,4 +23,5 @@
 
 
 
-@font-face {font-family: 'BebasNeue';src: url('webfonts/390A80_0_0.eot');src: url('webfonts/390A80_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/390A80_0_0.woff2') format('woff2'),url('webfonts/390A80_0_0.woff') format('woff'),url('webfonts/390A80_0_0.ttf') format('truetype'),url('webfonts/390A80_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'BebasNeue';src: url('webfonts/390A80_0_0.eot');src: url('webfonts/390A80_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/390A80_0_0.woff2') format('woff2'),url('webfonts/390A80_0_0.woff') format('woff'),url('webfonts/390A80_0_0.ttf') format('truetype'),url('webfonts/390A80_0_0.svg#wf') format('svg');
+-webkit-font-smoothing: antialiased;}
