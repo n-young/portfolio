@@ -1,12 +1,44 @@
+/*
 @font-face{
 	font-family:"BebasNeue";
-
-	src:url(".../Fonts/Bebas.eot") format("eot"),
+	src:url("Fonts/Bebas.eot") format("eot"),
 	url("Fonts/Bebas.woff2") format("woff2"),
 	url("Fonts/Bebas.woff") format("woff"),
 	url("Fonts/Bebas.ttf") format("truetype");
+}*/
+
+@font-face{
+	font-family:"BebasNeue Yeet";
+	src:url("Boob/BebasNeue-Thin.otf") format("opentype"),
+	url("Boob/BebasNeue-Thin.ttf") format("truetype");
+	font-weight: 100;
 }
 
+@font-face{
+	font-family:"BebasNeue Yeet";
+	src:url("Boob/BebasNeue-Light.otf") format("opentype"),
+	url("Boob/BebasNeue-Light.ttf") format("truetype");
+	font-weight: 200;
+}
+@font-face{
+	font-family:"BebasNeue Yeet";
+	src:url("Boob/BebasNeue-Book.otf") format("opentype"),
+	url("Boob/BebasNeue-Book.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face{
+	font-family:"BebasNeue Yeet";
+	src:url("Boob/BebasNeue-Regular.otf") format("opentype"),
+	url("Boob/BebasNeue-Regular.ttf") format("truetype");
+	font-weight: 600;
+}
+@font-face{
+	font-family:"BebasNeue Yeet";
+	src:url("Boob/BebasNeue-Bold.otf") format("opentype"),
+	url("Boob/BebasNeue-Bold.ttf") format("truetype");
+	font-weight: 800;
+}
 /* TRANSITIONS */
 @keyframes slideUp {
     0% {
@@ -80,14 +112,14 @@
 
 /* LANDING */
 #mainname {
-    font: 300 23vw "BebasNeue";
+    font: 200 23vw "BebasNeue Yeet";
     color: #262626;
     margin-bottom: -3vw;
     margin-left: 2vw;
 }
 
 #boldname {
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .underline {
@@ -102,7 +134,7 @@
 #typedholder {
 	margin-bottom: 3vh;
 	margin-left: 2vw;
-	font: 500 8vh "Bebas Neue";
+	font: 400 8vh "BebasNeue Yeet";
 }
 
 #mainlanding {
@@ -124,7 +156,7 @@
 .my-navbar-option {
 	flex: 1;
 	text-align: center;
-	font: 400 6vh "Bebas Neue";
+	font: 400 6vh "BebasNeue Yeet";
 	color: #fff;
 	background-color: #262626;
 }
@@ -150,7 +182,7 @@
 /* BODY & FOOTER */
 body {
     background: #f0ffe7;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "BebasNeue Yeet", sans-serif;
     font-size: 1.8em;
 }
 
