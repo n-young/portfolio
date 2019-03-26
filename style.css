@@ -1,9 +1,8 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* FONTS */
-
 @font-face {
     font-family: "BebasNeue Yeet";
     src: url("Boob/BebasNeue-Thin.otf") format("opentype"),
@@ -40,7 +39,6 @@ html {
 }
 
 /* TRANSITIONS */
-
 @keyframes slideUp {
     0% {
         transform: translateY(0%);
@@ -112,7 +110,6 @@ html {
 }
 
 /* LANDING */
-
 #mainlanding {
     height: 80vh;
     display: flex;
@@ -146,7 +143,6 @@ html {
 }
 
 /* NAVBAR */
-
 .my-navbar {
     width: 100%;
     position: sticky;
@@ -188,7 +184,6 @@ html {
     color: #262626;
 }
 
-
 /* MAINS */
 body {
     background: #f0ffe7;
@@ -217,41 +212,72 @@ body {
 }
 
 .row {
-	padding: 40px;
-	margin:0px;
-	display: flex;
-	align-items: center;
-	text-align: center;
+    padding: 40px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
-	font-size: 90px;
-	margin-bottom: 50px;
+    font-size: 90px;
+    margin-bottom: 50px;
 }
 
 h2 {
-	font-size: 70px;
-	margin-bottom: 30px;
+    font-size: 70px;
+    margin-bottom: 30px;
 }
 
 h3 {
-	font-family: "Raleway";
-	font-size: 55px;
-	font-style: italic;
+    font-family: "Raleway";
+    font-size: 55px;
+    font-style: italic;
 }
 
 p {
-	font-family: "Raleway";
-	font-size: 30px;
+    font-family: "Raleway";
+    font-size: 30px;
 }
 
 .highlight {
-	background: white;
-	color: #262626;
+    background: white;
+    color: #262626;
+}
+
+/* PHOTO */
+.imgrow {
+    padding: 0px;
+    margin: 0px;
+}
+
+.imgrow>img {
+    padding: 10px;
+    max-width: 100%;
+    transform: scale(1);
+    transition: .1s ease;
+}
+
+.imgrow>img:hover {
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+
+.iconcircle {
+	width: 150px;
+	height:150px;
+	line-height: 150px;
+	border-radius: 50%;
+	color: white;
+	font-size: 60px;
+	margin:auto;
+}
+
+#youtubeicon {
+	background:#c4302b;
 }
 
 /* BARS */
-
 .progressbar {
     width: 100%;
     position: fixed;
@@ -261,8 +287,8 @@ p {
 }
 
 #basebar {
-	position: sticky;
-	top:0;
+    position: sticky;
+    top: 0;
     background: #f0ffe7;
     width: 100%;
 }
@@ -283,7 +309,6 @@ p {
 }
 
 /* FOOTER */
-
 #mainfooter {
     background: #262626;
     min-height: 10vh;
