@@ -191,10 +191,6 @@ body {
     font-size: 1.8em;
 }
 
-.descpage {
-    min-height: 70vh;
-}
-
 #mainabout {
     background: #ffbf00
 }
@@ -263,14 +259,31 @@ p {
     transition: .3s ease;
 }
 
-.iconcircle {
+/* ICONS */
+
+.iconholder {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.iconlg {
 	width: 150px;
 	height:150px;
 	line-height: 150px;
 	border-radius: 50%;
 	color: white;
 	font-size: 60px;
-	margin:auto;
+}
+
+.iconmd {
+	width: 100px;
+	height:100px;
+	line-height: 100px;
+	border-radius: 50%;
+	color: white;
+	font-size: 40px;
+	margin: 20px;
 }
 
 #youtubeicon {
