@@ -31,7 +31,7 @@
 		</div>
 		<div class="underline"></div>
 		<div id="typedholder">
-			&gt <span id="typed">Nick Young</span>
+			<h1>&gt <span id="typed">Nick Young</span></h1>
 		</div>
 		<div id="typed-strings">
 			<p>Programmer</p>
@@ -39,7 +39,7 @@
 			<p>Videographer</p>
 			<p>Public Speaker</p>
 			<p>Event Planner</p>
-			<p>Guitar Enthusiast</p>
+			<p>Ukulele Player</p>
 		</div>
 		<script>
 			var typed = new Typed('#typed', {
@@ -66,12 +66,19 @@
 			</div>
 		</div>
 	</div>
-	<nav class="my-navbar">
-		<a class="my-navbar-option" id="aboutoption" href="#mainabout">about</a>
-		<a class="my-navbar-option" id="codeoption" href="#maincoding">projects</a>
-		<a class="my-navbar-option" id="photooption" href="#mainphotos">photo</a>
-		<a class="my-navbar-option" id="contactoption" href="#maincontact">contact</a>
+
+	<nav class="navbar-expand-md my-navbar">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-toggle" aria-controls="main-navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+			x
+		</button>
+		<div class="collapse navbar-collapse" id="main-navbar-toggle">
+			<a class="my-navbar-option" id="aboutoption" href="#mainabout">about</a>
+			<a class="my-navbar-option" id="codeoption" href="#maincoding">projects</a>
+			<a class="my-navbar-option" id="photooption" href="#mainphotos">photo</a>
+			<a class="my-navbar-option" id="contactoption" href="#maincontact">contact</a>
+		</div>
 	</nav>
+
 
 	<div class="row" id="mainabout">
 		<div class="col-xl-4 col-lg-12">
@@ -81,15 +88,16 @@
 		<div class="col-xl-8 col-lg-12" style="text-align: left">
 			<h2 style="margin-left: 40px"><span class="highlight">Hey!</span></h2>
 			<p>
-				<span class="highlight">My name is Nick Young,</span> and welcome to my website. This page serves a number of purposes: branding, portfolio, a fun project, <i>et cetera</i> (in reality, it's just coding practice). If nothing else, <span class="highlight">I'll
+				<span class="highlight">My name is Nick Young,</span> and welcome to my website. This page serves a number of purposes: a resume, a portfolio, a fun project, <i>et cetera</i>. But if nothing else, <span class="highlight">I'll
 					take it as a chance to introduce myself!</span>
 			</p>
 			<p>
-				I'm currently a <span class="highlight">high school senior</span> living in <span class="highlight">Vancouver, Canada,</span> land of the brave. Hoping to study <span class="highlight">computer science</span> in university, I spend a great deal
-				of time organizing conferences, debating, programming, shooting photo and video, and playing the ukulele. My favourite people live in <span class="highlight">Langley, New York, and Hong Kong.</span>
+				I'm currently a <span class="highlight">high school senior</span> living in <span class="highlight">Vancouver, Canada,</span> land of the north. Next year, I'll be studying <span class="highlight">computer science at Brown University.</span> I
+				spend a great deal
+				of time organizing conferences, debating, programming, shooting photo and video, and playing the ukulele, among other fruitless pastimes. As a point, my favourite people live in <span class="highlight">Langley, New York, and Hong Kong.</span>
 			</p>
 			<p>
-				While I may not be a <span class="highlight">Singaporean billionaire,</span> I hope there's something here for you. Please feel free to look around my work and give me a shout if you'd like to connect - <span class="highlight">I'd like to get to
+				While I may not be a <span class="highlight">Singaporean billionaire,</span> I hope there's something here for you. Please feel free to look around my work and give me a shout if you'd like to connect - <span class="highlight">I'd love to get to
 					know you as well!</span>
 			</p>
 			<br />
@@ -102,38 +110,34 @@
 		</div>
 	</div>
 
-	<div id="maincoding">
-		<div style="color: #fff; padding: 0% 25%">
-			<h1 style="margin-bottom: 0px">Projects</h1>
-			<p>
-				VMUN, CAIMUN, Spy v Spy, OpenChair, This website
-			</p>
-		</div>
+	<div class="row" id="maincoding" style="color: #fff">
+		<h1 style="margin-bottom: 0px; margin:auto">Projects</h1>
+		<p>
+			VMUN, CAIMUN, Spy v Spy, OpenChair, This website
+		</p>
 	</div>
 
-	<div class="row" id="mainphotos">
-		<div style="color: #fff; padding: 0% 25%">
-			<h1 style="margin-bottom: 0px">Photography</h1>
-			<p>
-				I mainly shoot on a <span class="highlight">Nikon D7100 with a 35mm 1.8F prime lens, as well as a 18-55mm kit lens.</span> I edit in Lightroom and have experience in <span class="highlight">conference photography</span> and <span class="highlight">portraits.</span>
-			</p>
-		</div>
-		<div class="imgrow col-lg-3 col-md-6 col-xs-12">
+	<div class="row" id="mainphotos" style="color: #fff">
+		<h1 style="margin-bottom: 0px; margin:auto">Photography</h1>
+		<p>
+			I mainly shoot on a <span class="highlight">Nikon D7100 with a 35mm 1.8F prime lens, as well as a 18-55mm kit lens.</span> I edit in Lightroom and have experience in <span class="highlight">conference photography</span> and <span class="highlight">portraits.</span>
+		</p>
+		<div class="imgrow col-lg-3 col-md-6">
 			<img src="img/portfolio/port1.jpg" />
 			<img src="img/portfolio/port2.jpg" />
 			<img src="img/portfolio/port3.jpg" />
 		</div>
-		<div class="imgrow col-lg-3 col-md-6 col-xs-12">
+		<div class="imgrow col-lg-3 col-md-6">
 			<img src="img/portfolio/port2.jpg" />
 			<img src="img/portfolio/port3.jpg" />
 			<img src="img/portfolio/port4.jpg" />
 		</div>
-		<div class="imgrow col-lg-3 col-md-6 col-xs-12">
+		<div class="imgrow col-lg-3 col-md-6">
 			<img src="img/portfolio/port3.jpg" />
 			<img src="img/portfolio/port4.jpg" />
 			<img src="img/portfolio/port5.jpg" />
 		</div>
-		<div class="imgrow col-lg-3 col-md-6 col-xs-12">
+		<div class="imgrow col-lg-3 col-md-6">
 			<img src="img/portfolio/port4.jpg" />
 			<img src="img/portfolio/port5.jpg" />
 			<img src="img/portfolio/port1.jpg" />
@@ -152,13 +156,11 @@
 				</div>
 			</a>
 		</div>
-		<div style="color: #fff; padding: 0% 25%">
-			<h1 style="margin-bottom: 0px; margin-top: 50px">Videography</h1>
-			<p>
-				I shoot video on a <span class="highlight">Sony A5100 with a 16-50mm kit lens.</span> I edit in Premiere and After Effects and have experience in <span class="highlight">conference videography.</span> Check out my work on my <a href="https://www.youtube.com/user/ifonlyihadtnt"><span
-					    class="highlight">Youtube!</span></a>
-			</p>
-		</div>
+		<h1 style="margin-bottom: 0px; margin-top: 50px; margin:auto">Videography</h1>
+		<p>
+			I shoot video on a <span class="highlight">Sony A5100 with a 16-50mm kit lens.</span> I edit in Premiere and After Effects and have experience in <span class="highlight">conference videography.</span> Check out my work on my <a href="https://www.youtube.com/user/ifonlyihadtnt"><span
+				    class="highlight">Youtube!</span></a>
+		</p>
 		<div class='iconholder'>
 			<a href="https://www.youtube.com/user/ifonlyihadtnt">
 				<div class="iconlg" id="youtubeicon">
@@ -168,20 +170,18 @@
 		</div>
 	</div>
 
-	<div id="maincontact">
-		<div style="color: #262626; padding: 0% 25%; margin:auto">
-			<h1 style="margin-bottom: 0px">Contact</h1>
-			<p>
-				Feel free to access my work or contact me via <span class="highlight">Email, Facebook, LinkedIn, Github, Youtube, Instagram, and VSCO.</span>
-			</p>
-		</div>
+	<div class="row" id="maincontact">
+		<h1 style="margin-bottom: 0px; margin:auto">Contact</h1>
+		<p>
+			Feel free to access my work or contact me via <span class="highlight">Email, Facebook, LinkedIn, Github, Youtube, Instagram, and VSCO.</span>
+		</p>
 		<div class="iconholder">
 			<a href="mailto: youngnicholas228@gmail.com">
 				<div class="iconmd" id="emailicon">
 					<i class="fas fa-at"></i>
 				</div>
 			</a>
-			<a href="https://www.facebook.com/imwritingsomething">
+			<a href="https://www.facebook.com/ndashyoung">
 				<div class="iconmd" id="facebookicon">
 					<i class="fab fa-facebook-square"></i>
 				</div>
@@ -221,8 +221,10 @@
 		<div class="bottom">ny</div>
 	</div>
 
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

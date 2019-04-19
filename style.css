@@ -166,6 +166,24 @@ html {
     text-decoration: none;
 }
 
+.navbar-toggler {
+    height: 100%;
+    background-color: #f0ffe7;
+    font-size: 80px;
+    border-radius: 0px
+}
+
+@media only screen and (max-width: 768px) {
+    .my-navbar {
+        align-items: flex-start;
+    }
+
+    .my-navbar-option {
+        display: block;
+        width: 100%
+    }
+}
+
 #aboutoption:hover {
     background-color: #ffbf00;
     color: #262626;
@@ -196,7 +214,6 @@ body {
 }
 
 #maincoding {
-    text-align: center;
     background: #e83f6f
 }
 
@@ -214,6 +231,7 @@ body {
 .row {
     padding: 40px;
     margin: 0px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -238,6 +256,21 @@ h3 {
 p {
     font-family: "Raleway";
     font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
 }
 
 .highlight {
@@ -283,6 +316,8 @@ p {
 .iconmd {
     width: 6vw;
     height: 6vw;
+	min-width: 50px;
+	min-height: 50px;
     line-height: 6vw;
     border-radius: 50%;
     color: white;
