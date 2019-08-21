@@ -54,10 +54,11 @@ html {
     top: 0;
     z-index: 1040;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     background: #f0ffe7;
-    animation: 1s ease 1s 1 slideUp;
+	text-align: center;
+    animation: 1s cubic-bezier(.73, .03, .87, .7) 1s 1 slideUp;
     animation-fill-mode: forwards;
 }
 
@@ -66,10 +67,10 @@ html {
     top: 0;
     z-index: 1039;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     background: #ffb400;
-    animation: 1s ease 1.1s 1 slideUp;
+    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.1s 1 slideUp;
     transform: translateY(-100%);
 }
 
@@ -78,10 +79,10 @@ html {
     top: 0;
     z-index: 1038;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     background: #e83f6f;
-    animation: 1s ease 1.2s 1 slideUp;
+    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.2s 1 slideUp;
     transform: translateY(-100%);
 }
 
@@ -90,10 +91,10 @@ html {
     top: 0;
     z-index: 1037;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     background: #2274a5;
-    animation: 1s ease 1.3s 1 slideUp;
+    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.3s 1 slideUp;
     transform: translateY(-100%);
 }
 
@@ -102,10 +103,10 @@ html {
     top: 0;
     z-index: 1036;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     background: #32936f;
-    animation: 1s ease 1.4s 1 slideUp;
+    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.4s 1 slideUp;
     transform: translateY(-100%);
 }
 
