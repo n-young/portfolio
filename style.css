@@ -1,8 +1,12 @@
 html {
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 
+/* =================================== */
 /* FONTS */
+/* =================================== */
+
 @font-face {
     font-family: "BebasNeue Yeet";
     src: url("font/BebasNeue-Thin.otf") format("opentype"),
@@ -38,7 +42,10 @@ html {
     font-weight: 800;
 }
 
+/* =================================== */
 /* TRANSITIONS */
+/* =================================== */
+
 @keyframes slideUp {
     0% {
         transform: translateY(0%);
@@ -47,6 +54,25 @@ html {
     100% {
         transform: translateY(-100%);
     }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+#transition-icon {
+    height: 10vh;
+    margin-top: 45vh;
+    animation: 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s 1 slideIn;
+    animation-fill-mode: forwards;
 }
 
 #transition-1 {
@@ -110,9 +136,12 @@ html {
     transform: translateY(-100%);
 }
 
+/* =================================== */
 /* LANDING */
+/* =================================== */
+
 #mainlanding {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: flex-end;
 }
@@ -130,20 +159,24 @@ html {
 
 .underline {
     position: relative;
-    height: 10px;
-    width: 80vw;
+    height: 0.5rem;
+    width: 80%;
     margin-top: none;
     margin-bottom: 2vh;
     background-color: #262626;
 }
 
 #typedholder {
-    margin-bottom: 3vh;
+    margin-bottom: 0;
     margin-left: 2vw;
     font: 400 8vh "BebasNeue Yeet";
+    color: #262626;
 }
 
+/* =================================== */
 /* NAVBAR */
+/* =================================== */
+
 .my-navbar {
     width: 100%;
     position: sticky;
@@ -160,6 +193,7 @@ html {
     font: 400 6vh "BebasNeue Yeet";
     color: #fff;
     background-color: #262626;
+    text-decoration: none;
 }
 
 .my-navbar-option:hover {
@@ -168,14 +202,16 @@ html {
 }
 
 .navbar-toggler {
-    height: 100%;
-    background-color: #f0ffe7;
-    font-size: 80px;
+    position: fixed;
+    top: 3vh;
+    font-size: 9rem;
     border-radius: 0px
 }
 
 @media only screen and (max-width: 768px) {
     .my-navbar {
+        position: fixed;
+        top: 0;        
         align-items: flex-start;
     }
 
@@ -190,206 +226,22 @@ html {
     color: #262626;
 }
 
-#codeoption:hover {
+#projectsoption:hover {
     background-color: #e83f6f;
 }
 
-#photooption:hover {
+#skillsoption:hover {
     background-color: #2274a5;
 }
 
 #contactoption:hover {
-    background-color: #f0ffe7;
-    color: #262626;
+    background-color: #32936f;
 }
 
-/* MAINS */
-body {
-    background: #f0ffe7;
-    font-family: "BebasNeue Yeet", sans-serif;
-    font-size: 1.8em;
-}
-
-#mainabout {
-    background: #ffbf00
-}
-
-#maincoding {
-    background: #e83f6f
-}
-
-#mainphotos {
-    background: #2274a5
-}
-
-#maincontact {
-    background: #f0ffe7;
-}
-
-.row {
-    padding: 40px 5px;
-    margin: 0px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.desctext {
-    width: 100%;
-    display: block;
-}
-
-.desctext>p {
-    max-width: 800px;
-    margin: 0px auto 50px auto;
-}
-
-h1 {
-    font-size: 90px;
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-size: 70px;
-    margin-bottom: 30px;
-}
-
-h3 {
-    font-family: "Raleway";
-    font-size: 55px;
-    font-style: italic;
-}
-
-p {
-    font-family: "Raleway";
-    font-size: 30px;
-}
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 60px;
-        margin-bottom: 50px;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    p {
-        font-size: 20px;
-    }
-}
-
-.highlight {
-    background: white;
-    color: #262626;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  color: #262626;
-  width: 100%;
-  margin: 15px 10px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* PHOTO */
-.imgrow {
-    padding: 0px;
-    margin: 0px;
-}
-
-.imgrow>img {
-    padding: 10px;
-    max-width: 100%;
-    transform: scale(1);
-    transition: .1s ease;
-}
-
-.imgrow>img:hover {
-    transform: scale(1.05);
-    transition: .3s ease;
-}
-
-/* ICONS */
-.iconholder {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-
-.iconlg {
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    color: white;
-    font-size: 75px;
-    margin: 10px;
-}
-
-.iconmd {
-    width: 10vw;
-    height: 10vw;
-    line-height: 10vw;
-    border-radius: 50%;
-    color: white;
-    font-size: 5vw;
-    margin: 10px;
-}
-
-
-@media only screen and (max-width: 768px) {
-	.iconholder {
-		display: block
-	}
-	.iconmd {
-		width: 200px;
-	    height: 200px;
-	    line-height: 200px;
-	    font-size: 100px;
-	}
-}
-
-#emailicon {
-    background: #e83f6f;
-}
-
-#facebookicon {
-    background: #3b5998;
-}
-
-#linkedinicon {
-    background: #0077B5;
-}
-
-#githubicon {
-    background: #211F1F;
-}
-
-#youtubeicon {
-    background: #c4302b;
-}
-
-#instagramicon {
-    background: #fb3958;
-}
-
-#vscoicon {
-    background: #fff;
-    color: #262626;
-    font-weight: 600;
-}
-
-#vscoicon:hover {
-    color: #262626;
-    text-decoration: none;
-}
-
+/* =================================== */
 /* BARS */
+/* =================================== */
+
 .progressbar {
     width: 100%;
     position: fixed;
@@ -410,17 +262,44 @@ p {
     width: 0%;
 }
 
-#codebar {
+#projectsbar {
     background: #e83f6f;
     width: 0%;
 }
 
-#photobar {
+#skillsbar {
     background: #2274a5;
     width: 0%;
 }
 
-/* FOOTER */
+/* =================================== */
+/* MAINS */
+/* =================================== */
+
+body {
+    background: #f0ffe7;
+    color: #fff;
+    font-family: "BebasNeue Yeet", sans-serif;
+    font-size: 1.5rem;
+}
+
+#mainabout {
+    background: #ffbf00;
+    color: #262626;
+}
+
+#mainprojects {
+    background: #e83f6f;
+}
+
+#mainskills {
+    background: #2274a5;
+}
+
+#maincontact {
+    background: #32936f;
+}
+
 #mainfooter {
     background: #262626;
     min-height: 10vh;
@@ -430,9 +309,106 @@ p {
     position: relative;
 }
 
-.bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 5px;
+.row {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding: 60px 0;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -9vh;
+    visibility: hidden;
+}
+
+.desctext {
+    text-align: left
+}
+
+.highlight {
+    background: white;
+    color: #262626;
+}
+
+h1 {
+    font-size: 9rem;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 7rem;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: "Raleway";
+    font-size: 5rem;
+    font-style: italic;
+}
+
+p {
+    font-family: "Raleway";
+    font-size: 3rem;
+}
+
+a {
+    color: #262626;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #262626;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 6rem;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+.accordion {
+    background-color: #fff;
+    color: #262626;
+    cursor: pointer;
+    padding: 15px;
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "Raleway";
+    font-size: 4rem;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+button:focus {outline:0;}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgb(255, 255, 255);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #262626;
 }

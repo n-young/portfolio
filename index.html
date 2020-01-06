@@ -6,21 +6,26 @@
 	<link rel="shortcut icon" type="image/png" href="img/NY.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-	<script src="script.js"></script>
+	<!-- Typed.js -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+	<!-- Raleway Font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<!-- My Files -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 	<div id="transition-1">
-		<img src="img/logobw.png" style="height:10vh; margin-top: 45vh">
+		<img id="transition-icon" src="img/logobw.png">
 	</div>
 	<div id="transition-2"></div>
 	<div id="transition-3"></div>
@@ -32,34 +37,33 @@
 		</div>
 		<div class="underline"></div>
 		<div id="typedholder">
-			<h1>&gt <span id="typed">Nick Young</span></h1>
+			<h1 style="margin-bottom: 0;">&gt <span id="typed"></span></h1 styl>
 		</div>
 		<div id="typed-strings">
-			<p>Web Developer</p>
+			<p>Nick Young</p>
+			<p>Developer</p>
+			<p>Student</p>
 			<p>Photographer</p>
-			<p>Videographer</p>
-			<p>Public Speaker</p>
-			<p>Event Planner</p>
+			<p>Minesweeper Extraordinaire</p>
 		</div>
 		<script>
 			var typed = new Typed('#typed', {
 				stringsElement: '#typed-strings',
-				startDelay: 4000,
 				typeSpeed: 50,
 				backSpeed: 30,
-				backDelay: 1000,
-				smartBackspace: false,
-				shuffle: true,
+				backDelay: 1500,
 				loop: true,
 				loopCount: Infinity,
+				smartBackspace: false,
+				shuffle: false,
 				showCursor: false
 			});
 		</script>
 	</div>
 	<div class="progressbar" id="basebar">
 		<div class="progressbar" id="aboutbar">
-			<div class="progressbar" id="codebar">
-				<div class="progressbar" id="photobar">
+			<div class="progressbar" id="projectsbar">
+				<div class="progressbar" id="skillsbar">
 					<div class="progressbar" id="contactbar">
 					</div>
 				</div>
@@ -72,200 +76,131 @@
 			x
 		</button>
 		<div class="collapse navbar-collapse" id="main-navbar-toggle">
-			<a class="my-navbar-option" id="aboutoption" href="#mainabout">about</a>
-			<a class="my-navbar-option" id="codeoption" href="#maincoding">skills</a>
-			<a class="my-navbar-option" id="photooption" href="#mainphotos">portfolio</a>
-			<a class="my-navbar-option" id="contactoption" href="#maincontact">contact</a>
+			<a class="my-navbar-option" id="aboutoption" href="#aboutAnchor">about</a>
+			<a class="my-navbar-option" id="projectsoption" href="#projectsAnchor">projects</a>
+			<a class="my-navbar-option" id="skillsoption" href="#skillsAnchor">skills</a>
+			<a class="my-navbar-option" id="contactoption" href="#contactAnchor">contact</a>
 		</div>
 	</nav>
 
-
-	<div class="row" id="mainabout">
-		<div class="col-xl-4 col-lg-12">
-			<h1><span class="highlight">About Me</span></h1>
-			<img src="img/headshot.jpg" style="width: 40vh; height: 40vh; border-radius: 50%" />
-		</div>
-		<div class="col-xl-8 col-lg-12" style="text-align: left">
-			<h2 style="margin-left: 40px"><span class="highlight">Hey!</span></h2>
-			<p>
-				<span class="highlight">My name is Nick Young,</span> and welcome to my website. This page serves a number of purposes: a resume, a portfolio, a fun project, <i>et cetera</i>. But if nothing else, <span class="highlight">I'll
-					take it as a chance to introduce myself!</span>
-			</p>
-			<p>
-				I'm currently a <span class="highlight">undergraduate student</span> studying <span class="highlight">computer science at Brown University.</span> I have
-				spent a great deal of time organizing conferences, debating, programming, and shooting photo and video, among other fruitless pastimes. As a point, my favourite people live in <span class="highlight">Vancouver, New York, Providence, and
-					Kingston.</span>
-			</p>
-			<p>
-				While I may not be a <span class="highlight">Singaporean billionaire,</span> I hope there's something here for you. Please feel free to look around my work and give me a shout if you'd like to connect - <span class="highlight">I'd love to get to
-					know you as well!</span>
-			</p>
-			<br />
-			<p style="margin-left: 40px">
-				<span class="highlight">Cheers,</span>
-			</p>
-			<p style="margin-left: 40px">
-				<span class="highlight">Nick Young</span>
-			</p>
-		</div>
-	</div>
-
-	<div class="row" id="maincoding" style="color: #fff">
-		<div class="desctext">
-			<h1><span class="highlight">Skills</span></h1>
-			<p style="margin-bottom: 0px">
-				As an experienced <span class="highlight">conference manager, designer, programmer, and public speaker,</span> I've got a few things to share about what I've been up to.
-			</p>
-		</div>
-		<div class="row skills">
-			<div class="col-xl-6 col-lg-12">
-				<div class="card">
-					<h1>Camerawork</h1>
+	<!--ABOUT-->
+	<a class="anchor" id="aboutAnchor"></a>
+	<div id="mainabout">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-lg-12" style="text-align: left">
+					<h1><span class="highlight">About me</span></h1>
 					<p>
-						Conferences, graduations, science fairs - I've shot for them all! My specialty lies in event photography and videography, as well as portraiture. Currently based in Providence, RI.
+						My name is <span class="highlight">Nick Young</span>,</span> and I'm an aspiring <span class="highlight">software engineer</span>. Currently, I am studying <span class="highlight">applied mathematics and computer science at Brown University</span> with a focus on data and design. On the side, I'm a <span class="highlight">portrait and travel photographer</span> - you can find my work below. Please feel free to poke around my website and give me a shout if you'd like to connect!
 					</p>
 				</div>
-			</div>
-			<div class="col-xl-6 col-lg-12">
-				<div class="card">
-					<h1>Programming</h1>
-					<p>
-						Primarily a web developer, I craft websites and web apps for company and personal use. I am versed in technologies such as MongoDB, Express, React, and Node.JS. Portfolio available on request.
-					</p>
-				</div>
-			</div>
-			<div class="col-xl-6 col-lg-12">
-				<div class="card">
-					<h1>Event Planning</h1>
-					<p>
-						Having managed events of every size - from 20 guests to almost 1500 - conference management is right down my alley.
-					</p>
-				</div>
-			</div>
-			<div class="col-xl-6 col-lg-12">
-				<div class="card">
-					<h1>Design</h1>
-					<p>
-						I have experience in Photoshop, Illustrator, InDesign, Premiere, and After Effects, creating everything from clunky animations to short films.
-					</p>
+				<div class="col-xl-4 col-lg-12">
+					<img src="img/headshot.jpg" style="width: 40vh; height: 40vh; border-radius: 50%" />
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="row" id="mainphotos" style="color: #fff">
-		<div class="desctext">
-			<h1><span class="highlight">Photography</span></h1>
-			<p>
-				I mainly shoot on a <span class="highlight">Nikon D7100 with a 35mm 1.8F prime lens, as well as a 18-55mm kit lens.</span> I edit in Lightroom and have experience in <span class="highlight">conference photography</span> and <span class="highlight">portraits.</span>
-			</p>
-		</div>
-		<div class="imgrow col-lg-3 col-md-6">
-			<img src="img/portfolio/port1.jpg" />
-			<img src="img/portfolio/port2.jpg" />
-		</div>
-		<div class="imgrow col-lg-3 col-md-6">
-			<img src="img/portfolio/port3.jpg" />
-			<img src="img/portfolio/port4.jpg" />
-		</div>
-		<div class="imgrow col-lg-3 col-md-6">
-			<img src="img/portfolio/port5.jpg" />
-			<img src="img/portfolio/port6.JPG" />
-		</div>
-		<div class="imgrow col-lg-3 col-md-6">
-			<img src="img/portfolio/port7.JPG" />
-			<img src="img/portfolio/port8.JPG" />
-		</div>
-		<div class='iconholder' style='margin-top: 40px'>
-			<a href="https://www.instagram.com/nynynynynynynynynynyny/">
-				<div class="iconlg" id="instagramicon">
-					<i class="fab fa-instagram"></i>
-				</div>
-			</a>
-			<a href="https://vsco.co/nynynynynynynynynynyny/images/1">
-				<div class="iconlg" id="vscoicon">
+	
+	<!--PROJECTS-->
+	<a class="anchor" id="projectsAnchor"></a>
+	<div id="mainprojects">
+		<div class="container">
+			<div class="desctext">
+				<h1><span class="highlight">Projects and experience</span></h1>
+				<button class="accordion">Web Development <span style="color: grey; font-size: 3rem;">Websites, Web Apps, and More!</span></button>
+				<div class="panel">
 					<p>
-						vsco
+						I develop websites for both businesses and individuals using a variety of front-end frameworks, from Vanilla HTML/CSS to Bootstrap and Skeleton.
+					</p>
+					<p>
+						Find the repository to Spy V Spy, a web app built on the MERN stack to facilitate a school Spy V Spy game, <a href="https://github.com/n-young/backstab" target="_blank">here</a>.
+					</p>
+					<p>
+						Find the repository to this website, built on Boostrap and Vanilla HTML/CSS, <a href="https://github.com/n-young/n-young.github.io" target="_blank">here</a>.
 					</p>
 				</div>
-			</a>
-		</div>
-		<div class="desctext">
-			<h1 style="margin-top: 50px;"><span class="highlight">Videography</span></h1>
-			<p>
-				I shoot video on a <span class="highlight">Sony A5100 with a 16-50mm kit lens.</span> I edit in Premiere and After Effects and have experience in <span class="highlight">conference videography.</span> Check out my work on my <a href="https://www.youtube.com/user/ifonlyihadtnt"><span
-					    class="highlight">Youtube!</span></a>
-			</p>
-		</div>
-		<div class='iconholder'>
-			<a href="https://www.youtube.com/user/ifonlyihadtnt">
-				<div class="iconlg" id="youtubeicon">
-					<i class="fab fa-youtube"></i>
+
+				<button class="accordion">CookieCash <span style="color: grey; font-size: 3rem;">21st Century Parenting Solutions</span></button>
+				<div class="panel">
+					<p>
+						Developed on React, Flask, and the Google Cloud Platform, CookieCash is an incentive-system to help 21st century parents raise obedient children. Built as a hackathon project during YHack 2019.
+					</p>
+					<p>
+						Find the repository <a href="https://github.com/NicholasSpringer/cookie-cash" target="_blank">here</a>.
+					</p>
 				</div>
-			</a>
+				
+				<button class="accordion">Minesweeper <span style="color: grey; font-size: 3rem;">A classic</span></button>
+				<div class="panel">
+					<p>
+						Developed in Java and JavaFx, this project is a small clone of the classic Minesweeper game, playable on the desktop.
+					</p>
+					<p>
+						Find the repository <a href="https://github.com/n-young/minesweeper" target="_blank">here</a>.
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<!--SKILLS-->
+	<a class="anchor" id="skillsAnchor"></a>
+	<div id="mainskills">
+		<div class="container">
+			<div class="desctext">
+				<h1><span class="highlight">Skills and technologies</span></h1>
+				<button class="accordion">Programming Languages</button>
+				<div class="panel">
+					<p>
+						I have experience developing in Python, MATLAB, Java, Javascript, HTML, CSS, Pyret, Racket.
+					</p>
+				</div>
+
+				<button class="accordion">Web Technologies</button>
+				<div class="panel">
+					<p>
+						I have experience using MongoDB, Node.js, Express, Bootstrap, Flask, and React.
+					</p>
+				</div>
+
+				<button class="accordion">Design Tools</button>
+				<div class="panel">
+					<p>
+						I have experience using Photoshop, InDesign, Illustrator, Lightroom, Premiere, After Effects, SolidWorks, and LaTeX.
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="row" id="maincontact">
-		<div class="desctext">
-			<h1><span class="highlight">Contact</span></h1>
-			<p>
-				Feel free to access my work or contact me via <span class="highlight">Email, Facebook, LinkedIn, Github, Youtube, Instagram, and VSCO.</span>
-			</p>
-			<p>
-				View my Résumé <a href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"><span class="highlight">here</span></a>.
-			</p>
-		</div>
-		<div class="iconholder">
-			<a href="mailto: youngnicholas228@gmail.com">
-				<div class="iconmd" id="emailicon">
-					<i class="fas fa-at"></i>
-				</div>
-			</a>
-			<a href="https://www.facebook.com/ndashyoung">
-				<div class="iconmd" id="facebookicon">
-					<i class="fab fa-facebook-square"></i>
-				</div>
-			</a>
-			<a href="https://www.linkedin.com/in/ndashyoung/">
-				<div class="iconmd" id="linkedinicon">
-					<i class="fab fa-linkedin"></i>
-				</div>
-			</a>
-			<a href="https://github.com/n-young">
-				<div class="iconmd" id="githubicon">
-					<i class="fab fa-github"></i>
-				</div>
-			</a>
-			<a href="https://www.youtube.com/user/ifonlyihadtnt">
-				<div class="iconmd" id="youtubeicon">
-					<i class="fab fa-youtube"></i>
-				</div>
-			</a>
-			<a href="https://www.instagram.com/nynynynynynynynynynyny/">
-				<div class="iconmd" id="instagramicon">
-					<i class="fab fa-instagram"></i>
-				</div>
-			</a>
-			<a href="https://vsco.co/nynynynynynynynynynyny/">
-				<div class="iconmd" id="vscoicon">
-					<p>
-						vsco
-					</p>
-				</div>
-			</a>
+	<!--CONTACT-->
+	<a class="anchor" id="contactAnchor"></a>
+	<div id="maincontact">
+		<div class="container">
+			<div class="desctext">
+				<h1><span class="highlight">Contact me</span></h1>
+				<p>
+					Looking for a developer? Feel free to access my work or contact me via <span class="highlight"><a href="youngnicholas228@gmail.com">Email</a>, <a href="https://www.linkedin.com/in/ndashyoung/" target="_blank">LinkedIn</a>, and <a href="https://github.com/n-young" target="_blank">Github</a>.</span>
+				</p>
+				<p>
+					Looking for a photographer? My work can be viewed on <span class="highlight"><a href="https://www.instagram.com/nynynynynynynynynynyny/" target="_blank">Instagram</a> and <a href="http://vsco.co/nynynynynynynynynynyny/" target="_blank">VSCO</a></span>. Please feel free to reach out via <span class="highlight"><a href="youngnicholas228@gmail.com">Email</a></span>.
+				</p>
+				<p>
+					View my Résumé <a href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing" target="_blank"><span class="highlight">here</span></a>.
+				</p>
+			</div>
 		</div>
 	</div>
 
+	<!--FOOTER-->
 	<div class="container-fluid" id="mainfooter">
-		<img src="img/logo.png" style="height:3em;">
-		<div class="bottom">ny</div>
+		<img src="img/logo.png" style="height:10rem;">
 	</div>
 
-
+	<!--SCRIPTS-->
+	<script src="script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -1,9 +1,10 @@
+//Bars
 window.onscroll = function() {
-    myFunction()
+    progressBar()
 };
-	let mains = ["mainabout", "maincoding", "mainphotos", "maincontact"];
-	let bars = ["aboutbar", "codebar", "photobar", "contactbar"]
-function myFunction() {
+	let mains = ["mainabout", "mainprojects", "mainskills", "maincontact"];
+	let bars = ["aboutbar", "projectsbar", "skillsbar", "contactbar"]
+function progressBar() {
 
 	for (let i = 0; i < mains.length; i++){
 		var winScroll = document.documentElement.scrollTop - document.getElementById('landing').clientHeight;
@@ -19,4 +20,19 @@ function myFunction() {
 			document.getElementById(bars[i]).style.width = "0%";
 		}
 	}
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight) {
+		panel.style.maxHeight = null;
+		} else {
+		panel.style.maxHeight = panel.scrollHeight + "px";
+		}
+	});
 }
