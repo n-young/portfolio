@@ -317,7 +317,7 @@ p {
   font-size: 3rem;
 }
 
-img {
+#headshot {
   width: 40vh;
   height: 40vh;
   padding: 30px;
@@ -338,9 +338,9 @@ img {
     font-size: 2rem;
   }
 
-  img {
-    width: 20vh;
-    height: 20vh;
+  #headshot {
+    width: 30vh;
+    height: 30vh;
   }
 }
 
@@ -365,7 +365,6 @@ button:focus {
 .container {
   margin: 0 auto;
   max-width: 1140px;
-  min-width: 100%;
 }
 
 .container-grid {
