@@ -1,6 +1,6 @@
 html {
-    scroll-behavior: smooth;
-    font-size: 10px;
+  scroll-behavior: smooth;
+  font-size: 10px;
 }
 
 /* =================================== */
@@ -8,38 +8,38 @@ html {
 /* =================================== */
 
 @font-face {
-    font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Thin.otf") format("opentype"),
-        url("font/BebasNeue-Thin.ttf") format("truetype");
-    font-weight: 100;
+  font-family: "BebasNeue Yeet";
+  src: url("font/BebasNeue-Thin.otf") format("opentype"),
+    url("font/BebasNeue-Thin.ttf") format("truetype");
+  font-weight: 100;
 }
 
 @font-face {
-    font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Light.otf") format("opentype"),
-        url("font/BebasNeue-Light.ttf") format("truetype");
-    font-weight: 200;
+  font-family: "BebasNeue Yeet";
+  src: url("font/BebasNeue-Light.otf") format("opentype"),
+    url("font/BebasNeue-Light.ttf") format("truetype");
+  font-weight: 200;
 }
 
 @font-face {
-    font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Book.otf") format("opentype"),
-        url("font/BebasNeue-Book.ttf") format("truetype");
-    font-weight: 400;
+  font-family: "BebasNeue Yeet";
+  src: url("font/BebasNeue-Book.otf") format("opentype"),
+    url("font/BebasNeue-Book.ttf") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Regular.otf") format("opentype"),
-        url("font/BebasNeue-Regular.ttf") format("truetype");
-    font-weight: 600;
+  font-family: "BebasNeue Yeet";
+  src: url("font/BebasNeue-Regular.otf") format("opentype"),
+    url("font/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Bold.otf") format("opentype"),
-        url("font/BebasNeue-Bold.ttf") format("truetype");
-    font-weight: 800;
+  font-family: "BebasNeue Yeet";
+  src: url("font/BebasNeue-Bold.otf") format("opentype"),
+    url("font/BebasNeue-Bold.ttf") format("truetype");
+  font-weight: 800;
 }
 
 /* =================================== */
@@ -47,93 +47,93 @@ html {
 /* =================================== */
 
 @keyframes slideUp {
-    0% {
-        transform: translateY(0%);
-    }
+  0% {
+    transform: translateY(0%);
+  }
 
-    100% {
-        transform: translateY(-100%);
-    }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 @keyframes slideIn {
-    0% {
-        transform: translateY(50vh);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(50vh);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 #transition-icon {
-    height: 10vh;
-    margin-top: 45vh;
-    animation: 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s 1 slideIn;
-    animation-fill-mode: forwards;
+  height: 10vh;
+  margin-top: 45vh;
+  animation: 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s 1 slideIn;
+  animation-fill-mode: forwards;
 }
 
 #transition-1 {
-    position: absolute;
-    top: 0;
-    z-index: 1040;
-    width: 100%;
-    height: 110%;
-    display: block;
-    background: #f0ffe7;
-	text-align: center;
-    animation: 1s cubic-bezier(.73, .03, .87, .7) 1s 1 slideUp;
-    animation-fill-mode: forwards;
+  position: absolute;
+  top: 0;
+  z-index: 1040;
+  width: 100%;
+  height: 110%;
+  display: block;
+  background: #f0ffe7;
+  text-align: center;
+  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1s 1 slideUp;
+  animation-fill-mode: forwards;
 }
 
 #transition-2 {
-    position: absolute;
-    top: 0;
-    z-index: 1039;
-    width: 100%;
-    height: 110%;
-    display: block;
-    background: #ffb400;
-    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.1s 1 slideUp;
-    transform: translateY(-100%);
+  position: absolute;
+  top: 0;
+  z-index: 1039;
+  width: 100%;
+  height: 110%;
+  display: block;
+  background: #ffb400;
+  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.1s 1 slideUp;
+  transform: translateY(-100%);
 }
 
 #transition-3 {
-    position: absolute;
-    top: 0;
-    z-index: 1038;
-    width: 100%;
-    height: 110%;
-    display: block;
-    background: #e83f6f;
-    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.2s 1 slideUp;
-    transform: translateY(-100%);
+  position: absolute;
+  top: 0;
+  z-index: 1038;
+  width: 100%;
+  height: 110%;
+  display: block;
+  background: #e83f6f;
+  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.2s 1 slideUp;
+  transform: translateY(-100%);
 }
 
 #transition-4 {
-    position: absolute;
-    top: 0;
-    z-index: 1037;
-    width: 100%;
-    height: 110%;
-    display: block;
-    background: #2274a5;
-    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.3s 1 slideUp;
-    transform: translateY(-100%);
+  position: absolute;
+  top: 0;
+  z-index: 1037;
+  width: 100%;
+  height: 110%;
+  display: block;
+  background: #2274a5;
+  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.3s 1 slideUp;
+  transform: translateY(-100%);
 }
 
 #transition-5 {
-    position: absolute;
-    top: 0;
-    z-index: 1036;
-    width: 100%;
-    height: 110%;
-    display: block;
-    background: #32936f;
-    animation: 1s cubic-bezier(.73, .03, .87, .7) 1.4s 1 slideUp;
-    transform: translateY(-100%);
+  position: absolute;
+  top: 0;
+  z-index: 1036;
+  width: 100%;
+  height: 110%;
+  display: block;
+  background: #32936f;
+  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.4s 1 slideUp;
+  transform: translateY(-100%);
 }
 
 /* =================================== */
@@ -141,36 +141,38 @@ html {
 /* =================================== */
 
 #mainlanding {
-    height: 85vh;
-    display: flex;
-    align-items: flex-end;
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 #mainname {
-    font: 200 23vw "BebasNeue Yeet";
-    color: #262626;
-    margin-bottom: -3vw;
-    margin-left: 2vw;
+  font: 200 23vw "BebasNeue Yeet";
+  color: #262626;
+  margin-bottom: -3vw;
+  margin-left: 2vw;
 }
 
 #boldname {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .underline {
-    position: relative;
-    height: 0.5rem;
-    width: 80%;
-    margin-top: none;
-    margin-bottom: 2vh;
-    background-color: #262626;
+  position: relative;
+  height: 0.5rem;
+  width: 80%;
+  background-color: #262626;
 }
 
 #typedholder {
-    margin-bottom: 0;
-    margin-left: 2vw;
-    font: 400 8vh "BebasNeue Yeet";
-    color: #262626;
+  margin-bottom: 0;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+#typedholder > h1 {
+  font: 400 9vh "BebasNeue Yeet";
+  color: #262626;
 }
 
 /* =================================== */
@@ -178,64 +180,79 @@ html {
 /* =================================== */
 
 .my-navbar {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: flex-end;
-    height: 9vh;
-    z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
+  height: 9vh;
+  width: 100%;
+  z-index: 2;
 }
 
-.my-navbar-option {
-    flex: 1;
-    text-align: center;
-    font: 400 6vh "BebasNeue Yeet";
-    color: #fff;
-    background-color: #262626;
-    text-decoration: none;
+#main-navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex: 1;
 }
 
-.my-navbar-option:hover {
-    color: #fff;
-    text-decoration: none;
+.nav-option {
+  text-align: center;
+  font: 400 6vh "BebasNeue Yeet";
+  color: #fff;
+  background-color: #262626;
+  text-decoration: none;
+  transition: background-color 0.25s;
+  grid-column: span 1;
 }
 
-.navbar-toggler {
-    position: fixed;
-    top: 3vh;
-    font-size: 9rem;
-    border-radius: 0px
-}
-
-@media only screen and (max-width: 768px) {
-    .my-navbar {
-        position: fixed;
-        top: 0;        
-        align-items: flex-start;
-    }
-
-    .my-navbar-option {
-        display: block;
-        width: 100%
-    }
+.nav-option:hover {
+  color: #fff;
 }
 
 #aboutoption:hover {
-    background-color: #ffbf00;
-    color: #262626;
+  background-color: #ffbf00;
+  color: #262626;
 }
 
 #projectsoption:hover {
-    background-color: #e83f6f;
+  background-color: #e83f6f;
 }
 
 #skillsoption:hover {
-    background-color: #2274a5;
+  background-color: #2274a5;
 }
 
 #contactoption:hover {
-    background-color: #32936f;
+  background-color: #32936f;
+}
+
+.navbar-toggler {
+  display: none;
+  position: fixed;
+  top: 3vh;
+  left: 10px;
+  border: 0 solid black;
+  background-color: rgba(0, 0, 0, 0);
+  font: 400 9rem "BebasNeue Yeet";
+}
+
+@media screen and (max-width: 768px) {
+  .my-navbar {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    top: 0;
+  }
+
+  .nav-option {
+    grid-column: span 4;
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    display: none;
+    /* display: block; */
+  }
 }
 
 /* =================================== */
@@ -243,33 +260,33 @@ html {
 /* =================================== */
 
 .progressbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height: 3vh;
-    z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 3vh;
+  z-index: 1;
 }
 
 #basebar {
-    position: sticky;
-    top: 0;
-    background: #f0ffe7;
-    width: 100%;
+  position: sticky;
+  top: 0;
+  background: #f0ffe7;
+  width: 100%;
 }
 
 #aboutbar {
-    background: #ffbf00;
-    width: 0%;
+  background: #ffbf00;
+  width: 0%;
 }
 
 #projectsbar {
-    background: #e83f6f;
-    width: 0%;
+  background: #e83f6f;
+  width: 0%;
 }
 
 #skillsbar {
-    background: #2274a5;
-    width: 0%;
+  background: #2274a5;
+  width: 0%;
 }
 
 /* =================================== */
@@ -277,138 +294,159 @@ html {
 /* =================================== */
 
 body {
-    background: #f0ffe7;
-    color: #fff;
-    font-family: "BebasNeue Yeet", sans-serif;
-    font-size: 1.5rem;
+  background: #f0ffe7;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-#mainabout {
-    background: #ffbf00;
-    color: #262626;
-}
-
-#mainprojects {
-    background: #e83f6f;
-}
-
-#mainskills {
-    background: #2274a5;
-}
-
-#maincontact {
-    background: #32936f;
-}
-
-#mainfooter {
-    background: #262626;
-    min-height: 10vh;
-    padding: 1em;
-    text-align: center;
-    color: white;
-    position: relative;
-}
-
-.row {
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.main {
+  margin: 0;
+  padding: 60px;
 }
 
 .container {
-    padding: 60px 0;
+  margin: 0 auto;
+  max-width: 1140px;
+  min-width: 100%;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 1140px) {
+  .container-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.grid-item {
+  grid-column: span 1;
+}
+
+#mainabout {
+  background: #ffbf00;
+  color: #262626;
+}
+
+#mainprojects {
+  background: #e83f6f;
+}
+
+#mainskills {
+  background: #2274a5;
+}
+
+#maincontact {
+  background: #32936f;
+}
+
+#mainfooter {
+  background: #262626;
+  min-height: 10vh;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  position: relative;
 }
 
 .anchor {
-    display: block;
-    position: relative;
-    top: -9vh;
-    visibility: hidden;
-}
-
-.desctext {
-    text-align: left
+  display: block;
+  position: relative;
+  top: -9vh;
+  visibility: hidden;
 }
 
 .highlight {
-    background: white;
-    color: #262626;
+  background: white;
+  color: #262626;
 }
 
 h1 {
-    font-size: 9rem;
-    margin-bottom: 30px;
+  font: 400 9rem "BebasNeue Yeet";
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 h2 {
-    font-size: 7rem;
-    margin-bottom: 30px;
+  font: 400 7rem "BebasNeue Yeet";
+  margin-bottom: 30px;
 }
 
 h3 {
-    font-family: "Raleway";
-    font-size: 5rem;
-    font-style: italic;
+  font-family: "Raleway";
+  font-size: 5rem;
+  font-style: italic;
 }
 
 p {
-    font-family: "Raleway";
-    font-size: 3rem;
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  img {
+    width: 20vh;
+    height: 20vh;
+  }
 }
 
 a {
-    color: #262626;
-    text-decoration: underline;
+  color: #262626;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: #262626;
+  color: #262626;
 }
 
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 6rem;
-        margin-bottom: 50px;
-    }
-
-    h2 {
-        font-size: 5rem;
-    }
-
-    p {
-        font-size: 2rem;
-    }
+button:focus {
+  outline: 0;
 }
 
 .accordion {
-    background-color: #fff;
-    color: #262626;
-    cursor: pointer;
-    padding: 15px;
-    margin: 1.5rem 0 0 0;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    font-family: "Raleway";
-    font-size: 4rem;
+  background-color: #fff;
+  color: #262626;
+  cursor: pointer;
+  padding: 15px;
+  margin: 1.5rem 0 0 0;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Raleway";
+  font-size: 4rem;
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
-  
-button:focus {outline:0;}
 
 .panel {
-    padding: 0 18px;
-    background-color: rgb(255, 255, 255);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    color: #262626;
+  padding: 0 18px;
+  background-color: rgb(255, 255, 255);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #262626;
 }

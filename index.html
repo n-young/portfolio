@@ -4,26 +4,18 @@
 <head>
 	<title>nick young</title>
 	<link rel="shortcut icon" type="image/png" href="img/NY.png">
+	<meta charset="UTF-8">
+	<meta name="author" content="Nick Young">
+	<meta name="description" content="Nick Young's personal website">
+	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-	<!-- Typed.js -->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
-	<!-- Raleway Font -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-	<!-- My Files -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+	<!--TRANSITIONS-->
 	<div id="transition-1">
 		<img id="transition-icon" src="img/logobw.png">
 	</div>
@@ -31,6 +23,8 @@
 	<div id="transition-3"></div>
 	<div id="transition-4"></div>
 	<div id="transition-5"></div>
+
+	<!--LANDING-->
 	<div id="landing">
 		<div id="mainlanding">
 			<h1 id="mainname"><span id="boldname">N.</span> Young</h1>
@@ -60,6 +54,8 @@
 			});
 		</script>
 	</div>
+
+	<!--PROGRESS BARS-->
 	<div class="progressbar" id="basebar">
 		<div class="progressbar" id="aboutbar">
 			<div class="progressbar" id="projectsbar">
@@ -71,136 +67,154 @@
 		</div>
 	</div>
 
-	<nav class="navbar-expand-md my-navbar">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-toggle" aria-controls="main-navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+	<!--NAVBAR-->
+	<nav class="my-navbar">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
 			x
 		</button>
-		<div class="collapse navbar-collapse" id="main-navbar-toggle">
-			<a class="my-navbar-option" id="aboutoption" href="#aboutAnchor">about</a>
-			<a class="my-navbar-option" id="projectsoption" href="#projectsAnchor">projects</a>
-			<a class="my-navbar-option" id="skillsoption" href="#skillsAnchor">skills</a>
-			<a class="my-navbar-option" id="contactoption" href="#contactAnchor">contact</a>
+		<div id="main-navbar">
+			<a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
+			<a class="nav-option" id="projectsoption" href="#projectsAnchor">projects</a>
+			<a class="nav-option" id="skillsoption" href="#skillsAnchor">skills</a>
+			<a class="nav-option" id="contactoption" href="#contactAnchor">contact</a>
 		</div>
 	</nav>
 
 	<!--ABOUT-->
 	<a class="anchor" id="aboutAnchor"></a>
-	<div id="mainabout">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-8 col-lg-12" style="text-align: left">
-					<h1><span class="highlight">About me</span></h1>
-					<p>
-						My name is <span class="highlight">Nick Young</span>,</span> and I'm an aspiring <span class="highlight">software engineer</span>. Currently, I am studying <span class="highlight">applied mathematics and computer science at Brown University</span> with a focus on data and design. On the side, I'm a <span class="highlight">portrait and travel photographer</span> - you can find my work below. Please feel free to poke around my website and give me a shout if you'd like to connect!
-					</p>
-				</div>
-				<div class="col-xl-4 col-lg-12">
-					<img src="img/headshot.jpg" style="width: 40vh; height: 40vh; border-radius: 50%" />
-				</div>
+	<div class="main" id="mainabout">
+		<div class="container container-grid">
+			<div class="grid-item">
+				<h1><span class="highlight">About me</span></h1>
+				<p>
+					My name is <span class="highlight">Nick Young</span>,</span> and I'm an aspiring <span
+						class="highlight">software engineer</span>. Currently, I am studying <span
+						class="highlight">applied
+						mathematics and computer science at Brown University</span> with a
+					focus on data and design. On the side, I'm a <span class="highlight">portrait and travel
+						photographer</span> - you can find my work below. Please feel free to poke around my website
+					and give me a shout if you'd like to connect!
+				</p>
+			</div>
+			<div class="grid-item" style="text-align: center;">
+				<img src="img/headshot.jpg" style="width: 40vh; height: 40vh; border-radius: 50%" />
 			</div>
 		</div>
 	</div>
-	
+
 	<!--PROJECTS-->
 	<a class="anchor" id="projectsAnchor"></a>
-	<div id="mainprojects">
+	<div class="main" id="mainprojects">
 		<div class="container">
-			<div class="desctext">
-				<h1><span class="highlight">Projects and experience</span></h1>
-				<button class="accordion">Web Development <span style="color: grey; font-size: 3rem;">Websites, Web Apps, and More!</span></button>
-				<div class="panel">
-					<p>
-						I develop websites for both businesses and individuals using a variety of front-end frameworks, from Vanilla HTML/CSS to Bootstrap and Skeleton.
-					</p>
-					<p>
-						Find the repository to Spy V Spy, a web app built on the MERN stack to facilitate a school Spy V Spy game, <a href="https://github.com/n-young/backstab" target="_blank">here</a>.
-					</p>
-					<p>
-						Find the repository to this website, built on Boostrap and Vanilla HTML/CSS, <a href="https://github.com/n-young/n-young.github.io" target="_blank">here</a>.
-					</p>
-				</div>
-
-				<button class="accordion">CookieCash <span style="color: grey; font-size: 3rem;">21st Century Parenting Solutions</span></button>
-				<div class="panel">
-					<p>
-						Developed on React, Flask, and the Google Cloud Platform, CookieCash is an incentive-system to help 21st century parents raise obedient children. Built as a hackathon project during YHack 2019.
-					</p>
-					<p>
-						Find the repository <a href="https://github.com/NicholasSpringer/cookie-cash" target="_blank">here</a>.
-					</p>
-				</div>
-				
-				<button class="accordion">Minesweeper <span style="color: grey; font-size: 3rem;">A classic</span></button>
-				<div class="panel">
-					<p>
-						Developed in Java and JavaFx, this project is a small clone of the classic Minesweeper game, playable on the desktop.
-					</p>
-					<p>
-						Find the repository <a href="https://github.com/n-young/minesweeper" target="_blank">here</a>.
-					</p>
-				</div>
-
+			<h1><span class="highlight">Projects and experience</span></h1>
+			<button class="accordion">Web Development <span style="color: grey; font-size: 3rem;">Websites, Web
+					Apps, and More!</span></button>
+			<div class="panel">
+				<p>
+					I develop websites for both businesses and individuals using a variety of front-end frameworks,
+					from Vanilla HTML/CSS to Bootstrap and Skeleton.
+				</p>
+				<p>
+					Find the repository to Spy V Spy, a web app built on the MERN stack to facilitate a school Spy V
+					Spy game, <a href="https://github.com/n-young/backstab" target="_blank">here</a>.
+				</p>
+				<p>
+					Find the repository to this website, built on Boostrap and Vanilla HTML/CSS, <a
+						href="https://github.com/n-young/n-young.github.io" target="_blank">here</a>.
+				</p>
 			</div>
+
+			<button class="accordion">CookieCash <span style="color: grey; font-size: 3rem;">21st Century Parenting
+					Solutions</span></button>
+			<div class="panel">
+				<p>
+					Developed on React, Flask, and the Google Cloud Platform, CookieCash is an incentive-system to
+					help 21st century parents raise obedient children. Built as a hackathon project during YHack
+					2019.
+				</p>
+				<p>
+					Find the repository <a href="https://github.com/NicholasSpringer/cookie-cash"
+						target="_blank">here</a>.
+				</p>
+			</div>
+
+			<button class="accordion">Minesweeper <span style="color: grey; font-size: 3rem;">A
+					classic</span></button>
+			<div class="panel">
+				<p>
+					Developed in Java and JavaFx, this project is a small clone of the classic Minesweeper game,
+					playable on the desktop.
+				</p>
+				<p>
+					Find the repository <a href="https://github.com/n-young/minesweeper" target="_blank">here</a>.
+				</p>
+			</div>
+
 		</div>
 	</div>
-	
+
 	<!--SKILLS-->
 	<a class="anchor" id="skillsAnchor"></a>
-	<div id="mainskills">
+	<div class="main" id="mainskills">
 		<div class="container">
-			<div class="desctext">
-				<h1><span class="highlight">Skills and technologies</span></h1>
-				<button class="accordion">Programming Languages</button>
-				<div class="panel">
-					<p>
-						I have experience developing in Python, MATLAB, Java, Javascript, HTML, CSS, Pyret, Racket.
-					</p>
-				</div>
+			<h1><span class="highlight">Skills and technologies</span></h1>
+			<button class="accordion">Programming Languages</button>
+			<div class="panel">
+				<p>
+					I have experience developing in Python, MATLAB, Java, Javascript, HTML, CSS, Pyret, Racket.
+				</p>
+			</div>
 
-				<button class="accordion">Web Technologies</button>
-				<div class="panel">
-					<p>
-						I have experience using MongoDB, Node.js, Express, Bootstrap, Flask, and React.
-					</p>
-				</div>
+			<button class="accordion">Web Technologies</button>
+			<div class="panel">
+				<p>
+					I have experience using MongoDB, Node.js, Express, Bootstrap, Flask, and React.
+				</p>
+			</div>
 
-				<button class="accordion">Design Tools</button>
-				<div class="panel">
-					<p>
-						I have experience using Photoshop, InDesign, Illustrator, Lightroom, Premiere, After Effects, SolidWorks, and LaTeX.
-					</p>
-				</div>
+			<button class="accordion">Design Tools</button>
+			<div class="panel">
+				<p>
+					I have experience using Photoshop, InDesign, Illustrator, Lightroom, Premiere, After Effects,
+					SolidWorks, and LaTeX.
+				</p>
 			</div>
 		</div>
 	</div>
 
 	<!--CONTACT-->
 	<a class="anchor" id="contactAnchor"></a>
-	<div id="maincontact">
+	<div class="main" id="maincontact">
 		<div class="container">
-			<div class="desctext">
-				<h1><span class="highlight">Contact me</span></h1>
-				<p>
-					Looking for a <span class="highlight">developer</span>? Feel free to access my work or contact me via <span class="highlight"><a href="nicholas_young@brown.edu">Email</a>, <a href="https://www.linkedin.com/in/ndashyoung/" target="_blank">LinkedIn</a>, and <a href="https://github.com/n-young" target="_blank">Github</a>.</span>
-				</p>
-				<p>
-					Looking for a <span class="highlight">photographer</span>? My work can be viewed on <span class="highlight"><a href="https://www.instagram.com/nynynynynynynynynynyny/" target="_blank">Instagram</a> and <a href="http://vsco.co/nynynynynynynynynynyny/" target="_blank">VSCO</a></span>. Please feel free to reach out via <span class="highlight"><a href="nicholas_young@brown.edu">Email</a></span>.
-				</p>
-				<p>
-					View my Résumé <a href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing" target="_blank"><span class="highlight">here</span></a>.
-				</p>
-			</div>
+			<h1><span class="highlight">Contact me</span></h1>
+			<p>
+				Looking for a <span class="highlight">developer</span>? Feel free to access my work or contact me
+				via <span class="highlight"><a href="nicholas_young@brown.edu">Email</a>, <a
+						href="https://www.linkedin.com/in/ndashyoung/" target="_blank">LinkedIn</a>, and <a
+						href="https://github.com/n-young" target="_blank">Github</a>.</span>
+			</p>
+			<p>
+				Looking for a <span class="highlight">photographer</span>? My work can be viewed on <span
+					class="highlight"><a href="https://www.instagram.com/nynynynynynynynynynyny/"
+						target="_blank">Instagram</a> and <a href="http://vsco.co/nynynynynynynynynynyny/"
+						target="_blank">VSCO</a></span>. Please feel free to reach out via <span class="highlight"><a
+						href="nicholas_young@brown.edu">Email</a></span>.
+			</p>
+			<p>
+				View my Résumé <a
+					href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"
+					target="_blank"><span class="highlight">here</span></a>.
+			</p>
 		</div>
 	</div>
 
 	<!--FOOTER-->
-	<div class="container-fluid" id="mainfooter">
+	<div id="mainfooter">
 		<img src="img/logo.png" style="height:10rem;">
 	</div>
 
-	<!--SCRIPTS-->
+	<!-- SCRIPT -->
 	<script src="script.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
+
 </html>
