@@ -1,219 +1,246 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>nick young</title>
+    <link rel="shortcut icon" type="image/png" href="img/NY.png" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nick Young" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<head>
-	<title>nick young</title>
-	<link rel="shortcut icon" type="image/png" href="img/NY.png">
-	<meta charset="UTF-8">
-	<meta name="author" content="Nick Young">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <body>
+    <!--TRANSITIONS-->
+    <div id="transition-1">
+      <img id="transition-icon" src="img/logobw.png" />
+    </div>
+    <div id="transition-2"></div>
+    <div id="transition-3"></div>
+    <div id="transition-4"></div>
+    <div id="transition-5"></div>
 
-<body>
-	<!--TRANSITIONS-->
-	<div id="transition-1">
-		<img id="transition-icon" src="img/logobw.png">
+    <!--LANDING-->
+    <div id="landing">
+      <div id="mainlanding">
+        <h1 id="mainname"><span id="boldname">N.</span> Young</h1>
+      </div>
+      <div class="underline"></div>
+      <div id="typedholder">
+        <h1 style="margin-bottom: 0;">&gt <span id="typed"></span></h1>
+      </div>
+      <div id="typed-strings">
+        <p>Nick Young</p>
+        <p>Developer</p>
+        <p>Student</p>
+        <p>Photographer</p>
+        <p>Minesweeper Extraordinaire</p>
+      </div>
+      <script>
+        var typed = new Typed("#typed", {
+          stringsElement: "#typed-strings",
+          typeSpeed: 50,
+          backSpeed: 30,
+          backDelay: 1500,
+          loop: true,
+          loopCount: Infinity,
+          smartBackspace: false,
+          shuffle: false,
+          showCursor: false,
+        });
+      </script>
+    </div>
+
+    <!--PROGRESS BARS-->
+    <div class="progressbar" id="basebar">
+      <div class="progressbar" id="aboutbar">
+        <div class="progressbar" id="projectsbar">
+          <div class="progressbar" id="skillsbar">
+            <div class="progressbar" id="contactbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--NAVBAR-->
+    <nav class="my-navbar">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#main-navbar"
+      >
+        x
+      </button>
+      <div id="main-navbar">
+        <a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
+        <a class="nav-option" id="projectsoption" href="#projectsAnchor"
+          >projects</a
+        >
+        <a class="nav-option" id="skillsoption" href="#skillsAnchor"
+          >experience</a
+        >
+        <a class="nav-option" id="contactoption" href="#contactAnchor"
+          >skills</a
+        >
+      </div>
+    </nav>
+
+    <!--ABOUT-->
+    <a class="anchor" id="aboutAnchor"></a>
+    <div class="main" id="mainabout">
+      <div class="container container-grid">
+        <div class="grid-item">
+          <h1><span class="highlight">About me</span></h1>
+          <div class="about-panel">
+            <p>
+              My name is Nick Young, and I am currently studying applied
+              mathematics and computer science at Brown University with a focus
+              on data and design. On the side, I'm a portrait and travel
+              photographer - you can find my work below. Please feel free to
+              poke around my website and give me a shout if you'd like to
+              connect!
+            </p>
+          </div>
+        </div>
+        <div class="grid-item" style="text-align: center;">
+          <img id="headshot" src="img/headshot.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!--PROJECTS-->
+    <a class="anchor" id="projectsAnchor"></a>
+    <div class="main" id="mainprojects">
+      <div class="container">
+        <h1><span class="highlight">Projects</span></h1>
+        <button class="accordion">&#x25BC LinguaML<span class="accordion-secondary"> — "On the go" language learning.</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
+		</div>
+
+        <button class="accordion">&#x25BC ParselTongue<span class="accordion-secondary"> — Smart paper parsing.</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
+		</div>
+		
+        <button class="accordion">&#x25BC Dear Blueno Bot<span class="accordion-secondary"> — For fun!</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
+        </div>
+	  
+	  <button class="accordion">&#x25BC WeNote<span class="accordion-secondary"> — Intelligent note collaboration.</span></button>
+	  <div class="panel">
+		<p>
+		  WRITING
+		</p>
+	  </div>
+
+	  <button class="accordion">&#x25BC CookieCash<span class="accordion-secondary"> — Parenting made easier.</span></button>
+	  <div class="panel">
+		<p>
+		  WRITING
+		</p>
+	  </div>
 	</div>
-	<div id="transition-2"></div>
-	<div id="transition-3"></div>
-	<div id="transition-4"></div>
-	<div id="transition-5"></div>
+    </div>
 
-	<!--LANDING-->
-	<div id="landing">
-		<div id="mainlanding">
-			<h1 id="mainname"><span id="boldname">N.</span> Young</h1>
+    <!--EXPERIENCE-->
+    <a class="anchor" id="skillsAnchor"></a>
+    <div class="main" id="mainskills">
+      <div class="container">
+        <h1><span class="highlight">Experience</span></h1>
+        <button class="accordion">&#x25BC Web Developer<span class="accordion-secondary"> — Brown Political Review</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
 		</div>
-		<div class="underline"></div>
-		<div id="typedholder">
-			<h1 style="margin-bottom: 0;">&gt <span id="typed"></span></h1 styl>
+		
+        <button class="accordion">&#x25BC Full Stack Developer<span class="accordion-secondary"> — Full Stack at Brown</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
 		</div>
-		<div id="typed-strings">
-			<p>Nick Young</p>
-			<p>Developer</p>
-			<p>Student</p>
-			<p>Photographer</p>
-			<p>Minesweeper Extraordinaire</p>
-		</div>
-		<script>
-			var typed = new Typed('#typed', {
-				stringsElement: '#typed-strings',
-				typeSpeed: 50,
-				backSpeed: 30,
-				backDelay: 1500,
-				loop: true,
-				loopCount: Infinity,
-				smartBackspace: false,
-				shuffle: false,
-				showCursor: false
-			});
-		</script>
-	</div>
+		
 
-	<!--PROGRESS BARS-->
-	<div class="progressbar" id="basebar">
-		<div class="progressbar" id="aboutbar">
-			<div class="progressbar" id="projectsbar">
-				<div class="progressbar" id="skillsbar">
-					<div class="progressbar" id="contactbar">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <button class="accordion">&#x25BC Freelance Programmer<span class="accordion-secondary"> — Applied Maths Department</span></button>
+        <div class="panel">
+          <p>
+            WRITING
+          </p>
+        </div>
+      </div>
+    </div>
 
-	<!--NAVBAR-->
-	<nav class="my-navbar">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
-			x
-		</button>
-		<div id="main-navbar">
-			<a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
-			<a class="nav-option" id="projectsoption" href="#projectsAnchor">projects</a>
-			<a class="nav-option" id="skillsoption" href="#skillsAnchor">skills</a>
-			<a class="nav-option" id="contactoption" href="#contactAnchor">contact</a>
-		</div>
-	</nav>
+    <!--SKILLS-->
+    <a class="anchor" id="contactAnchor"></a>
+    <div class="main" id="maincontact">
+      <div class="container">
+        <h1><span class="highlight">Skills</span></h1>
 
-	<!--ABOUT-->
-	<a class="anchor" id="aboutAnchor"></a>
-	<div class="main" id="mainabout">
-		<div class="container container-grid">
-			<div class="grid-item">
-				<h1><span class="highlight">About me</span></h1>
-				<p>
-					My name is <span class="highlight">Nick Young</span>,</span> and I'm an aspiring <span
-						class="highlight">software engineer</span>. Currently, I am studying <span
-						class="highlight">applied
-						mathematics and computer science at Brown University</span> with a
-					focus on data and design. On the side, I'm a <span class="highlight">portrait and travel
-						photographer</span> - you can find my work below. Please feel free to poke around my website
-					and give me a shout if you'd like to connect!
-				</p>
-			</div>
-			<div class="grid-item" style="text-align: center;">
-				<img id="headshot" src="img/headshot.jpg"/>
-			</div>
-		</div>
-	</div>
+        <button class="accordion">&#x25BC Programming Languages</button>
+        <div class="panel">
+          <p>
+            I have experience developing in Python, MATLAB, Java, Javascript,
+            HTML, CSS, Pyret, Racket.
+          </p>
+        </div>
 
-	<!--PROJECTS-->
-	<a class="anchor" id="projectsAnchor"></a>
-	<div class="main" id="mainprojects">
-		<div class="container">
-			<h1><span class="highlight">Projects and experience</span></h1>
-			<button class="accordion">Web Development <span style="color: grey; font-size: 3rem;">Websites, Web
-					Apps, and More!</span></button>
-			<div class="panel">
-				<p>
-					I develop websites for both businesses and individuals using a variety of front-end frameworks,
-					from Vanilla HTML/CSS to Bootstrap and Skeleton.
-				</p>
-				<p>
-					Find the repository to Spy V Spy, a web app built on the MERN stack to facilitate a school Spy V
-					Spy game, <a href="https://github.com/n-young/backstab" target="_blank">here</a>.
-				</p>
-				<p>
-					Find the repository to this website, built on Boostrap and Vanilla HTML/CSS, <a
-						href="https://github.com/n-young/n-young.github.io" target="_blank">here</a>.
-				</p>
-			</div>
+        <button class="accordion">&#x25BC Web Technologies</button>
+        <div class="panel">
+          <p>
+            I have experience using MongoDB, Node.js, Express, Bootstrap, Flask,
+            and React.
+          </p>
+        </div>
 
-			<button class="accordion">CookieCash <span style="color: grey; font-size: 3rem;">21st Century Parenting
-					Solutions</span></button>
-			<div class="panel">
-				<p>
-					Developed on React, Flask, and the Google Cloud Platform, CookieCash is an incentive-system to
-					help 21st century parents raise obedient children. Built as a hackathon project during YHack
-					2019.
-				</p>
-				<p>
-					Find the repository <a href="https://github.com/NicholasSpringer/cookie-cash"
-						target="_blank">here</a>.
-				</p>
-			</div>
+        <button class="accordion">&#x25BC Design Tools</button>
+        <div class="panel">
+          <p>
+            I have experience using Photoshop, InDesign, Illustrator, Lightroom,
+            Premiere, After Effects, SolidWorks, and LaTeX.
+          </p>
+        </div>
+      </div>
+    </div>
 
-			<button class="accordion">Minesweeper <span style="color: grey; font-size: 3rem;">A
-					classic</span></button>
-			<div class="panel">
-				<p>
-					Developed in Java and JavaFx, this project is a small clone of the classic Minesweeper game,
-					playable on the desktop.
-				</p>
-				<p>
-					Find the repository <a href="https://github.com/n-young/minesweeper" target="_blank">here</a>.
-				</p>
-			</div>
+    <!--FOOTER-->
+    <div id="mainfooter">
+      <p>
+        <a href="nicholas_young@brown.edu">[Email]</a>
+        <a
+          href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"
+          target="_blank"
+          >[Résumé]</a
+        >
+        <a href="https://github.com/n-young" target="_blank">[Github]</a>
+        <a href="https://devpost.com/n-young" target="_blank">[Devpost]</a>
+        <a href="https://www.linkedin.com/in/ndashyoung/" target="_blank"
+          >[LinkedIn]</a
+        >
+        <a href="https://www.behance.net/ndashyoung" target="_blank"
+          >[Behance]</a
+        >
+        <a href="https://www.instagram.com/ndashphoto/" target="_blank"
+          >[Instagram]</a
+        >
+        <a href="http://vsco.co/ndashphoto/" target="_blank">[VSCO]</a>
+      </p>
+    </div>
 
-		</div>
-	</div>
-
-	<!--SKILLS-->
-	<a class="anchor" id="skillsAnchor"></a>
-	<div class="main" id="mainskills">
-		<div class="container">
-			<h1><span class="highlight">Skills and technologies</span></h1>
-			<button class="accordion">Programming Languages</button>
-			<div class="panel">
-				<p>
-					I have experience developing in Python, MATLAB, Java, Javascript, HTML, CSS, Pyret, Racket.
-				</p>
-			</div>
-
-			<button class="accordion">Web Technologies</button>
-			<div class="panel">
-				<p>
-					I have experience using MongoDB, Node.js, Express, Bootstrap, Flask, and React.
-				</p>
-			</div>
-
-			<button class="accordion">Design Tools</button>
-			<div class="panel">
-				<p>
-					I have experience using Photoshop, InDesign, Illustrator, Lightroom, Premiere, After Effects,
-					SolidWorks, and LaTeX.
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<!--CONTACT-->
-	<a class="anchor" id="contactAnchor"></a>
-	<div class="main" id="maincontact">
-		<div class="container">
-			<h1><span class="highlight">Contact me</span></h1>
-			<p>
-				Looking for a <span class="highlight">developer</span>? Feel free to access my work or contact me
-				via <span class="highlight"><a href="nicholas_young@brown.edu">Email</a>, <a
-						href="https://www.linkedin.com/in/ndashyoung/" target="_blank">LinkedIn</a>, and <a
-						href="https://github.com/n-young" target="_blank">Github</a>.</span>
-			</p>
-			<p>
-				Looking for a <span class="highlight">photographer</span>? My work can be viewed on <span
-					class="highlight"><a href="https://www.behance.net/ndashyoung"
-					target="_blank">Behance</a>, <a href="https://www.instagram.com/ndashphoto/"
-						target="_blank">Instagram</a>, and <a href="http://vsco.co/ndashphoto/"
-						target="_blank">VSCO</a></span>. Please feel free to reach out via <span class="highlight"><a
-						href="nicholas_young@brown.edu">Email</a></span>.
-			</p>
-			<p>
-				View my Résumé <a
-					href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"
-					target="_blank"><span class="highlight">here</span></a>.
-			</p>
-		</div>
-	</div>
-
-	<!--FOOTER-->
-	<div id="mainfooter">
-		<img src="img/logo.png" style="height:10rem;">
-	</div>
-
-	<!-- SCRIPT -->
-	<script src="script.js"></script>
-</body>
-
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+  </body>
 </html>

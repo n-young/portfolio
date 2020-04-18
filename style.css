@@ -141,7 +141,7 @@ html {
 /* =================================== */
 
 #mainlanding {
-  height: 85vh;
+  height: 86vh;
   display: flex;
   align-items: flex-end;
 }
@@ -173,6 +173,16 @@ html {
 #typedholder > h1 {
   font: 400 9vh "BebasNeue Yeet";
   color: #262626;
+}
+
+@media screen and (max-width: 768px) {
+  #mainlanding {
+    height: 89vh;
+  }
+
+  #typedholder > h1 {
+    font-size: 5rem;
+  }
 }
 
 /* =================================== */
@@ -227,6 +237,7 @@ html {
   text-decoration: none;
   transition: background-color 0.25s;
   grid-column: span 1;
+  padding-top: 10px;
 }
 
 .nav-option:hover {
@@ -296,38 +307,62 @@ body {
 }
 
 h1 {
-  font: 400 9rem "BebasNeue Yeet";
+  font: 400 8rem "BebasNeue Yeet";
   margin-bottom: 30px;
   margin-top: 0;
 }
 
+h1 > .highlight {
+  padding-top: 10px;
+}
+
 h2 {
-  font: 400 7rem "BebasNeue Yeet";
+  font: 400 6rem "BebasNeue Yeet";
   margin-bottom: 30px;
 }
 
 h3 {
   font-family: "Raleway";
-  font-size: 5rem;
+  font-size: 4rem;
   font-style: italic;
 }
 
 p {
   font-family: "Raleway";
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 #headshot {
-  width: 40vh;
-  height: 40vh;
+  width: 30vh;
+  height: 30vh;
   padding: 30px;
-  border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 6rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   h2 {
@@ -341,16 +376,8 @@ p {
   #headshot {
     width: 30vh;
     height: 30vh;
+    padding: 30px 0;
   }
-}
-
-a {
-  color: #262626;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #262626;
 }
 
 button:focus {
@@ -359,7 +386,7 @@ button:focus {
 
 .main {
   margin: 0;
-  padding: 60px;
+  padding: 60px 30px;
 }
 
 .container {
@@ -384,21 +411,41 @@ button:focus {
 }
 
 #mainabout {
-  background: #ffbf00;
+  background-color: rgba(255, 191, 0, 0.9);
+  transition: background-color 0.25s;
   color: #262626;
 }
 
+#mainabout:hover {
+  background-color: rgba(255, 191, 0, 1);
+}
+
 #mainprojects {
-  background: #e83f6f;
+  background-color: rgba(232, 63, 111, 0.9);
+  transition: background-color 0.25s;
+}
+
+#mainprojects:hover {
+  background-color: rgba(232, 63, 111, 1);
 }
 
 #mainskills {
-  background: #2274a5;
+  background-color: rgba(34, 116, 165, 0.9);
+  transition: background-color 0.25s;
+}
+
+#mainskills:hover {
+  background-color: rgba(34, 116, 165, 1);
 }
 
 #maincontact {
-  background: #32936f;
+  background-color: rgba(50, 147, 111, 0.9);
+  transition: background-color 0.25s;
   color: #fff;
+}
+
+#maincontact:hover {
+  background-color: rgba(50, 147, 111, 1);
 }
 
 #mainfooter {
@@ -408,6 +455,17 @@ button:focus {
   text-align: center;
   color: white;
   position: relative;
+}
+
+#mainfooter > p > a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#mainfooter > p > a:hover {
+  text-decoration: underline;
 }
 
 .anchor {
@@ -420,6 +478,17 @@ button:focus {
 .highlight {
   background: white;
   color: #262626;
+  padding: 0 5px;
+}
+
+.about-panel {
+  padding: 18px;
+  background-color: rgb(255, 255, 255);
+  color: #262626;
+}
+
+.about-panel > p {
+  margin: 0;
 }
 
 .accordion {
@@ -434,7 +503,7 @@ button:focus {
   outline: none;
   transition: 0.4s;
   font-family: "Raleway";
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .active,
@@ -442,11 +511,22 @@ button:focus {
   background-color: #ccc;
 }
 
+.accordion-secondary {
+  color: grey;
+}
+
 .panel {
+  box-sizing: content-box;
   padding: 0 18px;
   background-color: rgb(255, 255, 255);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   color: #262626;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion {
+    font-size: 2rem;
+  }
 }
