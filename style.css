@@ -295,6 +295,11 @@ html {
   width: 0%;
 }
 
+#contactbar {
+  background: #32936f;
+  width: 0%;
+}
+
 /* =================================== */
 /* MAINS */
 /* =================================== */
@@ -329,7 +334,7 @@ h3 {
 
 p {
   font-family: "Raleway";
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -489,6 +494,7 @@ button:focus {
 
 .about-panel > p {
   margin: 0;
+  font-size: 2.5rem;
 }
 
 .accordion {
@@ -529,4 +535,123 @@ button:focus {
   .accordion {
     font-size: 2rem;
   }
+}
+
+.link-shield {
+  background-color: rgba(34, 116, 165, 0.9);
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.link-shield > a {
+  color: white;
+}
+
+.link-shield:hover {
+  background-color: rgba(34, 116, 165, 1);
+}
+
+.lang-shield {
+  background-color: rgba(50, 147, 111, 0.9);
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.lang-shield:hover {
+  background-color: rgba(50, 147, 111, 1);
+}
+
+.skillbar {
+  width: 100%; /* Full width */
+  background-color: #ccc; /* Grey background */
+}
+
+.skill {
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin: 20px 0;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Raleway";
+  color: white;
+}
+
+.java {
+  width: 100%;
+  background-color: #808080;
+}
+.html-css {
+  width: 100%;
+  background-color: #808080;
+}
+.pyret {
+  width: 90%;
+  background-color: #808080;
+}
+.racket {
+  width: 85%;
+  background-color: #808080;
+}
+.python {
+  width: 70%;
+  background-color: #808080;
+}
+.javascript {
+  width: 60%;
+  background-color: #808080;
+}
+.matlab {
+  width: 60%;
+  background-color: #808080;
+}
+
+.react {
+  width: 60%;
+  background-color: #808080;
+}
+.nodejs {
+  width: 50%;
+  background-color: #808080;
+}
+.express {
+  width: 45%;
+  background-color: #808080;
+}
+.mongo {
+  width: 30%;
+  background-color: #808080;
+}
+.flask {
+  width: 30%;
+  background-color: #808080;
+}
+
+.latex {
+  width: 100%;
+  background-color: #808080;
+}
+.photoshop {
+  width: 80%;
+  background-color: #808080;
+}
+.indesign {
+  width: 50%;
+  background-color: #808080;
+}
+.illustrator {
+  width: 60%;
+  background-color: #808080;
+}
+.lightroom {
+  width: 85%;
+  background-color: #808080;
+}
+.premiere {
+  width: 60%;
+  background-color: #808080;
 }
