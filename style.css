@@ -1,4 +1,5 @@
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 10px;
 }
@@ -537,12 +538,19 @@ button:focus {
   }
 }
 
-.link-shield {
-  background-color: rgba(34, 116, 165, 0.9);
-  color: white;
+.shield-container {
+  line-height: 4rem;
+}
+
+.shield {
   padding: 5px 10px;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+.link-shield {
+  background-color: rgba(34, 116, 165, 0.9);
+  color: white;
   text-decoration: underline;
 }
 
@@ -557,9 +565,6 @@ button:focus {
 .lang-shield {
   background-color: rgba(50, 147, 111, 0.9);
   color: white;
-  padding: 5px 10px;
-  margin-right: 10px;
-  border-radius: 10px;
 }
 
 .lang-shield:hover {
