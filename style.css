@@ -360,8 +360,8 @@ p {
 }
 
 #headshot {
-  width: 30vh;
-  height: 30vh;
+  width: 25vh;
+  height: 25vh;
   padding: 30px;
 }
 
@@ -456,21 +456,20 @@ button:focus {
 
 #mainfooter {
   background: #262626;
-  min-height: 10vh;
   padding: 1rem;
   text-align: center;
   color: white;
   position: relative;
 }
 
-#mainfooter > p > a {
+a.quicklink {
   font-size: 2rem;
   color: white;
   text-decoration: none;
   margin: 0 10px;
 }
 
-#mainfooter > p > a:hover {
+a.quicklink:hover {
   text-decoration: underline;
 }
 
