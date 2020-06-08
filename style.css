@@ -592,28 +592,24 @@ a.quicklink:hover {
   color: white;
 }
 
+.javascript {
+  width: 100%;
+  background-color: #808080;
+}
 .java {
   width: 100%;
   background-color: #808080;
 }
-.html-css {
-  width: 100%;
+.rust {
+  width: 80%;
   background-color: #808080;
 }
-.pyret {
-  width: 90%;
-  background-color: #808080;
-}
-.racket {
-  width: 85%;
+.go {
+  width: 70%;
   background-color: #808080;
 }
 .python {
   width: 70%;
-  background-color: #808080;
-}
-.javascript {
-  width: 60%;
   background-color: #808080;
 }
 .matlab {
@@ -621,24 +617,44 @@ a.quicklink:hover {
   background-color: #808080;
 }
 
+.git {
+  width: 100%;
+  background-color: #808080;
+}
+.docker {
+  width: 80%;
+  background-color: #808080;
+}
 .react {
+  width: 80%;
+  background-color: #808080;
+}
+.reactnative {
+  width: 80%;
+  background-color: #808080;
+}
+.hugo {
+  width: 70%;
+  background-color: #808080;
+}
+.graphql {
   width: 60%;
   background-color: #808080;
 }
-.nodejs {
+.mongo {
   width: 50%;
   background-color: #808080;
 }
+.sql {
+  width: 30%;
+  background-color: #808080;
+}
+.nodejs {
+  width: 60%;
+  background-color: #808080;
+}
 .express {
-  width: 45%;
-  background-color: #808080;
-}
-.mongo {
-  width: 30%;
-  background-color: #808080;
-}
-.flask {
-  width: 30%;
+  width: 60%;
   background-color: #808080;
 }
 
