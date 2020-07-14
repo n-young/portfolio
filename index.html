@@ -1,502 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>nick young</title>
-    <link rel="shortcut icon" type="image/png" href="img/NY.png" />
-    <meta charset="UTF-8" />
-    <meta name="description" content="Nick Young's personal website" />
-    <meta
-      name="keywords"
-      content="Nick Young, Software Engineering, Software, Engineering, CS, Computer Science, Brown University, Brown, Providence, Vancouver"
-    />
-    <meta name="author" content="Nick Young" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
+    <head>
+        <title>nick young</title>
+        <link rel="shortcut icon" type="image/png" href="img/NY.png" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Nick Young's personal website" />
+        <meta
+            name="keywords"
+            content="Nick Young, Software Engineering, Software, Engineering, CS, Computer Science, Brown University, Brown, Providence, Vancouver"
+        />
+        <meta name="author" content="Nick Young" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
 
-  <body>
-    <!--TRANSITIONS-->
-    <div id="transition-1">
-      <img id="transition-icon" src="img/logobw.png" alt="logo" />
-    </div>
-    <div id="transition-2"></div>
-    <div id="transition-3"></div>
-    <div id="transition-4"></div>
-    <div id="transition-5"></div>
-
-    <!--LANDING-->
-    <div id="landing">
-      <div id="mainlanding">
-        <h1 id="mainname"><span id="boldname">N.</span> Young</h1>
-      </div>
-      <div class="underline"></div>
-      <div id="typedholder">
-        <h1 style="margin-bottom: 0;">&gt <span id="typed"></span></h1>
-      </div>
-      <div id="typed-strings">
-        <p>Nick Young</p>
-        <p>Developer</p>
-        <p>Student</p>
-        <p>Photographer</p>
-        <p>Racquet Wielder</p>
-      </div>
-      <script>
-        var typed = new Typed("#typed", {
-          stringsElement: "#typed-strings",
-          typeSpeed: 50,
-          backSpeed: 30,
-          backDelay: 1500,
-          loop: true,
-          loopCount: Infinity,
-          smartBackspace: false,
-          shuffle: false,
-          showCursor: false,
-        });
-      </script>
-    </div>
-
-    <!--PROGRESS BARS-->
-    <div class="progressbar" id="basebar">
-      <div class="progressbar" id="aboutbar">
-        <div class="progressbar" id="projectsbar">
-          <div class="progressbar" id="skillsbar">
-            <div class="progressbar" id="contactbar"></div>
-          </div>
+    <body>
+        <!--TRANSITIONS-->
+        <div id="transition-1">
+            <img id="transition-icon" src="img/logobw.png" alt="logo" />
         </div>
-      </div>
-    </div>
+        <div id="transition-2"></div>
+        <div id="transition-3"></div>
+        <div id="transition-4"></div>
+        <div id="transition-5"></div>
 
-    <!--NAVBAR-->
-    <nav class="my-navbar">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#main-navbar"
-      >
-        x
-      </button>
-      <div id="main-navbar">
-        <a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
-        <a class="nav-option" id="skillsoption" href="#skillsAnchor"
-          >experience</a
-        >
-        <a class="nav-option" id="projectsoption" href="#projectsAnchor"
-          >projects</a
-        >
-        <a class="nav-option" id="contactoption" href="#contactAnchor"
-          >skills</a
-        >
-      </div>
-    </nav>
+        <!--LANDING-->
+        <div id="landing">
+            <div id="mainlanding">
+                <h1 id="mainname"><span id="boldname">N.</span> Young</h1>
+            </div>
+            <div class="underline"></div>
+            <div id="typedholder">
+                <h1 style="margin-bottom: 0;">&gt <span id="typed"></span></h1>
+            </div>
+            <div id="typed-strings">
+                <p>Nick Young</p>
+                <p>Developer</p>
+                <p>Student</p>
+                <p>Photographer</p>
+                <p>Racquet Wielder</p>
+            </div>
+            <script>
+                var typed = new Typed("#typed", {
+                    stringsElement: "#typed-strings",
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    backDelay: 1500,
+                    loop: true,
+                    loopCount: Infinity,
+                    smartBackspace: false,
+                    shuffle: false,
+                    showCursor: false,
+                });
+            </script>
+        </div>
 
-    <!--ABOUT-->
-    <a class="anchor" id="aboutAnchor"></a>
-    <div class="main" id="mainabout">
-      <div class="container container-grid">
-        <div class="grid-item">
-          <h1><span class="highlight">About me</span></h1>
-          <div class="about-panel">
+        <!--PROGRESS BARS-->
+        <div class="progressbar" id="basebar">
+            <div class="progressbar" id="aboutbar">
+                <div class="progressbar" id="projectsbar">
+                    <div class="progressbar" id="skillsbar">
+                        <div class="progressbar" id="contactbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--NAVBAR-->
+        <nav class="my-navbar">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#main-navbar"
+            >
+                x
+            </button>
+            <div id="main-navbar">
+                <a class="nav-option" id="aboutoption" href="#aboutAnchor"
+                    >about</a
+                >
+                <a class="nav-option" id="skillsoption" href="#skillsAnchor"
+                    >experience</a
+                >
+                <a class="nav-option" id="projectsoption" href="#projectsAnchor"
+                    >projects</a
+                >
+                <a class="nav-option" id="contactoption" href="#contactAnchor"
+                    >skills</a
+                >
+            </div>
+        </nav>
+
+        <!--ABOUT-->
+        <a class="anchor" id="aboutAnchor"></a>
+        <div class="main" id="mainabout">
+            <div class="container container-grid">
+                <div class="grid-item">
+                    <h1><span class="highlight">About me</span></h1>
+                    <div class="about-panel">
+                        <p>
+                            My name is Nick Young, and I am currently studying
+                            mathematics and computer science at Brown University
+                            with a focus on data and design. My experience
+                            mainly lies in full-stack web development, app
+                            development, and a bit of machine learning. On the
+                            side, I'm a portrait and travel photographer,
+                            badminton player, and Minesweeper enthusiast. Please
+                            feel free to poke around my website and give me a
+                            shout if you'd like to connect!
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-item" style="text-align: center;">
+                    <img id="headshot" src="img/headshot.jpg" alt="portrait" />
+                </div>
+            </div>
+        </div>
+
+        <!--EXPERIENCE-->
+        <a class="anchor" id="skillsAnchor"></a>
+        <div class="main" id="mainskills">
+            <div class="container">
+                <h1><span class="highlight">Experience</span></h1>
+
+                <!-- Stochastic -->
+                <button class="accordion">
+                    &#x25BC; Software Engineering Intern<span
+                        class="accordion-secondary"
+                    >
+                        — Stochastic</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Software Engineering Intern at Stochastic, a startup
+                        that delivers hardware-accelerated cloud computing for
+                        probabilistic machine learning. Implemented from a web
+                        app in React, Node.js, and Express to deliver
+                        hardware-accelerated Latent Dirichlet Allocation
+                        analysis for scRNA sequencing and textual analysis.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="http://stochastic.ai/"
+                                target="_blank"
+                                rel="noopener"
+                                >Website</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">React</span>
+                        <span class="shield lang-shield">Node.js</span>
+                        <span class="shield lang-shield">Express</span>
+                        <span class="shield lang-shield">MongoDB</span>
+                    </p>
+                </div>
+
+                <!-- Stylindex -->
+                <button class="accordion">
+                    &#x25BC; Full Stack Engineering Intern<span
+                        class="accordion-secondary"
+                    >
+                        — Stylindex</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Software Engineering Intern at Stylindex, a fully-remote
+                        fashion tech startup focused on connecting brands with
+                        top creative talent. Developed a backend GraphQL
+                        emailing microservice in Rust, replacing a manual email
+                        scheduler. Refactored old React components and modules
+                        to support TypeScript.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="http://stylindex.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Website</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">Rust</span>
+                        <span class="shield lang-shield">GraphQL</span>
+                        <span class="shield lang-shield">React</span>
+                        <span class="shield lang-shield">TypeScript</span>
+                    </p>
+                </div>
+
+                <!-- BPR -->
+                <button class="accordion">
+                    &#x25BC; Web Developer<span class="accordion-secondary">
+                        — Brown Political Review</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Managed the Brown Political Review website on the LAMP
+                        stack in a team of three. Implemented mobile support,
+                        comments views, and author pages, optimized Schema.org
+                        micro data, and explored new data visualization
+                        techniques using D3.js. Developed experience working
+                        with Wordpress and PHP sites.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="http://brownpoliticalreview.org/"
+                                target="_blank"
+                                rel="noopener"
+                                >Website</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">Wordpress</span>
+                        <span class="shield lang-shield">PHP</span>
+                        <span class="shield lang-shield">Sass</span>
+                    </p>
+                </div>
+
+                <!-- FSAB -->
+                <button class="accordion">
+                    &#x25BC; Full Stack Developer and Project Lead<span
+                        class="accordion-secondary"
+                    >
+                        — Full Stack at Brown</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Developed the Brown Essentials app in React Native,
+                        Node.js, and Express.js as part of a design team. Brown
+                        Essentials is a one-stop shop for Brown University
+                        students to view critical information about college,
+                        such as current dining options, laundry availability,
+                        and building hours of operation.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://fullstackatbrown.com"
+                                target="_blank"
+                                rel="noopener"
+                                >Website</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">React Native</span>
+                        <span class="shield lang-shield">Node.js</span>
+                        <span class="shield lang-shield">Express</span>
+                    </p>
+                </div>
+
+                <!-- APMA -->
+                <button class="accordion">
+                    &#x25BC; Freelance Programmer<span
+                        class="accordion-secondary"
+                    >
+                        — Applied Maths Department</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Worked with Professor Dobrushkin in facilitating regular
+                        maintenance and upkeep for the APMA 0330 and APMA 0340
+                        course website.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield lang-shield">HTML</span>
+                        <span class="shield lang-shield">CSS</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--PROJECTS-->
+        <a class="anchor" id="projectsAnchor"></a>
+        <div class="main" id="mainprojects">
+            <div class="container">
+                <h1><span class="highlight">Projects</span></h1>
+
+                <!-- Droppy -->
+                <button class="accordion">
+                    &#x25BC; Droppy<span class="accordion-secondary">
+                        — File sharing simplified.</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Developed Droppy, a quick and easy way of sharing files
+                        securely. Simply upload a file, and optionally attach a
+                        note, an expiration date, or a password, then
+                        autogenerate a link to share the files with others!
+                    </p>
+                    <p>
+                        Implemented the front end in React. The back end was
+                        built with Rust using Rocket. Files are stored in AWS
+                        S3, metadata is stored seperately in MongoDB. Deployed
+                        on Netlify and GCP.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://droppy.xyz"
+                                target="_blank"
+                                rel="noopener"
+                                >Demo</a
+                            ></span
+                        >
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://github.com/n-young/droppy"
+                                target="_blank"
+                                rel="noopener"
+                                >Repo</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">Rust</span>
+                        <span class="shield lang-shield">React</span>
+                        <span class="shield lang-shield">GCP</span>
+                        <span class="shield lang-shield">AWS</span>
+                        <span class="shield lang-shield">MongoDB</span>
+                    </p>
+                </div>
+
+                <!-- ParselTongue -->
+                <button class="accordion">
+                    &#x25BC; ParselTongue<span class="accordion-secondary">
+                        — Smart paper parsing.</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Developed ParselTongue, an academic paper skimmer, as a
+                        final project for CSCI 0320 - Software Engineering. With
+                        just a few keywords, ParselTongue finds the most salient
+                        parts of academic papers to your described topics,
+                        saving countless hours of research.
+                    </p>
+                    <p>
+                        Implemented the front end using Freemarker templates,
+                        and used Java and Apache Spark for user validation,
+                        persistence, and data handling. Database was implemented
+                        in MongoDB. Back end relies on the PageRank algorithm to
+                        search PDFs for semantic covariance.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://parseltongue-cs32.herokuapp.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Demo</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">Java</span>
+                        <span class="shield lang-shield">Javascript</span>
+                        <span class="shield lang-shield">HTML/CSS</span>
+                        <span class="shield lang-shield">MongoDB</span>
+                    </p>
+                </div>
+
+                <!-- LinguaML -->
+                <button class="accordion">
+                    &#x25BC; LinguaML<span class="accordion-secondary">
+                        — "On the go" language learning.</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        LinguaML is a computer-vision powered language learning
+                        app designed for on-the-go learners. With just a picture
+                        of your subject, flashcards for any language are
+                        generated within seconds and saved in the app. You can
+                        view, study, edit, and share flashcards with your
+                        friends!
+                    </p>
+                    <p>
+                        LinguaML was conceived and developed at Hack@Brown 2020.
+                        It won the Facebook award for "Best hack that builds
+                        community through private or small-group interaction".
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://github.com/n-young/linguaml2"
+                                target="_blank"
+                                rel="noopener"
+                                >Repo</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">React Native</span>
+                        <span class="shield lang-shield">Node.js</span>
+                        <span class="shield lang-shield"
+                            >Google Vision API</span
+                        >
+                    </p>
+                </div>
+
+                <!-- DBBot -->
+                <button class="accordion">
+                    &#x25BC; Dear Blueno Bot<span class="accordion-secondary">
+                        — For fun!</span
+                    >
+                </button>
+                <div class="panel">
+                    <p>
+                        Dear Blueno Bot is an automatic "Dear Blueno" post
+                        generator developed with a TensorFlow natural language
+                        processing library. The data is collected from two
+                        source files, provided by the DB mods, and was parsed
+                        through Beautiful Soup.
+                    </p>
+                    <p class="shield-container">
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://github.com/n-young/dearbluebot"
+                                target="_blank"
+                                rel="noopener"
+                                >Repo</a
+                            ></span
+                        >
+                        <span class="shield link-shield"
+                            ><a
+                                href="https://obscure-ocean-84186.herokuapp.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Demo</a
+                            ></span
+                        >
+                        <span class="shield lang-shield">Python</span>
+                        <span class="shield lang-shield">Tensorflow</span>
+                        <span class="shield lang-shield">Flask</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--SKILLS-->
+        <a class="anchor" id="contactAnchor"></a>
+        <div class="main" id="maincontact">
+            <div class="container">
+                <h1><span class="highlight">Skills</span></h1>
+
+                <button class="accordion">
+                    &#x25BC; Programming Languages
+                </button>
+                <div class="panel">
+                    <div class="skillbar">
+                        <div class="skill javascript">Javascript</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill java">Java</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill rust">Rust</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill go">Go</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill python">Python</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill matlab">MATLAB</div>
+                    </div>
+                </div>
+
+                <button class="accordion">&#x25BC; Web Technologies</button>
+                <div class="panel">
+                    <div class="skillbar">
+                        <div class="skill git">Git</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill docker">Docker</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill react">React</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill reactnative">React Native</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill hugo">Hugo</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill graphql">GraphQL</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill mongo">MongoDB</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill sql">SQL</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill nodejs">NodeJS</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill express">Express</div>
+                    </div>
+                </div>
+
+                <button class="accordion">&#x25BC; Design Tools</button>
+                <div class="panel">
+                    <div class="skillbar">
+                        <div class="skill latex">LaTeX</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill photoshop">Photoshop</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill indesign">InDesign</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill illustrator">Illustrator</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill lightroom">Lightroom</div>
+                    </div>
+                    <div class="skillbar">
+                        <div class="skill premiere">Premiere</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div id="mainfooter">
             <p>
-              My name is Nick Young, and I am currently studying mathematics and
-              computer science at Brown University with a focus on data and
-              design. My experience mainly lies in full-stack web development,
-              app development, and a bit of machine learning. On the side, I'm a
-              portrait and travel photographer, badminton player, and
-              Minesweeper enthusiast. Please feel free to poke around my website
-              and give me a shout if you'd like to connect!
+                Designed with ♥️ by Nick Young © 2020
             </p>
-          </div>
-        </div>
-        <div class="grid-item" style="text-align: center;">
-          <img id="headshot" src="img/headshot.jpg" alt="portrait" />
-        </div>
-      </div>
-    </div>
-
-    <!--EXPERIENCE-->
-    <a class="anchor" id="skillsAnchor"></a>
-    <div class="main" id="mainskills">
-      <div class="container">
-        <h1><span class="highlight">Experience</span></h1>
-
-        <!-- Stochastic -->
-        <button class="accordion">
-          &#x25BC; Software Engineering Intern<span class="accordion-secondary">
-            — Stochastic</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Software Engineering Intern at Stochastic, a startup that delivers
-            hardware-accelerated cloud computing for probabilistic machine
-            learning. Implemented from a web app in React, Node.js, and Express
-            to deliver hardware-accelerated Latent Dirichlet Allocation analysis
-            for scRNA sequencing and textual analysis.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a href="http://stochastic.ai/" target="_blank" rel="noopener"
-                >Website</a
-              ></span
-            >
-            <span class="shield lang-shield">React</span>
-            <span class="shield lang-shield">Node.js</span>
-            <span class="shield lang-shield">Express</span>
-            <span class="shield lang-shield">MongoDB</span>
-          </p>
+            <p>
+                <a
+                    class="quicklink"
+                    href="http://blog.n-young.xyz"
+                    rel="noopener"
+                    >[Blog]</a
+                >
+                <a
+                    class="quicklink"
+                    href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener"
+                    >[Résumé]</a
+                >
+                <a
+                    class="quicklink"
+                    href="https://www.linkedin.com/in/ndashyoung/"
+                    target="_blank"
+                    rel="noopener"
+                    >[LinkedIn]</a
+                >
+                <a
+                    class="quicklink"
+                    href="https://github.com/n-young"
+                    target="_blank"
+                    rel="noopener"
+                    >[Github]</a
+                >
+                <a
+                    class="quicklink"
+                    href="https://devpost.com/n-young"
+                    target="_blank"
+                    rel="noopener"
+                    >[Devpost]</a
+                >
+            </p>
         </div>
 
-        <!-- Stylindex -->
-        <button class="accordion">
-          &#x25BC; Full Stack Engineering Intern<span
-            class="accordion-secondary"
-          >
-            — Stylindex</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Software Engineering Intern at Stylindex, a fully-remote fashion
-            tech startup focused on connecting brands with top creative talent.
-            Developed a backend GraphQL emailing microservice in Rust, replacing
-            a manual email scheduler. Refactored old React components and
-            modules to support TypeScript.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a href="http://stylindex.com/" target="_blank" rel="noopener"
-                >Website</a
-              ></span
-            >
-            <span class="shield lang-shield">Rust</span>
-            <span class="shield lang-shield">GraphQL</span>
-            <span class="shield lang-shield">React</span>
-            <span class="shield lang-shield">TypeScript</span>
-          </p>
-        </div>
-
-        <!-- BPR -->
-        <button class="accordion">
-          &#x25BC; Web Developer<span class="accordion-secondary">
-            — Brown Political Review</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Managed the Brown Political Review website on the LAMP stack in a
-            team of three. Implemented mobile support, comments views, and
-            author pages, optimized Schema.org micro data, and explored new data
-            visualization techniques using D3.js. Developed experience working
-            with Wordpress and PHP sites.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a
-                href="http://brownpoliticalreview.org/"
-                target="_blank"
-                rel="noopener"
-                >Website</a
-              ></span
-            >
-            <span class="shield lang-shield">Wordpress</span>
-            <span class="shield lang-shield">PHP</span>
-            <span class="shield lang-shield">Sass</span>
-          </p>
-        </div>
-
-        <!-- FSAB -->
-        <button class="accordion">
-          &#x25BC; Full Stack Developer<span class="accordion-secondary">
-            — Full Stack at Brown</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Developed the Brown Essentials app in React Native, Node.js, and
-            Express.js as part of a design team. Brown Essentials is a one-stop
-            shop for Brown University students to view critical information
-            about college, such as current dining options, laundry availability,
-            and building hours of operation.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a
-                href="https://fullstackatbrown.com"
-                target="_blank"
-                rel="noopener"
-                >Website</a
-              ></span
-            >
-            <span class="shield lang-shield">React Native</span>
-            <span class="shield lang-shield">Node.js</span>
-            <span class="shield lang-shield">Express</span>
-          </p>
-        </div>
-
-        <!-- APMA -->
-        <button class="accordion">
-          &#x25BC; Freelance Programmer<span class="accordion-secondary">
-            — Applied Maths Department</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Worked with Professor Dobrushkin in facilitating regular maintenance
-            and upkeep for the APMA 0330 and APMA 0340 course website.
-          </p>
-          <p class="shield-container">
-            <span class="shield lang-shield">HTML</span>
-            <span class="shield lang-shield">CSS</span>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--PROJECTS-->
-    <a class="anchor" id="projectsAnchor"></a>
-    <div class="main" id="mainprojects">
-      <div class="container">
-        <h1><span class="highlight">Projects</span></h1>
-
-        <!-- ParselTongue -->
-        <button class="accordion">
-          &#x25BC; ParselTongue<span class="accordion-secondary">
-            — Smart paper parsing.</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Developed ParselTongue, an academic paper skimmer, as a final
-            project for CSCI 0320 - Software Engineering. With just a few
-            keywords, ParselTongue finds the most salient parts of academic
-            papers to your described topics, saving countless hours of research.
-          </p>
-          <p>
-            Implemented the front end using Freemarker templates, and used Java
-            and Apache Spark for user validation, persistence, and data
-            handling. Database was implemented in MongoDB. Back end relies on
-            the PageRank algorithm to search PDFs for semantic covariance.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a
-                href="https://parseltongue-cs32.herokuapp.com/"
-                target="_blank"
-                rel="noopener"
-                >Demo</a
-              ></span
-            >
-            <span class="shield lang-shield">Java</span>
-            <span class="shield lang-shield">Javascript</span>
-            <span class="shield lang-shield">HTML/CSS</span>
-            <span class="shield lang-shield">MongoDB</span>
-          </p>
-        </div>
-
-        <!-- LinguaML -->
-        <button class="accordion">
-          &#x25BC; LinguaML<span class="accordion-secondary">
-            — "On the go" language learning.</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            LinguaML is a computer-vision powered language learning app designed
-            for on-the-go learners. With just a picture of your subject,
-            flashcards for any language are generated within seconds and saved
-            in the app. You can view, study, edit, and share flashcards with
-            your friends!
-          </p>
-          <p>
-            LinguaML was conceived and developed at Hack@Brown 2020. It won the
-            Facebook award for "Best hack that builds community through private
-            or small-group interaction".
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a
-                href="https://github.com/n-young/linguaml2"
-                target="_blank"
-                rel="noopener"
-                >Repo</a
-              ></span
-            >
-            <span class="shield lang-shield">React Native</span>
-            <span class="shield lang-shield">Node.js</span>
-            <span class="shield lang-shield">Google Vision API</span>
-          </p>
-        </div>
-
-        <button class="accordion">
-          &#x25BC; Dear Blueno Bot<span class="accordion-secondary">
-            — For fun!</span
-          >
-        </button>
-        <div class="panel">
-          <p>
-            Dear Blueno Bot is an automatic "Dear Blueno" post generator
-            developed with a TensorFlow natural language processing library. The
-            data is collected from two source files, provided by the DB mods,
-            and was parsed through Beautiful Soup.
-          </p>
-          <p class="shield-container">
-            <span class="shield link-shield"
-              ><a
-                href="https://github.com/n-young/dearbluebot"
-                target="_blank"
-                rel="noopener"
-                >Repo</a
-              ></span
-            >
-            <span class="shield link-shield"
-              ><a
-                href="https://obscure-ocean-84186.herokuapp.com/"
-                target="_blank"
-                rel="noopener"
-                >Demo</a
-              ></span
-            >
-            <span class="shield lang-shield">Python</span>
-            <span class="shield lang-shield">Tensorflow</span>
-            <span class="shield lang-shield">Flask</span>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--SKILLS-->
-    <a class="anchor" id="contactAnchor"></a>
-    <div class="main" id="maincontact">
-      <div class="container">
-        <h1><span class="highlight">Skills</span></h1>
-
-        <button class="accordion">&#x25BC; Programming Languages</button>
-        <div class="panel">
-          <div class="skillbar">
-            <div class="skill javascript">Javascript</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill java">Java</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill rust">Rust</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill go">Go</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill python">Python</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill matlab">MATLAB</div>
-          </div>
-        </div>
-
-        <button class="accordion">&#x25BC; Web Technologies</button>
-        <div class="panel">
-          <div class="skillbar">
-            <div class="skill git">Git</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill docker">Docker</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill react">React</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill reactnative">React Native</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill hugo">Hugo</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill graphql">GraphQL</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill mongo">MongoDB</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill sql">SQL</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill nodejs">NodeJS</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill express">Express</div>
-          </div>
-        </div>
-
-        <button class="accordion">&#x25BC; Design Tools</button>
-        <div class="panel">
-          <div class="skillbar">
-            <div class="skill latex">LaTeX</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill photoshop">Photoshop</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill indesign">InDesign</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill illustrator">Illustrator</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill lightroom">Lightroom</div>
-          </div>
-          <div class="skillbar">
-            <div class="skill premiere">Premiere</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--FOOTER-->
-    <div id="mainfooter">
-      <p>
-        Designed with ♥️ by Nick Young © 2020
-      </p>
-      <p>
-        <a class="quicklink" href="http://blog.n-young.xyz" rel="noopener"
-          >[Blog]</a
-        >
-        <a
-          class="quicklink"
-          href="https://drive.google.com/file/d/1q5zkoOmsejaPNf2Rh-bgkcOOzXR7VAVi/view?usp=sharing"
-          target="_blank"
-          rel="noopener"
-          >[Résumé]</a
-        >
-        <a
-          class="quicklink"
-          href="https://www.linkedin.com/in/ndashyoung/"
-          target="_blank"
-          rel="noopener"
-          >[LinkedIn]</a
-        >
-        <a
-          class="quicklink"
-          href="https://github.com/n-young"
-          target="_blank"
-          rel="noopener"
-          >[Github]</a
-        >
-        <a
-          class="quicklink"
-          href="https://devpost.com/n-young"
-          target="_blank"
-          rel="noopener"
-          >[Devpost]</a
-        >
-      </p>
-    </div>
-
-    <!-- SCRIPT -->
-    <script src="script.js"></script>
-  </body>
+        <!-- SCRIPT -->
+        <script src="script.js"></script>
+    </body>
 </html>
