@@ -36,3 +36,11 @@ for (i = 0; i < acc.length; i++) {
 		}
 	});
 }
+
+// Open
+window.onload = () => {
+	console.log("Loaded")
+	let firsts = Array.from(document.getElementsByClassName("first"))
+	console.log(typeof firsts)
+	firsts.map(e => e.click())
+}
