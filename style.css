@@ -484,6 +484,49 @@ li {
 }
 
 /* =================================== */
+/* EFFECTS */
+/* =================================== */
+
+.fade {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.faded-in {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.fun-letter {
+  display: inline-block;
+  transition: transform 0.1s ease-in-out;
+}
+
+.fun-letter:hover {
+  transform: translateY(-10px) rotate(-8deg) scale(1.1);
+
+}
+
+.shake:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(-12deg);
+  }
+  
+  50% {
+    transform: rotate(12deg);
+  }
+
+  75% {
+    transform: rotate(-12deg);
+  }
+}
+
+/* =================================== */
 /* PANELS */
 /* =================================== */
 
@@ -493,6 +536,10 @@ li {
   margin: 1.5rem 0 0 0;
   color: #262626;
   transition: transform 0.1s ease-in-out;
+}
+
+.about-panel:hover {
+  transform: scale(1.01);
 }
 
 .about-panel > p {
@@ -509,6 +556,7 @@ li {
 
 .about-link {
   color: #262626;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -523,7 +571,6 @@ li {
     color: #262626;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    transition: transform 0.1s ease-in-out;
 }
 
 .panel:hover {
@@ -567,17 +614,6 @@ li {
     .panel-header {
         font-size: 2rem;
     }
-}
-
-.fade {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
-.faded-in {
-  opacity: 1;
-  transform: translateY(0px);
 }
 
 /* =================================== */

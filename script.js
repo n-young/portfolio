@@ -25,7 +25,7 @@ function progressBar() {
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".fade").each(function() {
+    $(".fade").each(function () {
       /* Check the location of each desired element */
       var objectBottom = $(this).offset().top + $(this).outerHeight() / 2;
       
@@ -38,3 +38,20 @@ $(window).on("load",function() {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+
+// Fun
+$(document).ready(function(){
+  $('.fun').each(function () {
+    var letters = $(this).text();
+    console.log(letters)
+    var nHTML = '';
+    for(var letter of letters) {
+      if (letter == ' ') {
+        nHTML += "<span class='fun-letter'>&nbsp;</span>";
+      } else {
+        nHTML += "<span class='fun-letter'>"+letter+"</span>";
+      }
+    }
+    $(this).html(nHTML);
+  })
+})
