@@ -1,4 +1,4 @@
-//Bars
+// Bars
 window.onscroll = function () {
 	progressBar()
 };
@@ -6,7 +6,6 @@ let mains = ["mainabout", "mainprojects", "mainskills", "maincontact"];
 let bars = ["aboutbar", "projectsbar", "skillsbar", "contactbar"]
 
 function progressBar() {
-
 	for (let i = 0; i < mains.length; i++) {
 		var winScroll = document.documentElement.scrollTop - document.getElementById('landing').clientHeight;
 		for (let j = 0; j < i; j++) {
@@ -21,3 +20,21 @@ function progressBar() {
 		}
 	}
 }
+
+// Fade in
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight() / 2;
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        $(this).addClass("faded-in")
+      } else { //object goes out of view (scrolling up)
+        $(this).removeClass("faded-in")
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
