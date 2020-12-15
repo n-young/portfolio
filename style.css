@@ -1,15 +1,19 @@
+/* =================================== */
+/* HOUSEKEEPING */
+/* =================================== */
+
 html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-size: 8px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 8px;
 }
 
 .example::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .example {
-  -ms-overflow-style: none;
+    -ms-overflow-style: none;
 }
 
 /* =================================== */
@@ -17,296 +21,38 @@ html {
 /* =================================== */
 
 @font-face {
-  font-family: "BebasNeue Yeet";
-  src: url("font/BebasNeue-Thin.otf") format("opentype"),
-    url("font/BebasNeue-Thin.ttf") format("truetype");
-  font-weight: 100;
+    font-family: "BebasNeue Yeet";
+    src: url("font/BebasNeue-Thin.otf") format("opentype"),
+        url("font/BebasNeue-Thin.ttf") format("truetype");
+    font-weight: 100;
 }
 
 @font-face {
-  font-family: "BebasNeue Yeet";
-  src: url("font/BebasNeue-Light.otf") format("opentype"),
-    url("font/BebasNeue-Light.ttf") format("truetype");
-  font-weight: 200;
+    font-family: "BebasNeue Yeet";
+    src: url("font/BebasNeue-Light.otf") format("opentype"),
+        url("font/BebasNeue-Light.ttf") format("truetype");
+    font-weight: 200;
 }
 
 @font-face {
-  font-family: "BebasNeue Yeet";
-  src: url("font/BebasNeue-Book.otf") format("opentype"),
-    url("font/BebasNeue-Book.ttf") format("truetype");
-  font-weight: 400;
+    font-family: "BebasNeue Yeet";
+    src: url("font/BebasNeue-Book.otf") format("opentype"),
+        url("font/BebasNeue-Book.ttf") format("truetype");
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: "BebasNeue Yeet";
-  src: url("font/BebasNeue-Regular.otf") format("opentype"),
-    url("font/BebasNeue-Regular.ttf") format("truetype");
-  font-weight: 600;
+    font-family: "BebasNeue Yeet";
+    src: url("font/BebasNeue-Regular.otf") format("opentype"),
+        url("font/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: 600;
 }
 
 @font-face {
-  font-family: "BebasNeue Yeet";
-  src: url("font/BebasNeue-Bold.otf") format("opentype"),
-    url("font/BebasNeue-Bold.ttf") format("truetype");
-  font-weight: 800;
-}
-
-/* =================================== */
-/* TRANSITIONS */
-/* =================================== */
-
-@keyframes slideUp {
-  0% {
-    transform: translateY(0%);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(50vh);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-
-#transition-icon {
-  height: 10vh;
-  margin-top: 45vh;
-  animation: 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s 1 slideIn;
-  animation-fill-mode: forwards;
-}
-
-#transition-1 {
-  position: absolute;
-  top: 0;
-  z-index: 1040;
-  width: 100%;
-  height: 110%;
-  display: block;
-  background: #f0ffe7;
-  text-align: center;
-  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1s 1 slideUp;
-  animation-fill-mode: forwards;
-}
-
-#transition-2 {
-  position: absolute;
-  top: 0;
-  z-index: 1039;
-  width: 100%;
-  height: 110%;
-  display: block;
-  background: #ffb400;
-  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.1s 1 slideUp;
-  transform: translateY(-100%);
-}
-
-#transition-3 {
-  position: absolute;
-  top: 0;
-  z-index: 1038;
-  width: 100%;
-  height: 110%;
-  display: block;
-  background: #e83f6f;
-  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.2s 1 slideUp;
-  transform: translateY(-100%);
-}
-
-#transition-4 {
-  position: absolute;
-  top: 0;
-  z-index: 1037;
-  width: 100%;
-  height: 110%;
-  display: block;
-  background: #2274a5;
-  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.3s 1 slideUp;
-  transform: translateY(-100%);
-}
-
-#transition-5 {
-  position: absolute;
-  top: 0;
-  z-index: 1036;
-  width: 100%;
-  height: 110%;
-  display: block;
-  background: #32936f;
-  animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.4s 1 slideUp;
-  transform: translateY(-100%);
-}
-
-/* =================================== */
-/* LANDING */
-/* =================================== */
-
-#mainlanding {
-  height: 86vh;
-  display: flex;
-  align-items: flex-end;
-}
-
-#mainname {
-  font: 200 23vw "BebasNeue Yeet";
-  color: #262626;
-  margin-bottom: -3vw;
-  margin-left: 2vw;
-}
-
-#boldname {
-  font-weight: 400;
-}
-
-.underline {
-  position: relative;
-  height: 0.5rem;
-  width: 80%;
-  background-color: #262626;
-}
-
-#typedholder {
-  margin-bottom: 0;
-  margin-left: 2vw;
-  margin-top: 2vh;
-}
-
-#typedholder > h1 {
-  font: 400 9vh "BebasNeue Yeet";
-  color: #262626;
-}
-
-@media screen and (max-width: 768px) {
-  #mainlanding {
-    height: 89vh;
-  }
-
-  #typedholder > h1 {
-    font-size: 5rem;
-  }
-}
-
-/* =================================== */
-/* NAVBAR */
-/* =================================== */
-
-.my-navbar {
-  position: sticky;
-  top: 2vh;
-  z-index: 2;
-}
-
-#main-navbar {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  flex: 1;
-}
-
-.navbar-toggler {
-  display: none;
-  position: fixed;
-  top: 3vh;
-  left: 10px;
-  border-width: 0;
-  background-color: #f0ffe7;
-  font: 400 9rem "BebasNeue Yeet";
-}
-
-@media screen and (max-width: 768px) {
-  .my-navbar {
-    display: none;
-    /* display: block; */
-    position: fixed;
-    top: 0;
-  }
-
-  #main-navbar {
-    grid-template-columns: 1fr;
-  }
-
-  .navbar-toggler {
-    display: none;
-    /* display: block; */
-  }
-}
-
-.nav-option {
-  text-align: center;
-  font: 400 6vh "BebasNeue Yeet";
-  color: #fff;
-  background-color: #262626;
-  text-decoration: none;
-  transition: background-color 0.25s;
-  grid-column: span 1;
-  padding-top: 10px;
-}
-
-.nav-option:hover {
-  color: #fff;
-}
-
-#aboutoption:hover {
-  background-color: #ffbf00;
-  color: #262626;
-}
-
-#projectsoption:hover {
-  background-color: #e83f6f;
-}
-
-#skillsoption:hover {
-  background-color: #2274a5;
-}
-
-#contactoption:hover {
-  background-color: #32936f;
-}
-
-/* =================================== */
-/* BARS */
-/* =================================== */
-
-.progressbar {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  height: 3vh;
-  z-index: 1;
-}
-
-#basebar {
-  position: sticky;
-  top: 0;
-  background: #f0ffe7;
-  width: 100%;
-}
-
-#aboutbar {
-  background: #ffbf00;
-  width: 0%;
-}
-
-#projectsbar {
-  background: #e83f6f;
-  width: 0%;
-}
-
-#skillsbar {
-  background: #2274a5;
-  width: 0%;
-}
-
-#contactbar {
-  background: #32936f;
-  width: 0%;
+    font-family: "BebasNeue Yeet";
+    src: url("font/BebasNeue-Bold.otf") format("opentype"),
+        url("font/BebasNeue-Bold.ttf") format("truetype");
+    font-weight: 800;
 }
 
 /* =================================== */
@@ -314,371 +60,547 @@ html {
 /* =================================== */
 
 body {
-  background: #f0ffe7;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+    background: #f0ffe7;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-  font: 400 8rem "BebasNeue Yeet";
-  margin-bottom: 30px;
-  margin-top: 0;
+    font: 400 8rem "BebasNeue Yeet";
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 h1 > .highlight {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
 h2 {
-  font: 400 6rem "BebasNeue Yeet";
-  margin-bottom: 30px;
+    font: 400 6rem "BebasNeue Yeet";
+    margin-bottom: 0;
+}
+
+h2 > .highlight {
+    padding-top: 10px;
 }
 
 h3 {
-  font-family: "Raleway";
-  font-size: 4rem;
-  font-style: italic;
+    font-family: "Raleway";
+    font-size: 4rem;
+    font-style: italic;
 }
 
 p {
-  font-family: "Raleway";
-  font-size: 2rem;
+    font-family: "Raleway";
+    font-size: 2rem;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+li {
+    font-family: "Raleway";
+    font-size: 2rem;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-  body {
-  }
+    h1 {
+        font-size: 6rem;
+        margin-bottom: 20px;
+    }
 
-  h1 {
-    font-size: 4rem;
-  }
+    h2 {
+        font-size: 5rem;
+    }
 
-  h2 {
-    font-size: 3rem;
-  }
+    h3 {
+        font-size: 2rem;
+    }
 
-  h3 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
+    p,
+    li {
+        font-size: 2rem;
+    }
 }
 
-#headshot {
-  width: 25vh;
-  height: 25vh;
-  padding: 30px;
+/* =================================== */
+/* TRANSITIONS */
+/* =================================== */
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+#transition-icon {
+    height: 10vh;
+    margin-top: 45vh;
+    animation: 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s 1 slideIn;
+    animation-fill-mode: forwards;
+}
+
+#transition-1 {
+    position: absolute;
+    top: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background: #f0ffe7;
+    text-align: center;
+    animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1s 1 slideUp;
+    animation-fill-mode: forwards;
+}
+
+#transition-2 {
+    position: absolute;
+    top: 0;
+    z-index: 1039;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background: #ffb400;
+    animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.1s 1 slideUp;
+    transform: translateY(-100%);
+}
+
+#transition-3 {
+    position: absolute;
+    top: 0;
+    z-index: 1038;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background: #e83f6f;
+    animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.2s 1 slideUp;
+    transform: translateY(-100%);
+}
+
+#transition-4 {
+    position: absolute;
+    top: 0;
+    z-index: 1037;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background: #2274a5;
+    animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.3s 1 slideUp;
+    transform: translateY(-100%);
+}
+
+#transition-5 {
+    position: absolute;
+    top: 0;
+    z-index: 1036;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background: #32936f;
+    animation: 1s cubic-bezier(0.73, 0.03, 0.87, 0.7) 1.4s 1 slideUp;
+    transform: translateY(-100%);
+}
+
+/* =================================== */
+/* LANDING */
+/* =================================== */
+
+#mainlanding {
+    height: 86vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#mainname {
+    font: 200 23vw "BebasNeue Yeet";
+    color: #262626;
+    margin-bottom: -3vw;
+    margin-left: 2vw;
+}
+
+#boldname {
+    font-weight: 400;
+}
+
+.underline {
+    position: relative;
+    height: 0.5rem;
+    width: 80%;
+    background-color: #262626;
+}
+
+#typedholder {
+    margin-bottom: 0;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+#typedholder > h1 {
+    font: 400 9vh "BebasNeue Yeet";
+    color: #262626;
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 6rem;
-    margin-bottom: 20px;
-  }
+    #mainlanding {
+        height: 89vh;
+    }
 
-  h2 {
-    font-size: 5rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-
-  #headshot {
-    width: 30vh;
-    height: 30vh;
-    padding: 30px 0;
-  }
+    #typedholder > h1 {
+        font-size: 5rem;
+    }
 }
 
-button:focus {
-  outline: 0;
+/* =================================== */
+/* NAVBAR */
+/* =================================== */
+
+.my-navbar {
+    position: sticky;
+    top: 2vh;
+    z-index: 2;
 }
+
+#main-navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex: 1;
+}
+
+.navbar-toggler {
+    display: none;
+    position: fixed;
+    top: 3vh;
+    left: 10px;
+    border-width: 0;
+    background-color: #f0ffe7;
+    font: 400 9rem "BebasNeue Yeet";
+}
+
+@media screen and (max-width: 768px) {
+    .my-navbar {
+        display: none;
+        /* display: block; */
+        position: fixed;
+        top: 0;
+    }
+
+    #main-navbar {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar-toggler {
+        display: none;
+        /* display: block; */
+    }
+}
+
+.nav-option {
+    text-align: center;
+    font: 400 6vh "BebasNeue Yeet";
+    color: #fff;
+    background-color: #262626;
+    text-decoration: none;
+    transition: background-color 0.25s;
+    grid-column: span 1;
+    padding-top: 10px;
+}
+
+.nav-option:hover {
+    color: #fff;
+}
+
+#aboutoption:hover {
+    background-color: #ffbf00;
+    color: #262626;
+}
+
+#projectsoption:hover {
+    background-color: #e83f6f;
+}
+
+#skillsoption:hover {
+    background-color: #2274a5;
+}
+
+#contactoption:hover {
+    background-color: #32936f;
+}
+
+/* =================================== */
+/* BARS */
+/* =================================== */
+
+.progressbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 3vh;
+    z-index: 1;
+}
+
+#basebar {
+    position: sticky;
+    top: 0;
+    background: #f0ffe7;
+    width: 100%;
+}
+
+#aboutbar {
+    background: #ffbf00;
+    width: 0%;
+}
+
+#projectsbar {
+    background: #e83f6f;
+    width: 0%;
+}
+
+#skillsbar {
+    background: #2274a5;
+    width: 0%;
+}
+
+#contactbar {
+    background: #32936f;
+    width: 0%;
+}
+
+/* =================================== */
+/* CONTAINERS */
+/* =================================== */
 
 .main {
-  margin: 0;
-  padding: 60px 30px;
+    margin: 0;
+    padding: 60px 30px;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 1140px;
+    margin: 0 auto;
+    max-width: 992px;
 }
 
 .container-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
-@media screen and (max-width: 1140px) {
-  .container-grid {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+@media screen and (max-width: 992px) {
+    .container-grid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 .grid-item {
-  grid-column: span 1;
+    grid-column: span 1;
 }
 
 #mainabout {
-  background-color: rgba(255, 191, 0, 0.9);
-  transition: background-color 0.25s;
-  color: #262626;
+    background-color: rgba(255, 191, 0, 0.9);
+    transition: background-color 0.25s;
+    color: #262626;
 }
 
 #mainabout:hover {
-  background-color: rgba(255, 191, 0, 1);
+    background-color: rgba(255, 191, 0, 1);
 }
 
 #mainskills {
-  background-color: rgba(232, 63, 111, 0.9);
-  transition: background-color 0.25s;
+    background-color: rgba(232, 63, 111, 0.9);
+    transition: background-color 0.25s;
 }
 
 #mainskills:hover {
-  background-color: rgba(232, 63, 111, 1);
+    background-color: rgba(232, 63, 111, 1);
 }
 
 #mainprojects {
-  background-color: rgba(34, 116, 165, 0.9);
-  transition: background-color 0.25s;
+    background-color: rgba(34, 116, 165, 0.9);
+    transition: background-color 0.25s;
 }
 
 #mainprojects:hover {
-  background-color: rgba(34, 116, 165, 1);
+    background-color: rgba(34, 116, 165, 1);
 }
 
 #maincontact {
-  background-color: rgba(50, 147, 111, 0.9);
-  transition: background-color 0.25s;
-  color: #fff;
+    background-color: rgba(50, 147, 111, 0.9);
+    transition: background-color 0.25s;
+    color: #fff;
 }
 
 #maincontact:hover {
-  background-color: rgba(50, 147, 111, 1);
+    background-color: rgba(50, 147, 111, 1);
 }
 
-#mainfooter {
-  background: #262626;
-  padding: 1rem;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
-a.quicklink {
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-a.quicklink:hover {
-  text-decoration: underline;
-}
+/* =================================== */
+/* MISC ELEMENTS /
+/* =================================== */
 
 .anchor {
-  display: block;
-  position: relative;
-  top: -9vh;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -9vh;
+    visibility: hidden;
 }
 
 .highlight {
-  background: white;
-  color: #262626;
-  padding: 0 5px;
+    background: white;
+    color: #262626;
+    padding: 0 5px;
 }
+
+#headshot {
+    width: 25vh;
+    height: 25vh;
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #headshot {
+        width: 30vh;
+        height: 30vh;
+        padding: 30px 0;
+    }
+}
+
+/* =================================== */
+/* PANELS */
+/* =================================== */
 
 .about-panel {
   padding: 18px;
   background-color: rgb(255, 255, 255);
   color: #262626;
+  transition: transform 0.1s ease-in-out;
 }
 
-.about-panel > p {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-.accordion {
-  background-color: #fff;
+.about-link {
+  margin: 1rem;
   color: #262626;
-  cursor: pointer;
-  padding: 15px;
-  margin: 1.5rem 0 0 0;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  font-family: "Raleway";
-  font-size: 3rem;
+  text-decoration: none;
 }
 
-.active,
-.accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion-secondary {
-  color: grey;
-}
-
-.panel {
-  box-sizing: content-box;
-  padding: 0 18px;
-  background-color: rgb(255, 255, 255);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  color: #262626;
-}
-
-@media screen and (max-width: 768px) {
-  .accordion {
-    font-size: 2rem;
-  }
-}
-
-.shield-container {
-  line-height: 4rem;
-}
-
-.shield {
-  padding: 5px 10px;
-  margin-right: 10px;
-}
-
-.link-shield {
-  background-color: rgba(34, 116, 165, 0.9);
-  color: white;
+.about-link:hover {
   text-decoration: underline;
 }
 
+.panel {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 1.5rem 0 0 0;
+    color: #262626;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: transform 0.1s ease-in-out;
+}
+
+.panel:hover {
+    transform: scale(1.01);
+}
+
+.panel-header {
+    background-color: #ddd;
+    color: #262626;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: "Raleway";
+    font-size: 3rem;
+}
+
+.panel-header-secondary {
+    color: #808080;
+}
+
+.panel-content {
+    padding: 0 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .panel-header {
+        font-size: 2rem;
+    }
+}
+
+/* =================================== */
+/* SHIELDS */
+/* =================================== */
+
+.shield-container {
+    line-height: 4rem;
+}
+
+.shield {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.link-shield {
+    background-color: rgba(34, 116, 165, 0.9);
+    color: white;
+    text-decoration: underline;
+}
+
 .link-shield > a {
-  color: white;
+    color: white;
 }
 
 .link-shield:hover {
-  background-color: rgba(34, 116, 165, 1);
+    background-color: rgba(34, 116, 165, 1);
 }
 
 .lang-shield {
-  background-color: rgba(50, 147, 111, 0.9);
-  color: white;
+    background-color: rgba(50, 147, 111, 0.9);
+    color: white;
 }
 
 .lang-shield:hover {
-  background-color: rgba(50, 147, 111, 1);
+    background-color: rgba(50, 147, 111, 1);
 }
 
-.skillbar {
-  width: 100%; /* Full width */
-  background-color: #ccc; /* Grey background */
+/* =================================== */
+/* FOOTER */
+/* =================================== */
+
+#mainfooter {
+    background: #262626;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
 }
 
-.skill {
-  box-sizing: border-box;
-  padding: 10px 40px;
-  margin: 20px 0;
-  text-align: left;
-  font-size: 2rem;
-  font-family: "Raleway";
-  color: white;
+a.quicklink {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-.javascript {
-  width: 100%;
-  background-color: #808080;
-}
-.java {
-  width: 100%;
-  background-color: #808080;
-}
-.rust {
-  width: 80%;
-  background-color: #808080;
-}
-.go {
-  width: 70%;
-  background-color: #808080;
-}
-.python {
-  width: 70%;
-  background-color: #808080;
-}
-.matlab {
-  width: 60%;
-  background-color: #808080;
-}
-
-.git {
-  width: 100%;
-  background-color: #808080;
-}
-.docker {
-  width: 80%;
-  background-color: #808080;
-}
-.react {
-  width: 80%;
-  background-color: #808080;
-}
-.reactnative {
-  width: 80%;
-  background-color: #808080;
-}
-.hugo {
-  width: 70%;
-  background-color: #808080;
-}
-.graphql {
-  width: 60%;
-  background-color: #808080;
-}
-.mongo {
-  width: 50%;
-  background-color: #808080;
-}
-.sql {
-  width: 30%;
-  background-color: #808080;
-}
-.nodejs {
-  width: 60%;
-  background-color: #808080;
-}
-.express {
-  width: 60%;
-  background-color: #808080;
-}
-
-.latex {
-  width: 100%;
-  background-color: #808080;
-}
-.photoshop {
-  width: 80%;
-  background-color: #808080;
-}
-.indesign {
-  width: 50%;
-  background-color: #808080;
-}
-.illustrator {
-  width: 60%;
-  background-color: #808080;
-}
-.lightroom {
-  width: 85%;
-  background-color: #808080;
-}
-.premiere {
-  width: 60%;
-  background-color: #808080;
+a.quicklink:hover {
+    text-decoration: underline;
 }
