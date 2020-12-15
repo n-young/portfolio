@@ -532,18 +532,21 @@ li {
 
 .panel-header {
     background-color: #ddd;
-    color: #262626;
     padding: 10px;
     margin: 0;
-    width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
-    font-family: "Raleway";
-    font-size: 3rem;
     display: flex;
     align-items: center;
+}
+
+.panel-header > p {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 3rem;
+  color: #262626;
 }
 
 .panel-header-icon {
