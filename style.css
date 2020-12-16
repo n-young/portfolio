@@ -535,7 +535,6 @@ li {
   background-color: rgb(255, 255, 255);
   margin: 1.5rem 0 0 0;
   color: #262626;
-  transition: transform 0.1s ease-in-out;
 }
 
 .about-panel:hover {
