@@ -504,8 +504,7 @@ li {
 }
 
 .fun-letter:hover {
-  transform: translateY(-10px) rotate(-8deg) scale(1.1);
-
+  transform: translateY(-15%) rotate(-8deg) scale(1.15);
 }
 
 .shake:hover {
