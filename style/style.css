@@ -22,36 +22,36 @@ html {
 
 @font-face {
     font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Thin.otf") format("opentype"),
-        url("font/BebasNeue-Thin.ttf") format("truetype");
+    src: url("../font/BebasNeue-Thin.otf") format("opentype"),
+        url("../font/BebasNeue-Thin.ttf") format("truetype");
     font-weight: 100;
 }
 
 @font-face {
     font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Light.otf") format("opentype"),
-        url("font/BebasNeue-Light.ttf") format("truetype");
+    src: url("../font/BebasNeue-Light.otf") format("opentype"),
+        url("../font/BebasNeue-Light.ttf") format("truetype");
     font-weight: 200;
 }
 
 @font-face {
     font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Book.otf") format("opentype"),
-        url("font/BebasNeue-Book.ttf") format("truetype");
+    src: url("../font/BebasNeue-Book.otf") format("opentype"),
+        url("../font/BebasNeue-Book.ttf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Regular.otf") format("opentype"),
-        url("font/BebasNeue-Regular.ttf") format("truetype");
+    src: url("../font/BebasNeue-Regular.otf") format("opentype"),
+        url("../font/BebasNeue-Regular.ttf") format("truetype");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "BebasNeue Yeet";
-    src: url("font/BebasNeue-Bold.otf") format("opentype"),
-        url("font/BebasNeue-Bold.ttf") format("truetype");
+    src: url("../font/BebasNeue-Bold.otf") format("opentype"),
+        url("../font/BebasNeue-Bold.ttf") format("truetype");
     font-weight: 800;
 }
 
