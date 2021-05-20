@@ -1,0 +1,39 @@
+name: nick young
+output: build
+static_src: static
+static_dest: "."
+
+global:
+    links: data/main/links.yaml
+
+partials:
+    header: views/partials/header.tmpl
+    footer: views/partials/footer.tmpl
+    transitions: views/partials/transitions.tmpl
+
+pages:
+    - title: home
+      path: /
+      template: views/index.tmpl
+      data:
+          about: data/main/about.yaml
+          headlines: data/main/headlines.yaml
+          experiences: data/main/experiences.yaml
+          projects: data/main/projects.yaml
+          misc: data/main/misc.yaml
+
+    - title: blog
+      path: /blog
+      template: views/blog.tmpl
+      data:
+          about: data/main/about.yaml
+          headlines: data/main/headlines.yaml
+          experiences: data/main/experiences.yaml
+          projects: data/main/projects.yaml
+          misc: data/main/misc.yaml
+
+collections:
+    - title: blog
+      path: /blog/post
+      template: views/post.tmpl
+      posts: posts

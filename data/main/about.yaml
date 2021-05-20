@@ -1,0 +1,23 @@
+headshot: "img/headshot.jpg"
+desc: |
+  <p>
+      My name is <strong>Nick Young</strong>, and I am currently studying
+      <strong>mathematics and computer science</strong> at <strong>Brown University</strong>.
+      I am currently a <strong>Undergraduate Teaching Assistant</strong> and
+      <strong>Socially Responsible Computing Teaching Assistant</strong> for
+      CSCI 0320 - Introduction to Software Engineering, and
+      I have served in similar teaching positions in the past.
+  </p>
+  <p>
+      My experience lies in <strong>web development, database
+          management systems, and deep learning</strong>. On the side,
+      I'm a portrait and travel <a href="https://www.instagram.com/nynynynynynynynynynyny/"
+          target="_blank" rel="noopener">photographer</a>, badminton
+      player, and Minesweeper enthusiast. Please feel free
+      to poke around my website and give me a shout if you'd
+      like to connect!
+  </p>
+  <p>
+      (If you'd like to encrypt a message addressed to me, use my (way-too-long) <a
+          href="docs/n-young-pub.txt" target="_blank" rel="noopener">public key</a>!)
+  </p>

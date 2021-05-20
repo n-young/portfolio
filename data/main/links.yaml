@@ -1,0 +1,13 @@
+links:
+  - text: Blog
+    url: "https://blog.n-young.me"
+  - text: Résumé
+    url: "resume.pdf"
+  - text: Email
+    url: "mailto:nicholas_young@brown.edu"
+  - text: Twitter
+    url: "https://twitter.com/ndashyoung"
+  - text: GitHub
+    url: "https://github.com/n-young"
+  - text: LinkedIn
+    url: "https://www.linkedin.com/in/ndashyoung"

@@ -1,0 +1,208 @@
+experiences:
+    work:
+        - name: Bloomberg
+          role: Software Engineering Intern
+          icon: "img/icons/bloomberg.png"
+          icon-alt: "bloomberg-icon"
+          content: |
+              <p>Incoming Software Engineering Intern at Bloomberg.</p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://www.bloomberg.com/" target="_blank"
+                          rel="noopener">Website</a></span>
+              </p>
+
+        - name: Stochastic AI
+          role: Software Engineering Intern
+          icon: "img/icons/stochastic.png"
+          icon-alt: "stocastic-icon"
+          content: |
+              <p>
+                  Software Engineering Intern at Stochastic, a startup
+                  that delivers hardware-accelerated cloud computing for
+                  probabilistic machine learning.
+              </p>
+              <p>
+                  Managed the web team and set up CI/CD for the website,
+                  web app, and backend using Github Actions and Netlify.
+                  Engineered the backend microservices architecture using
+                  GraphQL, Docker, Github Actions, and GCP. Designed and
+                  implemented a React app to deliver hardware-accelerated
+                  LDA analysis for scRNA sequencing. Initiated the
+                  company’s documentation effort, setting up internal and
+                  external documentation sites using Hugo.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://stochastic.ai/" target="_blank"
+                          rel="noopener">Website</a></span>
+                  <span class="shield lang-shield">Rust</span>
+                  <span class="shield lang-shield">Apollo</span>
+                  <span class="shield lang-shield">React</span>
+                  <span class="shield lang-shield">Docker</span>
+                  <span class="shield lang-shield">GCP</span>
+              </p>
+
+        - name: Stylindex
+          role: Full Stack Engineering Intern
+          icon: "img/icons/stylindex.png"
+          icon-alt: "-icon"
+          content: |
+              <p>
+                  Software Engineering Intern at Stylindex, a fully-remote
+                  fashion tech startup focused on connecting brands with
+                  top creative talent.
+              </p>
+              <p>
+                  Developed an automated GraphQL emailing microservice
+                  using Rust, replacing a manual email scheduler. Revamped
+                  the internal analytics system by building new charts in
+                  React and tracking internal activity using Rust.
+                  Refactored old React components and modules to support
+                  Typescript.
+              </p>
+              <p class="shield-container">
+                  <span class="shield lang-shield">Rust</span>
+                  <span class="shield lang-shield">GraphQL</span>
+                  <span class="shield lang-shield">React</span>
+                  <span class="shield lang-shield">TypeScript</span>
+              </p>
+    teaching:
+        - name: Database Management Systems
+          role: Head Teaching Assistant
+          icon: "img/icons/cs127.png"
+          icon-alt: "cs127-icon"
+          content: |
+              <p>
+                  Head TA for CSCI 1270 - Database Management Systems. Fall 2021.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci1270" target="_blank"
+                          rel="noopener">Course</a></span>
+              </p>
+
+        - name: Discrete Structures and Probability
+          role: Teaching Assistant
+          icon: "img/icons/cs22.png"
+          icon-alt: "cs22-icon"
+          content: |
+              <p>
+                  Undergraduate TA for CSCI 0220 - Discrete Structures and Probability.
+                  Summer 2021.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0220/" target="_blank"
+                          rel="noopener">Course</a></span>
+              </p>
+
+        - name: Software Engineering
+          role: Teaching Assistant
+          icon: "img/icons/cs32.png"
+          icon-alt: "cs32-icon"
+          content: |
+              <p>
+                  Joint Socially Responsible TA & Undergraduate TA for
+                  CSCI 0320 - Software Engineering. Spring 2021.
+              </p>
+              <p>
+                  Created new containerization (Docker), security (SQL
+                  injections), and accessibility assignments. Integrated
+                  6 new ethics assignments into existing assignments.
+                  Course had 211 enrolled students. Taught in Java and Javascript.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0320/" target="_blank"
+                          rel="noopener">Course</a></span>
+                  <span class="shield lang-shield">Java</span>
+                  <span class="shield lang-shield">SQL</span>
+                  <span class="shield lang-shield">Docker</span>
+                  <span class="shield lang-shield">Javascript</span>
+                  <span class="shield lang-shield">React</span>
+              </p>
+
+        - name: Accelerated Intro to CS
+          role: Teaching Assistant
+          icon: "img/icons/cs19.png"
+          icon-alt: "cs19-icon"
+          content: |
+              <p>
+                  Joint Socially Responsible TA & Undergraduate TA for
+                  CSCI 0190 - Accelerated Introduction to Computer
+                  Science. Fall 2020.
+              </p>
+              <p>
+                  Led coordination of lectures and labs on Discord. Wrote 11
+                  new ethics assignments. Course had 114 enrolled students.
+                  Taught in Pyret.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0190/2020"
+                          target="_blank" rel="noopener">Course</a></span>
+                  <span class="shield lang-shield">Pyret</span>
+              </p>
+
+    research:
+        - name: Adversarial Thinking in CS Education
+          role: Undergraduate Research Assistant
+          icon: "img/icons/cs19.png"
+          icon-alt: "cs19-icon"
+          content: |
+              <p>
+                  Worked with Professor Shriram Krishnamurthi to investigate
+                  adversarial thinking in computer science by analysing
+                  student responses to computing and society assignments.
+                  Applied coding and intercoder reliability iteratively and
+                  jointly produced a conference submission.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci1270/" target="_blank"
+                          rel="noopener">Course</a></span>
+              </p>
+
+    clubs:
+        - name: Full Stack at Brown
+          role: Projects Director and Lead Developer
+          icon: "img/icons/fsab.png"
+          icon-alt: "fsab-icon"
+          content: |
+              <p>
+                  Manage ~175 members and ~30 client-facing projects.
+                  Oversee recruitment of new members, hiring of product
+                  managers, and coordinating of all project groups.
+              </p>
+              <p>
+                  Created the Brown Essentials app to present real-time
+                  university data, including dining, laundry, and map
+                  information. Developed in React Native, Node.js, and
+                  Express. Deployed a GraphQL API with a MongoDB database
+                  on GCP.
+              </p>
+              <p>
+                  Led workshop development for Hack@Home, the club’s
+                  virtual hackathon.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://fullstackatbrown.com" target="_blank"
+                          rel="noopener">Website</a></span>
+                  <span class="shield lang-shield">React Native</span>
+                  <span class="shield lang-shield">Node.js</span>
+                  <span class="shield lang-shield">Express</span>
+                  <span class="shield lang-shield">GCP</span>
+              </p>
+
+        - name: Brown Political Review
+          role: Web Developer
+          icon: "img/icons/bpr.png"
+          icon-alt: "bpr-icon"
+          content: |
+              <p>
+                  Maintained the Brown Political Review website on the
+                  LAMP stack and Wordpress. Implemented mobile support,
+                  article comments, author profile pages, and optimized
+                  Schema.org microdata.
+              </p>
+              <p class="shield-container">
+                  <span class="shield link-shield"><a href="https://brownpoliticalreview.org/" target="_blank"
+                          rel="noopener">Website</a></span>
+                  <span class="shield lang-shield">Wordpress</span>
+                  <span class="shield lang-shield">PHP</span>
+                  <span class="shield lang-shield">Sass</span>
+              </p>
