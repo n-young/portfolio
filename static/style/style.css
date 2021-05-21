@@ -6,6 +6,7 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-size: 8px;
+    min-height: 100vh;
 }
 
 .example::-webkit-scrollbar {
@@ -660,6 +661,7 @@ li {
     text-align: center;
     color: white;
     position: relative;
+    bottom: 0;
 }
 
 .footer-content {

@@ -10,6 +10,9 @@ partials:
     header: views/partials/header.tmpl
     footer: views/partials/footer.tmpl
     transitions: views/partials/transitions.tmpl
+    blogheader: views/partials/blogheader.tmpl
+    blogfooter: views/partials/blogfooter.tmpl
+    postheader: views/partials/postheader.tmpl
 
 pages:
     - title: home
@@ -26,14 +29,10 @@ pages:
       path: /blog
       template: views/blog.tmpl
       data:
-          about: data/main/about.yaml
-          headlines: data/main/headlines.yaml
-          experiences: data/main/experiences.yaml
-          projects: data/main/projects.yaml
-          misc: data/main/misc.yaml
+          blog: data/blog/blog.yaml
 
 collections:
     - title: blog
-      path: /blog/post
+      path: /blog
       template: views/post.tmpl
       posts: posts

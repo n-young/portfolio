@@ -1,0 +1,20 @@
+posts:
+  - title: I took a contact tracing course so you don’t have to!
+    link: blog/contact_tracing.html
+    bin: chaotics
+    bintitle: Chaotics
+
+  - title: I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.
+    link: blog/remote.html
+    bin: computers
+    bintitle: Computers
+
+  - title: On curricular diversity and a diversity curriculum.
+    link: blog/diversity.html
+    bin: chaotics
+    bintitle: Chaotics
+
+  - title: But why?
+    link: blog/but_why.html
+    bin: chaotics
+    bintitle: Chaotics

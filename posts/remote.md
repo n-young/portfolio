@@ -6,7 +6,7 @@ bin: "computers"
 binTitle: "Computers"
 ---
 
-##### Context
+# I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.
 
 In 1981, the fat-based spreads industry underwent a cataclysmic change that, to this day, still resonates in our stomachs and pantries: I Can’t Believe It’s Not Butter™, a butter substitute, was introduced to the world. I cannot speak for all households, but in mine, this product was highly contentious. Rumours about its poor taste and adverse health effects are forever ingrained in my memory - and yet, when I tasted it for the first time at a childhood friend’s house, I genuinely could not believe it wasn’t butter™.
 
@@ -14,7 +14,7 @@ In 2020, a global pandemic has shut the world in. Companies and schools alike tr
 
 This article is for people in all stages of remote work: whether you are an intern just joining a remote company, a student trying to study off of video lectures, or even those in regular, in-person positions, but may enter a virtual role in the future. I wish to give some insight as to how virtual work can be optimized to prevent burnout and maximize productivity and joy. A disclaimer: I am not a professional careers expert. I am merely an undergraduate student who, after experiencing both virtual study and work, want to share the lessons I’ve learned the hard way with others who may find themselves in a similar position.
 
-##### Planning
+# Planning
 
 Before moving into a remote position, or even before applying to a remote listing, it’s important to do a bit of planning! Not planning in the sense of “where in my house am I going to code for 8 hours a day”, though that is necessary to sort out; rather, planning out your priorities moving into this experience, putting in place boundaries you’d like to set for yourself, and lastly cultivating routine to help preserve sanity. We’ll discuss these one by one.
 
@@ -26,7 +26,7 @@ Thirdly, routine. Similar to creating boundaries, creating routine can help your
 
 Of course, depending on the experience you’re moving into, it might be good to prepare for the role itself. If this is an internship, ask for the specific technologies and skills you’re expected to know for the job, and then prepare those skills to make the transition to work a lot simpler. If this is a remote study term, read up on syllabi and familiarize yourself with the remote study details on office hours and homework handin.
 
-##### Executing
+# Executing
 
 So you’ve done a bit of planning: you know what you want out of this remote role, you have an idea of which times and spaces are for you or for work, and you have carved out a sustainable routine to follow. Now, it’s time for the actual term. From here on, I will be speaking as though the role in question is a remote internship, but the advice should be transferable to other experiences.
 
@@ -38,7 +38,7 @@ In addition to communicating with others, it’s imperative that you keep your m
 
 Of course, like with any internship, this is your chance to learn and try out new things! If you’re feeling a little jaded or need a bit of mental stimulation, asking to take on a novel challenge or project could both signal to your employer that you’re eager, but also provide you with more relevant and valuable learning,
 
-##### Reflecting
+# Reflecting
 
 When your role inevitably comes to an end, thank your employer and connect with your coworkers, perhaps over LinkedIn. Once all of the formalities and career-related chores are out of the way, it’s time to reflect on your time with this company, and have an internal discussion on what went well, and what could have gone better.
 
