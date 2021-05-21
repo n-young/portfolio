@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>nick young</title>
+    <link rel="shortcut icon" type="image/png" href="img/NY.png" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Nick Young's personal website" />
+    <meta name="keywords"
+        content="Nick Young, Software Engineering, Software, Engineering, CS, Computer Science, Brown University, Brown, Providence, Vancouver" />
+    <meta name="author" content="Nick Young" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script/typed.js"></script>
+    <script defer src="script/jquery.min.js"></script>
+    <script defer src="script/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+
+
+<div id="transition-1">
+    <img id="transition-icon" src="img/logobw.png" alt="logo" />
+</div>
+<div id="transition-2"></div>
+<div id="transition-3"></div>
+<div id="transition-4"></div>
+<div id="transition-5"></div>
+
+
+<!--LANDING-->
+<div id="landing">
+    <div id="mainlanding">
+        <h1 id="mainname"><span id="boldname">N.</span> Young</h1>
+    </div>
+    <div class="underline"></div>
+    <div id="typedholder">
+        <h1 style="margin-bottom: 0">&gt <span id="typed"></span></h1>
+    </div>
+    <div id="typed-strings">
+               <p>Nick Young</p>
+       <p>Developer</p>
+       <p>Student</p>
+       <p>Photographer</p>
+       <p>Database Nerd</p>
+
+    </div>
+    <script>
+        var typed = new Typed("#typed", {
+            stringsElement: "#typed-strings",
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1500,
+            loop: true,
+            loopCount: Infinity,
+            smartBackspace: false,
+            shuffle: false,
+            showCursor: false,
+        });
+    </script>
+</div>
+
+<!--PROGRESS BARS-->
+<div class="progressbar" id="basebar">
+    <div class="progressbar" id="aboutbar">
+        <div class="progressbar" id="projectsbar">
+            <div class="progressbar" id="skillsbar">
+                <div class="progressbar" id="contactbar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NAVBAR-->
+<nav class="my-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
+        x
+    </button>
+    <div id="main-navbar">
+        <a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
+        <a class="nav-option" id="skillsoption" href="#skillsAnchor">experience</a>
+        <a class="nav-option" id="projectsoption" href="#projectsAnchor">projects</a>
+        <a class="nav-option" id="contactoption" href="#contactAnchor">education</a>
+    </div>
+</nav>
+
+<!--ABOUT-->
+<a class="anchor" id="aboutAnchor"></a>
+<div class="main" id="mainabout">
+    <div class="container container-grid">
+        <div class="grid-item">
+            <h1 class="fade"><span class="highlight fun">About me</span></h1>
+            <div class="about-panel fade">
+                <p>
+    My name is <strong>Nick Young</strong>, and I am currently studying
+    <strong>mathematics and computer science</strong> at <strong>Brown University</strong>.
+    I am currently a <strong>Undergraduate Teaching Assistant</strong> and
+    <strong>Socially Responsible Computing Teaching Assistant</strong> for
+    CSCI 0320 - Introduction to Software Engineering, and
+    I have served in similar teaching positions in the past.
+</p>
+<p>
+    My experience lies in <strong>web development, database
+        management systems, and deep learning</strong>. On the side,
+    I'm a portrait and travel <a href="https://www.instagram.com/nynynynynynynynynynyny/"
+        target="_blank" rel="noopener">photographer</a>, badminton
+    player, and Minesweeper enthusiast. Please feel free
+    to poke around my website and give me a shout if you'd
+    like to connect!
+</p>
+<p>
+    (If you'd like to encrypt a message addressed to me, use my (way-too-long) <a
+        href="docs/n-young-pub.txt" target="_blank" rel="noopener">public key</a>!)
+</p>
+            </div>
+            <div class="about-panel about-links fade">
+                               <p>
+                    <a class="about-link" href="https://n-young.me/blog.html" rel="noopener">[Blog]</a>
+                </p>
+               <p>
+                    <a class="about-link" href="resume.pdf" rel="noopener">[Résumé]</a>
+                </p>
+               <p>
+                    <a class="about-link" href="mailto:nicholas_young@brown.edu" rel="noopener">[Email]</a>
+                </p>
+               <p>
+                    <a class="about-link" href="https://twitter.com/ndashyoung" rel="noopener">[Twitter]</a>
+                </p>
+               <p>
+                    <a class="about-link" href="https://github.com/n-young" rel="noopener">[GitHub]</a>
+                </p>
+               <p>
+                    <a class="about-link" href="https://www.linkedin.com/in/ndashyoung" rel="noopener">[LinkedIn]</a>
+                </p>
+
+            </div>
+        </div>
+        <div class="grid-item fade" style="text-align: center">
+            <img id="headshot" class="shake" src="img/headshot.jpg" alt="portrait" />
+        </div>
+    </div>
+</div>
+
+<!--EXPERIENCE-->
+<!-- TODO: Make this more Gooey -->
+<a class="anchor" id="skillsAnchor"></a>
+<div class="main" id="mainskills">
+    <div class="container">
+        <h1 class="fade"><span class="highlight fun">Experience</span></h1>
+
+        <!-- Work -->
+        <h2 class="fade"><span class="highlight fun">Work</span></h2>
+               <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/bloomberg.png" alt="bloomberg-icon" />
+                <p>
+                    Software Engineering Intern<span class="panel-header-secondary"> — Bloomberg</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>Incoming Software Engineering Intern at Bloomberg.</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://www.bloomberg.com/" target="_blank"
+            rel="noopener">Website</a></span>
+</p>
+
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/stochastic.png" alt="stocastic-icon" />
+                <p>
+                    Software Engineering Intern<span class="panel-header-secondary"> — Stochastic AI</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Software Engineering Intern at Stochastic, a startup
+    that delivers hardware-accelerated cloud computing for
+    probabilistic machine learning.
+</p>
+<p>
+    Managed the web team and set up CI/CD for the website,
+    web app, and backend using Github Actions and Netlify.
+    Engineered the backend microservices architecture using
+    GraphQL, Docker, Github Actions, and GCP. Designed and
+    implemented a React app to deliver hardware-accelerated
+    LDA analysis for scRNA sequencing. Initiated the
+    company’s documentation effort, setting up internal and
+    external documentation sites using Hugo.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://stochastic.ai/" target="_blank"
+            rel="noopener">Website</a></span>
+    <span class="shield lang-shield">Rust</span>
+    <span class="shield lang-shield">Apollo</span>
+    <span class="shield lang-shield">React</span>
+    <span class="shield lang-shield">Docker</span>
+    <span class="shield lang-shield">GCP</span>
+</p>
+
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/stylindex.png" alt="-icon" />
+                <p>
+                    Full Stack Engineering Intern<span class="panel-header-secondary"> — Stylindex</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Software Engineering Intern at Stylindex, a fully-remote
+    fashion tech startup focused on connecting brands with
+    top creative talent.
+</p>
+<p>
+    Developed an automated GraphQL emailing microservice
+    using Rust, replacing a manual email scheduler. Revamped
+    the internal analytics system by building new charts in
+    React and tracking internal activity using Rust.
+    Refactored old React components and modules to support
+    Typescript.
+</p>
+<p class="shield-container">
+    <span class="shield lang-shield">Rust</span>
+    <span class="shield lang-shield">GraphQL</span>
+    <span class="shield lang-shield">React</span>
+    <span class="shield lang-shield">TypeScript</span>
+</p>
+
+
+            </div>
+        </div>
+
+
+        <!-- Teaching -->
+        <h2 class="fade"><span class="highlight fun">Teaching</span></h2>
+               <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/cs127.png" alt="cs127-icon" />
+                <p>
+                    Head Teaching Assistant<span class="panel-header-secondary"> — Database Management Systems</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Head TA for CSCI 1270 - Database Management Systems. Fall 2021.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci1270" target="_blank"
+            rel="noopener">Course</a></span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/cs22.png" alt="cs22-icon" />
+                <p>
+                    Teaching Assistant<span class="panel-header-secondary"> — Discrete Structures and Probability</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Undergraduate TA for CSCI 0220 - Discrete Structures and Probability.
+    Summer 2021.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0220/" target="_blank"
+            rel="noopener">Course</a></span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/cs32.png" alt="cs32-icon" />
+                <p>
+                    Teaching Assistant<span class="panel-header-secondary"> — Software Engineering</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Joint Socially Responsible TA & Undergraduate TA for
+    CSCI 0320 - Software Engineering. Spring 2021.
+</p>
+<p>
+    Created new containerization (Docker), security (SQL
+    injections), and accessibility assignments. Integrated
+    6 new ethics assignments into existing assignments.
+    Course had 211 enrolled students. Taught in Java and Javascript.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0320/" target="_blank"
+            rel="noopener">Course</a></span>
+    <span class="shield lang-shield">Java</span>
+    <span class="shield lang-shield">SQL</span>
+    <span class="shield lang-shield">Docker</span>
+    <span class="shield lang-shield">Javascript</span>
+    <span class="shield lang-shield">React</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/cs19.png" alt="cs19-icon" />
+                <p>
+                    Teaching Assistant<span class="panel-header-secondary"> — Accelerated Intro to CS</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Joint Socially Responsible TA & Undergraduate TA for
+    CSCI 0190 - Accelerated Introduction to Computer
+    Science. Fall 2020.
+</p>
+<p>
+    Led coordination of lectures and labs on Discord. Wrote 11
+    new ethics assignments. Course had 114 enrolled students.
+    Taught in Pyret.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci0190/2020"
+            target="_blank" rel="noopener">Course</a></span>
+    <span class="shield lang-shield">Pyret</span>
+</p>
+
+            </div>
+        </div>
+
+
+        <!-- Research -->
+        <h2 class="fade"><span class="highlight fun">Research</span></h2>
+               <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/cs19.png" alt="cs19-icon" />
+                <p>
+                    Undergraduate Research Assistant<span class="panel-header-secondary"> — Adversarial Thinking in CS Education</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Worked with Professor Shriram Krishnamurthi to investigate
+    adversarial thinking in computer science by analysing
+    student responses to computing and society assignments.
+    Applied coding and intercoder reliability iteratively and
+    jointly produced a conference submission.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://cs.brown.edu/courses/csci1270/" target="_blank"
+            rel="noopener">Course</a></span>
+</p>
+
+            </div>
+        </div>
+
+
+        <!-- Clubs -->
+        <h2 class="fade"><span class="highlight fun">Clubs</span></h2>
+               <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/fsab.png" alt="fsab-icon" />
+                <p>
+                    Projects Director and Lead Developer<span class="panel-header-secondary"> — Full Stack at Brown</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Manage ~175 members and ~30 client-facing projects.
+    Oversee recruitment of new members, hiring of product
+    managers, and coordinating of all project groups.
+</p>
+<p>
+    Created the Brown Essentials app to present real-time
+    university data, including dining, laundry, and map
+    information. Developed in React Native, Node.js, and
+    Express. Deployed a GraphQL API with a MongoDB database
+    on GCP.
+</p>
+<p>
+    Led workshop development for Hack@Home, the club’s
+    virtual hackathon.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://fullstackatbrown.com" target="_blank"
+            rel="noopener">Website</a></span>
+    <span class="shield lang-shield">React Native</span>
+    <span class="shield lang-shield">Node.js</span>
+    <span class="shield lang-shield">Express</span>
+    <span class="shield lang-shield">GCP</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/bpr.png" alt="bpr-icon" />
+                <p>
+                    Web Developer<span class="panel-header-secondary"> — Brown Political Review</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Maintained the Brown Political Review website on the
+    LAMP stack and Wordpress. Implemented mobile support,
+    article comments, author profile pages, and optimized
+    Schema.org microdata.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://brownpoliticalreview.org/" target="_blank"
+            rel="noopener">Website</a></span>
+    <span class="shield lang-shield">Wordpress</span>
+    <span class="shield lang-shield">PHP</span>
+    <span class="shield lang-shield">Sass</span>
+</p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--PROJECTS-->
+<a class="anchor" id="projectsAnchor"></a>
+<div class="main" id="mainprojects">
+    <div class="container">
+        <h1 class="fade"><span class="highlight fun">Projects</span></h1>
+               <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/tsdb.png" alt="tsdb-icon" />
+                <p>
+                    TRustDB<span class="panel-header-secondary"> — Timeseries Database for High-cardinality Data.</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Built a highly performant time-series database in Rust.
+    Leverages boolean logic-based query optimization to achieve
+    up to 250x speedup in query evaluation, bit-level compression
+    on time series records, and finite-state transducers-based
+    indexing strategies to remain time- and space-efficient for incredibly
+    high cardinality data. Completed as part of a research project for
+    CSCI 2270 - Managing and Mining Massive Time Series.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="docs/trustdb.pdf" target="_blank"
+            rel="noopener">Paper</a></span>
+    <span class="shield link-shield"><a href="https://github.com/n-young/trustdb" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">Rust</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/goo.png" alt="goo-icon" />
+                <p>
+                    Goo<span class="panel-header-secondary"> — Minimal Sitebuilding using YAML and Markdown.</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Designed and built a static site generator that uses YAML and Markdown
+    files to specify and generate the structure of the website. Supports
+    partials, data injection, inline math, :joy:-like emojis, and much more.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://github.com/n-young/goo" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">Go</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/gomoku.png" alt="gomoku-icon" />
+                <p>
+                    Gomoku<span class="panel-header-secondary"> — Connect Five!</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Built a Gomoku app using React, Express, and Socket.io.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://gomoku.n-young.me" target="_blank"
+            rel="noopener">Play!</a></span>
+    <span class="shield link-shield"><a href="https://github.com/n-young/gomoku" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">React</span>
+    <span class="shield lang-shield">Express</span>
+    <span class="shield lang-shield">Socket.io</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/oxysat.png" alt="oxysat-icon" />
+                <p>
+                    OxySAT<span class="panel-header-secondary"> — SAT Solving</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Built a SAT solver in Rust using the DPLL algorithm
+    with minor heuristics to optimize search. Completed
+    as part of a project for CSCI 1710 - Logic for Systems.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://github.com/n-young/oxysat" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">Rust</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/deepkart64.png" alt="deepkart64-icon" />
+                <p>
+                    DeepKart64<span class="panel-header-secondary"> — Mario Kart Solved?</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Designed and implemented DeepKart64, a reinforcement
+    learning model built to play Mario Kart 64 on the N64.
+    Used a pre-build Mario Kart 64 OpenAI gym wrapper
+    alongside Tensorflow to build the agent. The model
+    utilized a convolutional encoder to interpret the visual
+    game state and a REINFORCE with baseline model to
+    determine actions and rewards.
+</p>
+<p>
+    Completed as part of a final project for CSCI 1470 -
+    Deep Learning at Brown University. Worked with three
+    other team members. Primarily contributed to development
+    setup, model tweaking, and command line integrations.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://github.com/n-young/deepkart64" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">Tensorflow</span>
+    <span class="shield lang-shield">Python</span>
+    <span class="shield lang-shield">Docker</span>
+    <span class="shield lang-shield">GCP</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/droppy.png" alt="droppy-icon" />
+                <p>
+                    Droppy<span class="panel-header-secondary"> — File sharing simplified.</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Developed Droppy, a quick and easy way of sharing files
+    securely. Simply upload a file, and optionally attach a
+    note, an expiration date, or a password, then
+    autogenerate a link to share the files with others!
+</p>
+<p>
+    Implemented the front end in React. The back end was
+    built with Rust using Rocket. Files are stored in AWS
+    S3, metadata is stored seperately in MongoDB. Deployed
+    on Netlify and GCP.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://droppy.n-young.me" target="_blank"
+            rel="noopener">Demo</a></span>
+    <span class="shield link-shield"><a href="https://github.com/n-young/droppy" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">Rust</span>
+    <span class="shield lang-shield">React</span>
+    <span class="shield lang-shield">GCP</span>
+    <span class="shield lang-shield">AWS</span>
+    <span class="shield lang-shield">MongoDB</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/parseltongue.png" alt="parseltongue-icon" />
+                <p>
+                    ParselTongue<span class="panel-header-secondary"> — Smart paper parsing.</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    Built ParselTongue, an academic paper skimmer, as a
+    final project for CSCI 0320 - Software Engineering. With
+    just a few keywords, ParselTongue finds the most salient
+    parts of academic papers to your described topics,
+    saving countless hours of research.
+</p>
+<p>
+    Implemented the front end using Freemarker templates,
+    and used Java and Apache Spark for user validation,
+    persistence, and data handling. Database was implemented
+    in MongoDB. Back end relies on the PageRank algorithm to
+    search PDFs for semantic covariance.
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://parseltongue-cs32.herokuapp.com/" target="_blank"
+            rel="noopener">Demo</a></span>
+    <span class="shield lang-shield">Java</span>
+    <span class="shield lang-shield">Javascript</span>
+    <span class="shield lang-shield">HTML/CSS</span>
+    <span class="shield lang-shield">MongoDB</span>
+</p>
+
+            </div>
+        </div>
+       <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/linguaml.png" alt="linguaml-icon" />
+                <p>
+                    LinguaML<span class="panel-header-secondary"> — "On the go" language learning.</span>
+                </p>
+            </div>
+            <div class="panel-content">
+                <p>
+    LinguaML is a computer-vision powered language learning
+    app designed for on-the-go learners. With just a picture
+    of your subject, flashcards for any language are
+    generated within seconds and saved in the app. You can
+    view, study, edit, and share flashcards with your
+    friends!
+</p>
+<p>
+    LinguaML was conceived and developed at Hack@Brown 2020.
+    It won the Facebook award for "Best hack that builds
+    community through private or small-group interaction".
+</p>
+<p class="shield-container">
+    <span class="shield link-shield"><a href="https://github.com/n-young/linguaml2" target="_blank"
+            rel="noopener">Repo</a></span>
+    <span class="shield lang-shield">React Native</span>
+    <span class="shield lang-shield">Node.js</span>
+    <span class="shield lang-shield">Google Vision API</span>
+</p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--MISC-->
+<a class="anchor" id="contactAnchor"></a>
+<div class="main" id="maincontact">
+    <div class="container">
+        <h1 class="fade"><span class="highlight fun">Education</span></h1>
+
+        <!-- Brown -->
+        <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/brown.png" alt="droppy-icon" />
+                <p>Brown University</p>
+            </div>
+            <div class="panel-content">
+                <p><strong>Computer Science Courses</strong></p>
+                <ul>
+                                       <li>Accelerated Intro to CS</li>
+                   <li>Introduction to Software Engineering</li>
+                   <li>Introduction to Computer Systems</li>
+                   <li>Database Management Systems</li>
+                   <li>Deep Learning</li>
+                   <li>Logic for Systems</li>
+                   <li>Topics in Database Management (Graduate Level)</li>
+                   <li>Advanced Probabilistic Methods in CS (Graduate Level)</li>
+
+                </ul>
+                <p><strong>Math Courses</strong></p>
+                <ul>
+                                       <li>Linear Algebra</li>
+                   <li>Statistical Inference I</li>
+                   <li>Introduction to Discrete Structures and Probability</li>
+                   <li>Abstract Algebra</li>
+                   <li>Graph Theory</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Other Coursework -->
+        <div class="panel fade">
+            <div class="panel-header">
+                <img class="panel-header-icon shake" src="img/icons/other-education.png" alt="droppy-icon" />
+                <p>Other Coursework</p>
+            </div>
+            <div class="panel-content">
+                <p><strong>Coursera</strong></p>
+                <ul>
+                                       <li>Deep Learning Specialization</li>
+                   <li>Machine Learning</li>
+                   <li>COVID-19 Contact Tracing</li>
+                   <li>Bloomberg Market Concepts</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="mainfooter">
+    <div class="footer-content">
+        <p>Designed with ♥️ by Nick Young © 2020</p>
+        <p>
+
+                       <a class="quicklink" href="https://n-young.me/blog.html" target="_blank" rel="noopener">[Blog]</a>
+           <a class="quicklink" href="resume.pdf" target="_blank" rel="noopener">[Résumé]</a>
+           <a class="quicklink" href="mailto:nicholas_young@brown.edu" target="_blank" rel="noopener">[Email]</a>
+           <a class="quicklink" href="https://twitter.com/ndashyoung" target="_blank" rel="noopener">[Twitter]</a>
+           <a class="quicklink" href="https://github.com/n-young" target="_blank" rel="noopener">[GitHub]</a>
+           <a class="quicklink" href="https://www.linkedin.com/in/ndashyoung" target="_blank" rel="noopener">[LinkedIn]</a>
+
+        </p>
+    </div>
+    <div class="footer-lines">
+        <div class="footer-line" id="footer-line-1"></div>
+        <div class="footer-line" id="footer-line-2"></div>
+        <div class="footer-line" id="footer-line-3"></div>
+        <div class="footer-line" id="footer-line-4"></div>
+    </div>
+</div>
+</body>
+</html>
