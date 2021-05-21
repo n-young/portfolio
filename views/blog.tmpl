@@ -1,0 +1,24 @@
+{{ partial blogheader }}
+
+<header id="banner">
+    <h2><a href="https://n-young.me/blog.html">nick young | blog</a></h2>
+    <div class="underline"></div>
+</header>
+
+<div class="main" id="mainblog">
+    <div class="container">
+        <h1 class="fade"><span class="highlight fun">Posts</span></h1>
+        <ul id="posts">
+            {{ loop blog.posts
+            <li>
+                <span class="tooltip ${bin}">&#9632;<span class="tooltiptext">${bintitle}</span></span>
+                <a class="postLink" href="${link}">
+                    ${title}
+                </a>
+            </li>
+            }}
+        </ul>
+    </div>
+</div>
+
+{{ partial blogfooter }}
