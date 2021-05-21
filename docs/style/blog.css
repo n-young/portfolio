@@ -148,6 +148,12 @@ footer#mainfooter > div.footer-content {
     padding: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    footer#mainfooter {
+        display: none;
+    }
+}
+
 footer#mainfooter > div.footer-content > p > a {
     font-size: 2rem;
     color: white;

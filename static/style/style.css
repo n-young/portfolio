@@ -391,7 +391,7 @@ li {
 
 .main {
     margin: 0;
-    padding: 60px 30px;
+    padding: 60px 1f0px;
 }
 
 .container {
@@ -551,6 +551,12 @@ li {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-links {
+        flex-direction: column;
+      }
 }
 
 .about-link {
