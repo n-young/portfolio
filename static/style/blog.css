@@ -107,6 +107,10 @@ div#mainblog p {
     font-size: 2rem;
 }
 
+div#mainblog table {
+    font-size: 2rem;
+}
+
 div#mainblog ul#posts {
     list-style-type: none;
     font-size: 2.5rem;

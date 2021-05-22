@@ -1,4 +1,9 @@
 posts:
+  - title: Pursuing a Concurrent Master's Degree at Brown
+    link: blog/concurrent.html
+    bin: chaotics
+    bintitle: Chaotics
+
   - title: I took a contact tracing course so you don’t have to!
     link: blog/contact_tracing.html
     bin: chaotics

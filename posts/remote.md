@@ -1,7 +1,6 @@
 ---
 title: "I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great."
 date: 2020-07-09T08:51:56-07:00
-draft: false
 bin: "computers"
 binTitle: "Computers"
 ---
