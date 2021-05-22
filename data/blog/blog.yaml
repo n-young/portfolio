@@ -1,25 +1,25 @@
 posts:
   - title: Pursuing a Concurrent Master's Degree at Brown
-    link: blog/concurrent.html
+    link: blog/concurrent
     bin: chaotics
     bintitle: Chaotics
 
   - title: I took a contact tracing course so you don’t have to!
-    link: blog/contact_tracing.html
+    link: blog/contact_tracing
     bin: chaotics
     bintitle: Chaotics
 
   - title: I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.
-    link: blog/remote.html
+    link: blog/remote
     bin: computers
     bintitle: Computers
 
   - title: On curricular diversity and a diversity curriculum.
-    link: blog/diversity.html
+    link: blog/diversity
     bin: chaotics
     bintitle: Chaotics
 
   - title: But why?
-    link: blog/but_why.html
+    link: blog/but_why
     bin: chaotics
     bintitle: Chaotics

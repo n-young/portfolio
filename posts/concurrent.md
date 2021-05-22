@@ -17,7 +17,7 @@ For context, I'm currently (as of May 2021) going through the Concurrent Master'
 I want to first document the resources that helped me the most, knowing that this program isn't well advertised and most academic advisors don't know much, if anything, about it. The [associated Brown webpage](https://www.brown.edu/academics/gradschool/undergraduate/concurrent-bachelorsmasters-degrees) is hardly helpful, but good to see. The linked application was out of date when I first downloaded it, so I emailed the correct Dean (who I found at the [Whom to Contact](https://www.brown.edu/academics/college/people/responsibilities) page) for an updated copy. Note that another great option is the [Fifth-Year Masters program](https://www.brown.edu/academics/gradschool/fifth-year), which features less time crunch and fewer course requirements. Lastly, two other blog posts written by [Eric Jang](https://blog.evjang.com/2018/01/brown-cm.html) and [Zachary Espiritu](https://zacharyespiritu.com/notes/brown-courses/) may also prove useful, as they were for me.
 
 
-# Requirements
+## Requirements
 
 There are a lot of requirements; I've done my best to detail everything here. Your degree requirements (for both degrees) will be different depending on your degree program; I highly suggest going through the requirements with the Dean responsible for the Concurrent Master's program at some point, just to see if any new rules or odd edge cases apply to you. I'll refer to students completing the program as "applicants".
 
@@ -40,7 +40,7 @@ Moreover, applicants must take two courses above the introductory level (_i.e._ 
 > The statement should discuss how this program will enhance your undergraduate education; a description of the graduate program you intend to pursue, including a tentative description of the final research project for the master’s degree (if any); and your professional goals This statement is comparable to the statement of purpose in a regular graduate school admissions process.
 
 
-# My Courses
+## My Courses
 
 The following are the courses I've taken so far. I'll update this list (and the associate advice) as I progress through my degree.
 
@@ -218,7 +218,7 @@ The following are the courses I've taken so far. I'll update this list (and the 
 
 
 
-# Recommendations
+## Recommendations
 
 _I am not an academic advisor, and the following advice is based solely on my experience in the program._
 
@@ -235,6 +235,6 @@ _I am not an academic advisor, and the following advice is based solely on my ex
 **What's the benefit of doing the program? -** Another piece of paper. Depending on your post-graduate path, doing this program might be a complete waste of time. If you're in a field where having a Master's degree isn't helpful, then why bother. If you plan on going to graduate school, where you can get a Master's _en route_ to your PhD, why bother. But if your Bachelor's degree is your last stop in higher education and a Master's is useful, then it's a great program.
 
 
-# Closing
+## Closing
 
 I hope this advice helps; if any of it is unclear or inaccurate, please email me and I'll update it.
