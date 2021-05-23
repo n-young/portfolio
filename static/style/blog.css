@@ -101,11 +101,19 @@ div#mainblog h3 {
     margin: 3rem 0 1rem 0;
 }
 
-div#mainblog p {
+div#mainblog p table {
     font-size: 2rem;
 }
 
 div#mainblog table {
+    font-size: 2rem;
+}
+
+div#mainblog ul {
+    font-size: 2rem;
+}
+
+div#mainblog li {
     font-size: 2rem;
 }
 
