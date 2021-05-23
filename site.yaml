@@ -10,8 +10,8 @@ partials:
     header: views/partials/header.tmpl
     footer: views/partials/footer.tmpl
     transitions: views/partials/transitions.tmpl
-    blogheader: views/partials/blogheader.tmpl
-    blogfooter: views/partials/blogfooter.tmpl
+    notesheader: views/partials/notesheader.tmpl
+    notesfooter: views/partials/notesfooter.tmpl
     postheader: views/partials/postheader.tmpl
 
 pages:
@@ -25,14 +25,14 @@ pages:
           projects: data/main/projects.yaml
           misc: data/main/misc.yaml
 
-    - title: blog
-      path: /blog
-      template: views/blog.tmpl
+    - title: notes
+      path: /notes
+      template: views/notes.tmpl
       data:
-          blog: data/blog/blog.yaml
+          notes: data/notes/notes.yaml
 
 collections:
-    - title: blog
-      path: /blog
+    - title: notes
+      path: /notes
       template: views/post.tmpl
       posts: posts

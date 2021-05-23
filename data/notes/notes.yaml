@@ -1,25 +1,35 @@
 posts:
+  - title: Discord as a Zoom replacement for the classroom
+    link: notes/discord
+    bin: chaotics
+    bintitle: Chaotics
+
+  - title: Why I disprefer Slack
+    link: notes/slack
+    bin: chaotics
+    bintitle: Chaotics
+
   - title: Pursuing a Concurrent Master's Degree at Brown
-    link: blog/concurrent
+    link: notes/concurrent
     bin: chaotics
     bintitle: Chaotics
 
   - title: I took a contact tracing course so you don’t have to!
-    link: blog/contact_tracing
+    link: notes/contact_tracing
     bin: chaotics
     bintitle: Chaotics
 
   - title: I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.
-    link: blog/remote
+    link: notes/remote
     bin: computers
     bintitle: Computers
 
   - title: On curricular diversity and a diversity curriculum.
-    link: blog/diversity
+    link: notes/diversity
     bin: chaotics
     bintitle: Chaotics
 
   - title: But why?
-    link: blog/but_why
+    link: notes/but_why
     bin: chaotics
     bintitle: Chaotics

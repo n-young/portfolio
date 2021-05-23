@@ -1,6 +1,6 @@
 ---
 title: "Pursuing a Concurrent Master's Degree at Brown"
-date: 2020-06-26T18:38:41-07:00
+date: 2021-05-22T18:38:41-07:00
 draft: false
 bin: "chaotics"
 binTitle: "Chaotics"

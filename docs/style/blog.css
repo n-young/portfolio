@@ -98,7 +98,7 @@ div#mainblog h2 {
 
 div#mainblog h3 {
     font-size: 2rem;
-    text-decoration: underline;
+    margin: 3rem 0 1rem 0;
 }
 
 div#mainblog p {
