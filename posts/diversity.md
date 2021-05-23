@@ -1,7 +1,6 @@
 ---
 title: "On curricular diversity and a diversity curriculum."
-bin: "chaotics"
-binTitle: "Chaotics"
+date: 2020 July 10
 ---
 
 # On curricular diversity and a diversity curriculum.

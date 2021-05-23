@@ -1,11 +1,9 @@
 ---
-title: "Why I disprefer Slack"
-date: 2021-05-23T18:38:41-07:00
-bin: "chaotics"
-binTitle: "Chaotics"
+title: "Why I avoid Slack"
+date: 2021 May 23
 ---
 
-# Why I disprefer Slack
+# Why I avoid Slack
 
 Every time I join a new club, team, organization, or workplace, and especially when I'm met with the (dis)pleasure of choosing the main method of communication, I'm forced to relive all of the stages of grief associated with considering Slack. My great tragedy is that I've yet to find a suitable alternative to Slack that I'm willing to double down on, so it always reemerges as a sane default, even though it itself has very few. Slack has a lot going for it; most people already have a Slack environment installed (on a mobile or desktop app), are used to checking it for notifications, and understand the environment. It's a pretty app with a recognizable name and tons of integrations, so I have no trouble understanding why people like it and use it. It's also quite likely that a platform that fulfills all of my requirements for a good communication platform either doesn't or can't exist. But many of Slack's features (or lack thereof) don't work for me, so I'm writing a post about it to immortalize my distaste.
 

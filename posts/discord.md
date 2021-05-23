@@ -1,8 +1,6 @@
 ---
 title: "Discord as a Zoom replacement for the classroom"
-date: 2021-05-23T18:38:41-07:00
-bin: "chaotics"
-binTitle: "Chaotics"
+date: 2021 May 23
 ---
 
 # Discord as a Zoom replacement for the classroom

@@ -1,8 +1,6 @@
 ---
 title: "But why?"
-date: 2020-05-17T15:53:33-07:00
-bin: "chaotics"
-binTitle: "Chaotics"
+date: 2020 May 5
 ---
 
 # But why?
