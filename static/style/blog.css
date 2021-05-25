@@ -79,11 +79,6 @@ div#mainblog a:hover {
     text-decoration: underline;
 }
 
-div#mainblog p {
-    color: #262626;
-    margin: 16px 0;
-}
-
 div#mainblog h1 {
     font-size: 3rem;
     margin: 3rem 0 1rem 0;
@@ -103,6 +98,8 @@ div#mainblog h3 {
 
 div#mainblog p {
     font-size: 2rem;
+    color: #262626;
+    margin: 16px 0;
 }
 
 div#mainblog table {
