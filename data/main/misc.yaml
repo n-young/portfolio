@@ -16,7 +16,7 @@ math-courses:
     - course: Graph Theory
 
 coursera-courses:
-  - course: Deep Learning Specialization
-  - course: Machine Learning
-  - course: COVID-19 Contact Tracing
-  - course: Bloomberg Market Concepts
+    - course: Deep Learning Specialization
+    - course: Machine Learning
+    - course: COVID-19 Contact Tracing
+    - course: Bloomberg Market Concepts

@@ -13,13 +13,13 @@ projects:
               high cardinality data. Completed as part of a research project for
               CSCI 2270 - Managing and Mining Massive Time Series.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="docs/trustdb.pdf" target="_blank"
-                      rel="noopener">Paper</a></span>
-              <span class="shield link-shield"><a href="https://github.com/n-young/trustdb" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">Rust</span>
-          </p>
+      link-shields:
+        - link: docs/trustdb.pdf
+          text: Paper
+        - link: https://github.com/n-young/trustdb
+          text: Repo
+      lang-shields:
+        - text: Rust
 
     - title: Goo
       subtitle: Minimal Sitebuilding using YAML and Markdown.
@@ -31,11 +31,11 @@ projects:
               files to specify and generate the structure of the website. Supports
               partials, data injection, inline math, :joy:-like emojis, and much more.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://github.com/n-young/goo" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">Go</span>
-          </p>
+      link-shields:
+        - link: https://github.com/n-young/goo
+          text: Repo
+      lang-shields:
+        - text: Go
 
     - title: Gomoku
       subtitle: Connect Five!
@@ -46,15 +46,15 @@ projects:
               Built a Gomoku app using React, Express, and Socket.io.
               Features include multiplayer, chat, and win detection.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://gomoku.n-young.me" target="_blank"
-                      rel="noopener">Play!</a></span>
-              <span class="shield link-shield"><a href="https://github.com/n-young/gomoku" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">React</span>
-              <span class="shield lang-shield">Express</span>
-              <span class="shield lang-shield">Socket.io</span>
-          </p>
+      link-shields:
+        - link: https://gomoku.n-young.me
+          text: Play!
+        - link: https://github.com/n-young/gomoku
+          text: Repo
+      lang-shields:
+        - text: React
+        - text: Express
+        - text: Socket.io
 
     - title: OxySAT
       subtitle: SAT Solving
@@ -66,11 +66,11 @@ projects:
               with minor heuristics to optimize search. Completed
               as part of a project for CSCI 1710 - Logic for Systems.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://github.com/n-young/oxysat" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">Rust</span>
-          </p>
+      link-shields:
+        - link: https://github.com/n-young/oxysat
+          text: Repo
+      lang-shields:
+        - text: Rust
 
     - title: DeepKart64
       subtitle: Mario Kart Solved?
@@ -92,14 +92,14 @@ projects:
               other team members. Primarily contributed to development
               setup, model tweaking, and command line integrations.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://github.com/n-young/deepkart64" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">Tensorflow</span>
-              <span class="shield lang-shield">Python</span>
-              <span class="shield lang-shield">Docker</span>
-              <span class="shield lang-shield">GCP</span>
-          </p>
+      link-shields:
+        - link: https://github.com/n-young/deepkart64
+          text: Repo
+      lang-shields:
+        - text: Tensorflow
+        - text: Python
+        - text: Docker
+        - text: GCP
 
     - title: Droppy
       subtitle: File sharing simplified.
@@ -118,17 +118,17 @@ projects:
               S3, metadata is stored seperately in MongoDB. Deployed
               on Netlify and GCP.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://droppy.n-young.me" target="_blank"
-                      rel="noopener">Demo</a></span>
-              <span class="shield link-shield"><a href="https://github.com/n-young/droppy" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">Rust</span>
-              <span class="shield lang-shield">React</span>
-              <span class="shield lang-shield">GCP</span>
-              <span class="shield lang-shield">AWS</span>
-              <span class="shield lang-shield">MongoDB</span>
-          </p>
+      link-shields:
+        - link: https://droppy.n-young.me
+          text: Demo
+        - link: https://github.com/n-young/droppy
+          text: Repo
+      lang-shields:
+        - text: Rust
+        - text: React
+        - text: GCP
+        - text: AWS
+        - text: MongoDB
 
     - title: ParselTongue
       subtitle: Smart paper parsing.
@@ -149,14 +149,14 @@ projects:
               in MongoDB. Back end relies on the PageRank algorithm to
               search PDFs for semantic covariance.
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://parseltongue-cs32.herokuapp.com/" target="_blank"
-                      rel="noopener">Demo</a></span>
-              <span class="shield lang-shield">Java</span>
-              <span class="shield lang-shield">Javascript</span>
-              <span class="shield lang-shield">HTML/CSS</span>
-              <span class="shield lang-shield">MongoDB</span>
-          </p>
+      link-shields:
+        - link: https://parseltongue-cs32.herokuapp.com/
+          text: Demo
+      lang-shields:
+        - text: Java
+        - text: Javascript
+        - text: HTML/CSS
+        - text: MongoDB
 
     - title: LinguaML
       subtitle: '"On the go" language learning.'
@@ -176,10 +176,10 @@ projects:
               It won the Facebook award for "Best hack that builds
               community through private or small-group interaction".
           </p>
-          <p class="shield-container">
-              <span class="shield link-shield"><a href="https://github.com/n-young/linguaml2" target="_blank"
-                      rel="noopener">Repo</a></span>
-              <span class="shield lang-shield">React Native</span>
-              <span class="shield lang-shield">Node.js</span>
-              <span class="shield lang-shield">Google Vision API</span>
-          </p>
+      link-shields:
+        - link: https://github.com/n-young/linguaml2
+          text: Repo
+      lang-shields:
+        - text: React Native
+        - text: Node.js
+        - text: Google Vision API

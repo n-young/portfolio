@@ -79,15 +79,14 @@
 </div>
 
 <!--EXPERIENCE-->
-<!-- TODO: Make this more Gooey -->
 <a class="anchor" id="skillsAnchor"></a>
 <div class="main" id="mainskills">
     <div class="container">
         <h1 class="fade"><span class="highlight fun">Experience</span></h1>
 
-        <!-- Work -->
-        <h2 class="fade"><span class="highlight fun">Work</span></h2>
-        {{ loop experiences.experiences.work
+        {{ loop experiences.categories
+        <h2 class="fade"><span class="highlight fun">${category.title}</span></h2>
+        {{ loop category.list
         <div class="panel fade">
             <div class="panel-header">
                 <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
@@ -97,57 +96,17 @@
             </div>
             <div class="panel-content">
                 ${content}
-
+                <p class="shield-container">
+                    {{ loop link-shields
+                    <span class="shield link-shield"><a href="${link}" target="_blank" rel="noopener">${text}</a></span>
+                    }}
+                    {{ loop lang-shields
+                    <span class="shield lang-shield">${text}</span>
+                    }}
+                </p>
             </div>
         </div>
         }}
-
-        <!-- Teaching -->
-        <h2 class="fade"><span class="highlight fun">Teaching</span></h2>
-        {{ loop experiences.experiences.teaching
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
-                <p>
-                    ${role}<span class="panel-header-secondary"> — ${name}</span>
-                </p>
-            </div>
-            <div class="panel-content">
-                ${content}
-            </div>
-        </div>
-        }}
-
-        <!-- Research -->
-        <h2 class="fade"><span class="highlight fun">Research</span></h2>
-        {{ loop experiences.experiences.research
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
-                <p>
-                    ${role}<span class="panel-header-secondary"> — ${name}</span>
-                </p>
-            </div>
-            <div class="panel-content">
-                ${content}
-            </div>
-        </div>
-        }}
-
-        <!-- Clubs -->
-        <h2 class="fade"><span class="highlight fun">Clubs</span></h2>
-        {{ loop experiences.experiences.clubs
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
-                <p>
-                    ${role}<span class="panel-header-secondary"> — ${name}</span>
-                </p>
-            </div>
-            <div class="panel-content">
-                ${content}
-            </div>
-        </div>
         }}
     </div>
 </div>
@@ -167,6 +126,14 @@
             </div>
             <div class="panel-content">
                 ${content}
+                <p class="shield-container">
+                    {{ loop link-shields
+                    <span class="shield link-shield"><a href="${link}" target="_blank" rel="noopener">${text}</a></span>
+                    }}
+                    {{ loop lang-shields
+                    <span class="shield lang-shield">${text}</span>
+                    }}
+                </p>
             </div>
         </div>
         }}
