@@ -211,6 +211,46 @@ The following are the courses I've taken so far. I'll update this list (and the 
    <td>Philosophy of the Environment: Environmental Utopias
    </td>
   </tr>
+  <tr>
+   <td>Fall 2021
+   </td>
+   <td>BIOL 0800
+   </td>
+   <td>Principles of Physiology
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CLPS 0010
+   </td>
+   <td>Mind, Brain and Behavior: An Interdisciplinary Approach
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 1230
+   </td>
+   <td>Introduction to Computer Graphics
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 1730
+   </td>
+   <td>Design and Implementation of Programming Languages
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>ECON 0710
+   </td>
+   <td>Financial Accounting
+   </td>
+  </tr>
 </table>
 
 
