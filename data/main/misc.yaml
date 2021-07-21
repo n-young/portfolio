@@ -7,6 +7,8 @@ cs-courses:
     - course: Logic for Systems
     - course: Topics in Database Management (Graduate Level)
     - course: Advanced Probabilistic Methods in CS (Graduate Level)
+    - course: Introduction to Computer Graphics
+    - course: Design and Implementation of Programming Languages
 
 math-courses:
     - course: Linear Algebra

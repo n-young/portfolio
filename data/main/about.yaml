@@ -3,18 +3,19 @@ desc: |
   <p>
       My name is <strong>Nick Young</strong>, and I am currently studying
       <strong>mathematics and computer science</strong> at <strong>Brown University</strong>.
-      I am currently a <strong>software engineering intern</strong> at <strong>Bloomberg LP</strong>.
+      I am currently a <strong>software engineering intern</strong> at <strong>Bloomberg LP</strong>
+      on the DevX Foundational Infrastructure team.
   </p>
   <p>
-      My experience lies in <strong>web development, database
-          management systems, and deep learning</strong>. On the side,
+      My experience lies in <strong>database management systems,
+      web development, and deep learning</strong>. On the side,
       I'm a portrait and travel <a href="https://www.instagram.com/nynynynynynynynynynyny/"
           target="_blank" rel="noopener">photographer</a>, badminton
-      player, and Minesweeper enthusiast. Please feel free
+      player, mechanical keyboard builder, and Minesweeper enthusiast. Please feel free
       to poke around my website and give me a shout if you'd
       like to connect!
   </p>
   <p>
-      (If you'd like to encrypt a message addressed to me, use my (way-too-long) <a
+      (If you'd like to encrypt a message addressed to me, use my <a
           href="docs/n-young-pub.txt" target="_blank" rel="noopener">public key</a>!)
   </p>
