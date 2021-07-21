@@ -14,10 +14,13 @@ categories:
                     <p>
                       Developed an adaptive connection pool in Python,
                       reducing new connections by 98% and lowering latency by 50%.
+                      Critically, leveraged thread timeouts to ensure that the connection
+                      pool adapted to load.
                     </p>
                     <p>
                       Used internal telemetry tools to track connection pool
-                      performance; exposed data through a Grafana dashboard.
+                      performance metrics (size, number of connections granted);
+                      exposed data through a Grafana dashboard.
                     </p>
                     <p>
                       Presented the pool implementation to the entire DevX department, composed of 200+ engineers.
@@ -115,6 +118,9 @@ categories:
                         Undergraduate TA for CSCI 0220 - Discrete Structures and Probability.
                         Summer 2021.
                     </p>
+                    <p>
+                      Held office hours, graded, and developed the course website.
+                    </p>
                 link-shields:
                     - link: https://cs.brown.edu/courses/csci0220/
                       text: Course
@@ -197,7 +203,8 @@ categories:
                         managers, and coordinating of all project groups.
                     </p>
                     <p>
-                        Organize and conduct a "bootcamp" to teach HTML, CSS, JS, React, and SQL to new members every semester.
+                        Organize and conduct a web bootcamp to teach HTML,
+                        CSS, JS, React, and SQL to new members every semester.
                     </p>
                     <p>
                         Led workshop development for Hack@Home, the club’s
