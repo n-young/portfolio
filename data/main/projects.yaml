@@ -62,8 +62,8 @@ projects:
       icon-alt: oxysat-icon
       content: |
           <p>
-              Built a SAT solver in Rust using the DPLL algorithm
-              with minor heuristics to optimize search. Completed
+              Built a DPLL-powered SAT solver with custom heuristics to optimize satisfiability search, built in Rust, tested using an automated
+              oracle built in Python. Compatible as a backend for the Forge model-checking language Completed
               as part of a project for CSCI 1710 - Logic for Systems.
           </p>
       link-shields:
