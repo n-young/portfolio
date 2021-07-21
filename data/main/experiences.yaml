@@ -7,11 +7,24 @@ categories:
                 icon: "img/icons/bloomberg.png"
                 icon-alt: "bloomberg-icon"
                 content: |
-                    <p>Incoming Software Engineering Intern at Bloomberg.</p>
+                    <p>
+                      Intern at Bloomberg LP on the DevX Technology Infrastructure
+                      team.
+                    </p>
+                    <p>
+                      Developed an adaptive connection pool in Python,
+                      reducing new connections by 98% and lowering latency by 50%.
+                    </p>
+                    <p>
+                      Used internal telemetry tools to track connection pool
+                      performance; exposed data through a Grafana dashboard.
+                    </p>
                 link-shields:
                     - link: https://www.bloomberg.com/
                       text: Website
-                lang-shields: []
+                lang-shields: 
+                  - text: Python
+                  - text: Javascript
 
               - name: Stochastic AI
                 role: Software Engineering Intern
@@ -78,6 +91,12 @@ categories:
                 content: |
                     <p>
                         Head TA for CSCI 1270 - Database Management Systems. Fall 2021.
+                    </p>
+                    <p>
+                        Revamped course to operate in Go. Wrote assignments, autograders, and reference implementations on topics including SQL, paging, hash tables, b+tree indices, query processing, query optimization, concurrency, and recovery.
+                    </p>
+                    <p>
+                      Wrote homework assignments, managed the TA team, developed the course website, and led course logistics.
                     </p>
                 link-shields:
                     - link: https://cs.brown.edu/courses/csci1270
@@ -153,14 +172,10 @@ categories:
                 icon-alt: "cs19-icon"
                 content: |
                     <p>
-                        Worked with Professor Shriram Krishnamurthi to investigate
-                        adversarial thinking in computer science by analysing
-                        student responses to computing and society assignments.
-                        Applied coding and intercoder reliability iteratively and
-                        jointly produced a conference submission.
+                        Worked with Professor Shriram Krishnamurthi to investigate adversarial thinking in beginner computer science students.
                     </p>
                     <p>
-                        Published in ACM ICER 2021.
+                        Analyzed student responses to ethics assignments using intercoder reliability. <strong>Published in ACM ICER 2021.</strong>
                     </p>
                 link-shields: []
                 lang-shields: []
@@ -169,7 +184,7 @@ categories:
           title: Clubs
           list:
               - name: Full Stack at Brown
-                role: Projects Director and Lead Developer
+                role: President
                 icon: "img/icons/fsab.png"
                 icon-alt: "fsab-icon"
                 content: |
@@ -179,11 +194,7 @@ categories:
                         managers, and coordinating of all project groups.
                     </p>
                     <p>
-                        Created the Brown Essentials app to present real-time
-                        university data, including dining, laundry, and map
-                        information. Developed in React Native, Node.js, and
-                        Express. Deployed a GraphQL API with a MongoDB database
-                        on GCP.
+                        Organize and conduct a "bootcamp" to teach HTML, CSS, JS, React, and SQL to new members every semester.
                     </p>
                     <p>
                         Led workshop development for Hack@Home, the club’s
@@ -199,15 +210,15 @@ categories:
                     - text: GCP
 
               - name: Brown Political Review
-                role: Web Developer
+                role: Lead Web Developer
                 icon: "img/icons/bpr.png"
                 icon-alt: "bpr-icon"
                 content: |
                     <p>
-                        Maintained the Brown Political Review website on the
-                        LAMP stack and Wordpress. Implemented mobile support,
-                        article comments, author profile pages, and optimized
-                        Schema.org microdata.
+                        Lead a team of four to maintain the Brown Political Review website on LAMP and Wordpress.
+                    </p>
+                    <p>
+                      Implemented mobile support, article comments, author profile pages, and optimized Schema.org microdata.
                     </p>
                 link-shields:
                     - link: https://brownpoliticalreview.org/
