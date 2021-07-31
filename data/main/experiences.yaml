@@ -186,7 +186,9 @@ categories:
                     <p>
                         Analyzed student responses to ethics assignments using intercoder reliability. <strong>Published in ACM ICER 2021.</strong>
                     </p>
-                link-shields: []
+                link-shields:
+                    - link: https://cs.brown.edu/~sk/Publications/Papers/Published/yk-early-ps-perf-stud-adv-think/
+                      text: Paper
                 lang-shields: []
 
     - category:
