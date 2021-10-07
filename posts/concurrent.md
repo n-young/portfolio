@@ -39,7 +39,7 @@ Moreover, applicants must take two courses above the introductory level (_i.e._ 
 
 ## My Courses
 
-The following are the courses I've taken so far. I'll update this list (and the associate advice) as I progress through my degree.
+The following are the courses I've taken so far. I'll update this list (and the associated advice) as I progress through my degree.
 
 
 <table>
@@ -246,9 +246,9 @@ The following are the courses I've taken so far. I'll update this list (and the 
   <tr>
    <td>
    </td>
-   <td>ECON 0710
+   <td>ECON 1130
    </td>
-   <td>Financial Accounting
+   <td>Intermediate Microeconomics (Mathematical)
    </td>
   </tr>
 </table>
