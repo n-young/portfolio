@@ -1,4 +1,9 @@
 posts:
+  - title: Sundays are for Meetings
+    link: notes/sundays
+    bin: chaotics
+    bintitle: Chaotics
+
   - title: Discord as a Zoom replacement for the classroom
     link: notes/discord
     bin: chaotics
