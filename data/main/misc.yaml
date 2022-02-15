@@ -9,6 +9,9 @@ cs-courses:
     - course: Advanced Probabilistic Methods in CS (Graduate Level)
     - course: Introduction to Computer Graphics
     - course: Design and Implementation of Programming Languages
+    - course: Compilers and Program Analysis
+    - course: Distributed Computer Systems
+    - course: Computer Networks
 
 math-courses:
     - course: Linear Algebra
@@ -16,6 +19,8 @@ math-courses:
     - course: Introduction to Discrete Structures and Probability
     - course: Abstract Algebra
     - course: Graph Theory
+    - course: Number Theory
+    - course: Cryptography
 
 coursera-courses:
     - course: Deep Learning Specialization
