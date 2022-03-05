@@ -9,7 +9,7 @@ Brown University offers a program wherein students can pursue a Master's degree 
 
 I'm writing this post for two reasons. Firstly to document my experience going through the program, and secondly as a resource for others either considering or currently going through the program. I often get younger students asking me what it's like; to avoid repeating myself, you might get sent here ;).
 
-For context, I'm currently (as of May 2021) going through the Concurrent Master's program with a Bachelor's in Math-CS and a Master's in CS. The two degree programs don't have to overlap, but I think it's considerably easier when they do. The program isn't very well advertised, and many that would have liked to go through it often hear about it once it's too late, and their schedules or lives can no longer accommodate the requirements. I hope this blog post gets to you before then!
+For context, I'm currently (as of March 2022) going through the Concurrent Master's program with a Bachelor's in Math and CS and a Master's in CS. The two degree programs don't have to overlap, but I think it's considerably easier when they do. The program isn't very well advertised, and many that would have liked to go through it often hear about it once it's too late, and their schedules or lives can no longer accommodate the requirements. I hope this post gets to you before then!
 
 I want to first document the resources that helped me the most, knowing that this program isn't well advertised and most academic advisors don't know much, if anything, about it. The [associated Brown webpage](https://www.brown.edu/academics/gradschool/undergraduate/concurrent-bachelorsmasters-degrees) is hardly helpful, but good to see. The linked application was out of date when I first downloaded it, so I emailed the correct Dean (who I found at the [Whom to Contact](https://www.brown.edu/academics/college/people/responsibilities) page) for an updated copy. Note that another great option is the [Fifth-Year Masters program](https://www.brown.edu/academics/gradschool/fifth-year), which features less time crunch and fewer course requirements. Lastly, two other blog posts written by [Eric Jang](https://blog.evjang.com/2018/01/brown-cm.html) and [Zachary Espiritu](https://zacharyespiritu.com/notes/brown-courses/) may also prove useful, as they were for me.
 
@@ -28,11 +28,13 @@ Moreover, applicants must have at least two-thirds of their grades be "A"s or "S
 
 Moreover, applicants must take two courses above the introductory level (_i.e._ 1000-level or above) in a particular subject outside of your area of concentration. This might look like two 1000-level ECON or BIOL classes. These courses can overlap with courses used in the above breadth requirement, and must similarly not be used for concentration requirements. <span style="text-decoration:underline;">The breadth and depth requirements must be fulfilled by the end of the applicant's 6th semester, when they apply to the program.</span>
 
-**Bachelor's and Master's Degree Requirements:** Of course, applicants  also need to complete all of the requirements for the associated Bachelor's and Master's degrees. There is an option to use up to two courses on both degrees; I highly recommend doing this.
+The breadth and depth requirements are probably the hardest part of this program. If you're ever confused or unsure whether a course would count for this requirement, ask yourself if it fits the "spirit of the program". The less explaining you have to do, the better.
 
-**Reference Letters:** Applicants require a number of reference letters; in particular, 1 letter from the department chair of your undergraduate concentration, 1 letter from a faculty member supervising your master's thesis research or graduate program (if any), 3 letters from faculty members within your area of concentration with whom you took classes, and 2 letters from faculty members without your area of concentration with whom you took classes. This adds up to 7 letters, but you can double-count letters (e.g. the department chair letter can count as both the department chair letter and a faculty member with whom you took classes).
+**Bachelor's and Master's Degree Requirements:** Of course, applicants also need to complete all of the requirements for the associated Bachelor's and Master's degrees. As mentioned abov, there is an option to use up to two courses on both degrees; I highly recommend doing this.
 
-**Personal Statement:** (Disclaimer: at the time of writing, I have not written a personal statement) Applicants must submit a personal statement explaining why they are pursuing this program. From the application:
+**Reference Letters:** Applicants require a number of reference letters; in particular, 1 letter from the department chair of your undergraduate concentration, 1 letter from a faculty member supervising your master's thesis research or graduate program, 3 letters from faculty members within your area of concentration with whom you took classes, and 2 letters from faculty members without your area of concentration with whom you took classes. This adds up to 7 letters, but you can double-count letters (e.g. the department chair letter can count as both the department chair letter and a faculty member with whom you took classes).
+
+**Personal Statement:** Applicants must submit a personal statement explaining why they are pursuing this program. From the application:
 
 > The statement should discuss how this program will enhance your undergraduate education; a description of the graduate program you intend to pursue, including a tentative description of the final research project for the master’s degree (if any); and your professional goals This statement is comparable to the statement of purpose in a regular graduate school admissions process.
 
@@ -251,6 +253,46 @@ The following are the courses I've taken so far. I'll update this list (and the 
    <td>Intermediate Microeconomics (Mathematical)
    </td>
   </tr>
+  <tr>
+   <td>Spring 2022
+   </td>
+   <td>CSCI 1380
+   </td>
+   <td>Distributed Computer Systems
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 1680
+   </td>
+   <td>Computer Networks
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>ECON 1710
+   </td>
+   <td>Investments I
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>MATH 1560
+   </td>
+   <td>Number Theory
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>MATH 1580
+   </td>
+   <td>Cryptography
+   </td>
+  </tr>
 </table>
 
 
@@ -269,7 +311,7 @@ _I am not an academic advisor, and the following advice is based solely on my ex
 
 **Does this breadth course count? -** The advice I've been given in figuring out if something counts or not for a particular requirement is to ask if it fits "the spirit of the program". What that means is that if you're hoping to evade a requirement on a technicality, or you're wondering if that course in the CLPS department that's really just computer programming counts as a life science's course, you should probably figure out a different course plan.
 
-**What's the benefit of doing the program? -** Another piece of paper. Depending on your post-graduate path, doing this program might be a complete waste of time. If you're in a field where having a Master's degree isn't helpful, then why bother. If you plan on going to graduate school, where you can get a Master's _en route_ to your PhD, why bother. But if your Bachelor's degree is your last stop in higher education and a Master's is useful, then it's a great program.
+**What's the benefit of doing the program? -** Another piece of paper. Depending on your post-graduate path, doing this program might be a complete waste of time. If you're in a field where having a Master's degree isn't helpful, then why bother. If you plan on going to graduate school, where you can get a Master's _en route_ to your PhD, then why bother. But if your Bachelor's degree is your last stop in higher education and a Master's is useful to you (i.e. may help you land higher-paying roles or qualify you for industry research), then it's a great program. One huge reason for completing this program, at least for me, is that it gets you a leg up in the H1-B visa lottery - if you are an international student hoping to stay in the US, this can be a great way to solidify your chances at a visa.
 
 
 ## Closing
