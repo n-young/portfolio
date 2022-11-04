@@ -1,5 +1,5 @@
 name: nick young
-output: docs
+output: build
 static_src: static
 static_dest: "."
 
