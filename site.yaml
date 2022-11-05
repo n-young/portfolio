@@ -3,31 +3,16 @@ output: build
 static_src: static
 static_dest: "."
 
-global:
-    links: data/main/links.yaml
-
 partials:
     header: views/partials/header.tmpl
     footer: views/partials/footer.tmpl
     transitions: views/partials/transitions.tmpl
-    notesheader: views/partials/notesheader.tmpl
-    notesfooter: views/partials/notesfooter.tmpl
     postheader: views/partials/postheader.tmpl
 
 pages:
     - title: home
       path: /
       template: views/index.tmpl
-      data:
-          about: data/main/about.yaml
-          headlines: data/main/headlines.yaml
-          experiences: data/main/experiences.yaml
-          projects: data/main/projects.yaml
-          misc: data/main/misc.yaml
-
-    - title: notes
-      path: /notes
-      template: views/notes.tmpl
       data:
           notes: data/notes/notes.yaml
 

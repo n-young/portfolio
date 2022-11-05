@@ -1,0 +1,18 @@
+:root {
+  --width-sm: 768px;
+  --width-md: 992px;
+  --width-lg: 1200px;
+
+  --fs-hg: 4rem;
+  --fs-lg: 2rem;
+  --fs-md: 1.3rem;
+  --fs-sm: 1rem;
+
+  --color-black: #0A0A0A;
+  --color-white: #F4F4F4;
+  --color-accent: #5E2BFF;
+
+  --color-accent-1: #5E2BFF;
+  --color-accent-2: #825CFF;
+  --color-accent-3: #C0ADFF;
+}

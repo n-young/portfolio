@@ -2,187 +2,41 @@
 
 {{ partial transitions }}
 
-<!--LANDING-->
-<div id="landing">
-    <div id="mainlanding">
-        <h1 id="mainname"><span id="boldname">N.</span> Young</h1>
-    </div>
+<header id="banner">
+    <h2><a href="https://n-young.me/">nick young's personal website</a></h2>
     <div class="underline"></div>
-    <div id="typedholder">
-        <h1 style="margin-bottom: 0">&gt <span id="typed"></span></h1>
-    </div>
-    <div id="typed-strings">
-        {{ loop headlines.headlines
-        <p>${headline}</p>
-        }}
-    </div>
-    <script>
-        var typed = new Typed("#typed", {
-            stringsElement: "#typed-strings",
-            typeSpeed: 50,
-            backSpeed: 30,
-            backDelay: 1500,
-            loop: true,
-            loopCount: Infinity,
-            smartBackspace: false,
-            shuffle: false,
-            showCursor: false,
-        });
-    </script>
-</div>
+</header>
 
-<!--PROGRESS BARS-->
-<div class="progressbar" id="basebar">
-    <div class="progressbar" id="aboutbar">
-        <div class="progressbar" id="projectsbar">
-            <div class="progressbar" id="skillsbar">
-                <div class="progressbar" id="contactbar"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--NAVBAR-->
-<nav class="my-navbar">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
-        x
-    </button>
-    <div id="main-navbar">
-        <a class="nav-option" id="aboutoption" href="#aboutAnchor">about</a>
-        <a class="nav-option" id="skillsoption" href="#skillsAnchor">experience</a>
-        <a class="nav-option" id="projectsoption" href="#projectsAnchor">projects</a>
-        <a class="nav-option" id="contactoption" href="#contactAnchor">education</a>
-    </div>
-</nav>
-
-<!--ABOUT-->
-<a class="anchor" id="aboutAnchor"></a>
-<div class="main" id="mainabout">
-    <div class="container container-grid">
-        <div class="grid-item">
-            <h1 class="fade"><span class="highlight fun">About me</span></h1>
-            <div class="about-panel fade">
-                {{ data about.desc }}
-            </div>
-            <div class="about-panel about-links fade">
-                {{ loop global.links.links
-                <p>
-                    <a class="about-link" href="${url}" rel="noopener">[${text}]</a>
-                </p>
-                }}
-            </div>
-        </div>
-        <div class="grid-item fade" style="text-align: center">
-            <img id="headshot" class="shake" src="{{ data about.headshot }}" alt="portrait" />
-        </div>
-    </div>
-</div>
-
-<!--EXPERIENCE-->
-<a class="anchor" id="skillsAnchor"></a>
-<div class="main" id="mainskills">
+<div class="main" id="mainblog">
     <div class="container">
-        <h1 class="fade"><span class="highlight fun">Experience</span></h1>
+        <h1>welcome!</h1>
+        <p>
+            My name is <strong>Nick Young</strong>, and this is my website! Here I collect the things I write and share the things I create.
+            I'm interested in <strong>computer systems</strong> broadly, but with a focus on databases, distributed systems, cryptography, and mathematics.
+            I studied <strong>math and computer science</strong> at <a href="https://www.brown.edu/">Brown University</a>
+            and work on query processsing at <a href="https://www.databricks.com/">Databricks</a>.
+            Previously, I've worked on document databases at <a href="https://stripe.com/">Stripe</a>
+            and developer experience at <a href="https://www.bloomberg.com/">Bloomberg</a>.
+            I also climb rocks, mix drinks, play google maps, build keyboards, own a guitar, take photos, and play badminton.
+        </p>
+        <p>
+            If you're looking to connect, let's chat via <a href="mailto:nicholas_young@brown.edu" target="_blank" rel="noopener">email</a>.
+            If you're looking for my code, check out my <a href="https://github.com/n-young">Github</a>.
+            If you're looking for my bar menu, check out <a href="http://bar.n-young.me">bar.n-young.me</a>.
+            If you're looking for a good time, click <a href="https://dood.al/pinktrombone/">here</a>.
+        </p>
 
-        {{ loop experiences.categories
-        <h2 class="fade"><span class="highlight fun">${category.title}</span></h2>
-        {{ loop category.list
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
-                <p>
-                    ${role}<span class="panel-header-secondary"> — ${name}</span>
-                </p>
-            </div>
-            <div class="panel-content">
-                ${content}
-                <p class="shield-container">
-                    {{ loop link-shields
-                    <span class="shield link-shield"><a href="${link}" target="_blank" rel="noopener">${text}</a></span>
-                    }}
-                    {{ loop lang-shields
-                    <span class="shield lang-shield">${text}</span>
-                    }}
-                </p>
-            </div>
-        </div>
-        }}
-        }}
-    </div>
-</div>
-
-<!--PROJECTS-->
-<a class="anchor" id="projectsAnchor"></a>
-<div class="main" id="mainprojects">
-    <div class="container">
-        <h1 class="fade"><span class="highlight fun">Projects</span></h1>
-        {{ loop projects.projects
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="${icon}" alt="${icon-alt}" />
-                <p>
-                    ${title}<span class="panel-header-secondary"> — ${subtitle}</span>
-                </p>
-            </div>
-            <div class="panel-content">
-                ${content}
-                <p class="shield-container">
-                    {{ loop link-shields
-                    <span class="shield link-shield"><a href="${link}" target="_blank" rel="noopener">${text}</a></span>
-                    }}
-                    {{ loop lang-shields
-                    <span class="shield lang-shield">${text}</span>
-                    }}
-                </p>
-            </div>
-        </div>
-        }}
-    </div>
-</div>
-
-<!--MISC-->
-<a class="anchor" id="contactAnchor"></a>
-<div class="main" id="maincontact">
-    <div class="container">
-        <h1 class="fade"><span class="highlight fun">Education</span></h1>
-
-        <!-- Brown -->
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="img/icons/brown.png" alt="droppy-icon" />
-                <p>Brown University</p>
-            </div>
-            <div class="panel-content">
-                <p><strong>Computer Science Courses</strong></p>
-                <ul>
-                    {{ loop misc.cs-courses
-                    <li>${course}</li>
-                    }}
-                </ul>
-                <p><strong>Math Courses</strong></p>
-                <ul>
-                    {{ loop misc.math-courses
-                    <li>${course}</li>
-                    }}
-                </ul>
-            </div>
-        </div>
-
-        <!-- Other Coursework -->
-        <div class="panel fade">
-            <div class="panel-header">
-                <img class="panel-header-icon shake" src="img/icons/other-education.png" alt="droppy-icon" />
-                <p>Other Coursework</p>
-            </div>
-            <div class="panel-content">
-                <p><strong>Coursera</strong></p>
-                <ul>
-                    {{ loop misc.coursera-courses
-                    <li>${course}</li>
-                    }}
-                </ul>
-            </div>
-        </div>
+        <h2>writing</h2>
+        <ul id="posts">
+            {{ loop notes.posts
+            <li>
+                <span class="tooltip ${bin}">&#9632;<span class="tooltiptext">${bintitle}</span></span>
+                <a class="postLink" href="${link}">
+                    ${title}
+                </a>
+            </li>
+            }}
+        </ul>
     </div>
 </div>
 
