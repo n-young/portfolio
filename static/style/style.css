@@ -221,6 +221,7 @@ header#banner h2 {
 
 .main {
     margin: 0;
+    margin-bottom: 20vh;
 }
 
 .container {
