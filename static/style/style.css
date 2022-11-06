@@ -269,11 +269,11 @@ header#banner h2 {
 
 div.underline {
     position: absolute;
-    height: 0.2rem;
+    height: 0.3rem;
     width: calc(100px + 50%);
     margin-top: 3px;
     left: 0;
-    background-color: var(--color-black);
+    background-color: var(--color-accent);
 }
 
 span.tooltip {
@@ -424,6 +424,7 @@ footer#mainfooter {
     text-align: center;
     background: var(--color-black);
     color: var(--color-white);
+    border-top: solid var(--color-accent) 2px;
 }
 
 footer#mainfooter > div.footer-content {
