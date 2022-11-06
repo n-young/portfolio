@@ -1,5 +1,5 @@
 ---
-title: "I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great."
+title: "How I make the most out of remote work."
 date: 2020 July 9
 ---
 
