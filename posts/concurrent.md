@@ -293,6 +293,78 @@ The following are the courses I've taken so far. I'll update this list (and the 
    <td>Cryptography
    </td>
   </tr>
+  <tr>
+   <td>Fall 2022
+   </td>
+   <td>CSCI 1510
+   </td>
+   <td>Cryptography and Computer Security
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 1760
+   </td>
+   <td>Multiprocessor Synchronization
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 2952L
+   </td>
+   <td>Secure Multi-party Computation
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>JAPN 0300
+   </td>
+   <td>Intermediate Japanese
+   </td>
+  </tr>
+  <tr>
+   <td>Spring 2023
+   </td>
+   <td>CSCI 2270
+   </td>
+   <td>Topics in Database Management Systems
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 2660
+   </td>
+   <td>Computer Systems Security
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 2670
+   </td>
+   <td>Operating Systems
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>CSCI 2951O
+   </td>
+   <td>Foundations of Prescriptive Analytics
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>JAPN 0400
+   </td>
+   <td>Intermediate Japanese
+   </td>
+  </tr>
 </table>
 
 
