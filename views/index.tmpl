@@ -45,6 +45,18 @@
             </li>
             }}
         </ul>
+
+        <h2>links</h2>
+        <ul id="posts">
+            {{ loop links.links
+            <li>
+                <span class="tooltip ${bin}">&#9632;<span class="tooltiptext">${bintitle}</span></span>
+                <a class="postLink" href="${link}">
+                    ${title}
+                </a>
+            </li>
+            }}
+        </ul>
     </div>
 </div>
 

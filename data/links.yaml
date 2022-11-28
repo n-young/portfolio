@@ -1,0 +1,10 @@
+links:
+  - title: TRustDB - A Time Series Database for High-Cardinality, Multivariate Data
+    link: /docs/trustdb.pdf
+    bin: chaotics
+    bintitle: Link
+
+  - title: Abstract Algebra Cheat Sheet
+    link: /docs/abstract_algebra.pdf
+    bin: chaotics
+    bintitle: Link
