@@ -1,4 +1,9 @@
 links:
+  - title: "Literature Review: Making Multiparty Computation Industry-Viable for Data Processing and Retrieval"
+    link: /docs/mpc_query_optimization.pdf
+    bin: chaotics
+    bintitle: Link
+
   - title: TRustDB - A Time Series Database for High-Cardinality, Multivariate Data
     link: /docs/trustdb.pdf
     bin: chaotics
