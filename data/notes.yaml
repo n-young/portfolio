@@ -1,4 +1,9 @@
 posts:
+  - title: TLDR - We have bar at home
+    link: notes/bar
+    bin: chaotics
+    bintitle: Chaotics
+
   - title: Sundays are for Meetings
     link: notes/sundays
     bin: chaotics

@@ -328,22 +328,6 @@ The following are the courses I've taken so far. I'll update this list (and the 
   <tr>
    <td>Spring 2023
    </td>
-   <td>CSCI 2270
-   </td>
-   <td>Topics in Database Management Systems
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>CSCI 2660
-   </td>
-   <td>Computer Systems Security
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
    <td>CSCI 2670
    </td>
    <td>Operating Systems
