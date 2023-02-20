@@ -3,9 +3,11 @@ title: "TLDR - We have bar at home"
 date: 2023 February 20
 ---
 
+# TLDR - We have bar at home
+
 I started casually bartending nearly half a year ago now, and found it a fun and approachable way to enjoy drinking without busting the bank at bars or attending college ragers. I wanted to write something to help others bootstrap their own home bar, including advice on picking equipment, which bottles I've enjoyed, and techniques that I learned either through reading or experimenting.
 
-## Equipment
+# Equipment
 
 We'll get through the boring stuff first: what equipment you need to start making drinks. This guide assumes that you have clean water, a refrigerator, a freezer, and the ability to obtain liquor legally. If you lack one or more of these things, then this guide may be difficult to follow. Where I have explicit recommendations, I'll link them. If you buy only the essentials, expect to spend around 50 USD. If you buy more, expect to spend around 75-100 USD. I've prepended the must-buys with ⭐ emojis.
 
@@ -36,7 +38,7 @@ We'll get through the boring stuff first: what equipment you need to start makin
 - **⭐ Shot Glass** - For ragers, but also for small drinks or samplers.
 - **Wine Glass** - Useful for wine or an Aperol spritz, but not much else.
 
-## Ingredients
+# Ingredients
 
 Now that you have the equipment, it's time to talk about the ingredients! We'll eschew a detailed discussion of what each ingredient does in pursuit of brevity. We'll instead give a shopping list with a short description of each ingredient so you know whether or not you need it. Since you'll be using these ingredients in mixing and likely not sipping them neat (read: by itself), don't bust the bank on any particular bottle. A 20 USD bottle can go a long way in a drink, and anything over 40 USD is likely going overboard. I recommend a 750ml bottle when you can, since it'll last a decent amount of time. You'll mostly be buying liquors (read: spirits) and liqueurs (read: sweetened or diluted liquors). Check the shelf life of anything you buy, and be aware of when you need to refrigerate a bottle (for example, all vermouths last longer in the fridge, and any milk-based liqueurs like Bailey's should live in the fridge after opening). I'll try to give recommendations on which bottles to buy when I can, but I highly recommend checking out [this article by PUNCH on which bottles are great](https://punchdrink.com/articles/best-well-liquors-bartenders/). I've prepended the must-buys with ⭐ emojis.
 
@@ -74,25 +76,25 @@ Now that you have the equipment, it's time to talk about the ingredients! We'll 
 - **Milk** - Milk and heavy cream are used more than you might think in classic cocktails.
 - **Eggs** - Many cocktails call for egg whites, that add a silky texture and foam. You can use egg whites, or aquafaba, or a special foaming agent.
 
-## Technique
+# Technique
 
 At this point, we should have everything we need to get started! We'll go over the basic techniques for making a cocktail.
 
-### Ice
+## Ice
 
 Ice helps cool down a drink during shaking and stirring, and helps keep it cool after it's been served. Make your ice with distilled, boiled, or filtered water and use more ice than you think you need in every drink. While some bartenders obsess over getting the clearest ice possible (clear ice melts slower and thus dilutes your drink less) it isn't absolutely necessary to have clear ice, especially if you're shaking or stirring your cocktails. If you're serving over the rocks, though, having a large rock of somewhat clear ice does go a long way for presentation. I recommend stockpiling rock ice as it'll be very useful in a wide variety of drinks. To ensure that your drink is as cold as possible, many bartenders also put glasses or shakers in the freezer around the time they begin preparing the drink. I recommend doing this for the frosted glass effect.
 
-### Shaking
+## Shaking
 
 To shake a cocktail, simply add all of the ingredients to a tin, then add a liberal amount of ice, and shake hard for around 15 seconds. By the end of the shake, the tin should be very cold to the touch; you can use a towel to make this less painful. Be very wary of undershaking; some beginner bartenders are worried about diluting the drink too much and don't shake the drink for long enough. The result is not enough liquid in the glass, and an unbalanced, overly boozy cocktail. Shake for the whole 15 seconds and remember that you'd usually rather over-dilute than under-dilute. After shaking, strain the cocktail into a chilled glass through a fine mesh strainer to catch shards of ice, add your garnishes, and serve immediately.
 
 There are some things that are good to note when shaking. After the tin cools down, a seal forms  that makes the tin harder to open; this locks your drink in and keeps it safe. Don't take this as an opportunity to shake haphazardly, though - a tin can still bust open and spray its contents all over you if you aren't careful. Be sure to never shake anything carbonated or that might not be stable. Using regular ice is fine when shaking, but if you add a large rock of ice to the tin as well, you'll get a much larger foam in your drink. Lastly, some drinks call for a "regal shake", which is a shake with an orange peel in the tin.
 
-### Stirring
+## Stirring
 
 To stir a cocktail, simply add all of the ingredients to a glass or beaker, then add a liberal amount of ice, and stir using your bar spoon for around 30 seconds or until the glass starts to frost. Stirring using a bar spoon can be tricky; you want the ice in the glass to spin as one unit to chill and dilute quickly while avoiding splashing or spilling the cocktail. To do so, maintain a loose grip on the spoon, keep the back of the spoon on the wall of the glass, and spin the spoon around the wall of the glass. Some drinks are built in the glass and don't require a lot of stirring as they are already low-proof. Don't overly stir these drinks, and don't overly stir any drink with carbonation involved as it will ruin the bubbles.
 
-### Miscellaneous Hacks
+## Miscellaneous Hacks
 
 Here are a few random hacks that I've collected over time that may elevate your cocktails:
 - Making ice with warm water can create clearer ice; I boil or filter my water before using it in ice.
@@ -101,7 +103,7 @@ Here are a few random hacks that I've collected over time that may elevate your 
 - I use butterfly pea tea for a cool gradient effect in non-alcoholic cocktails.
 - You can make syrups out of almost anything for a unique experience; try combining anything with sugar or water and see what happens. Ideas: purple yams, cucumber, old champagne, candy.
 
-## Further Reading
+# Further Reading
 
 This is just the tip of the iceberg, but the following resources are great if you want to learn more.
 
@@ -119,6 +121,6 @@ This is just the tip of the iceberg, but the following resources are great if yo
 - **[Cocktail Time with Kevin Cos](https://www.youtube.com/@KevinKos)** - Great channel for more advanced cocktails with impeccable vibes.
 - **[Anders Erickson](https://www.youtube.com/@AndersErickson)** - Another channel I watch often.
 
-## Thank you!
+# Thank you!
 
 Good luck starting your home bar! If you'd like to see what I've been experimenting with lately, check out my bar menu at [bar.n-young.me](https://bar.n-young.me). In the future I'd like to write more about making custom syrups, infusing spirits, and other advanced techniques, as well as tips on crafting your own recipes; hopefully we'll get there.
