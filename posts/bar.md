@@ -1,9 +1,9 @@
 ---
-title: "TLDR - We have bar at home"
+title: "We have bar at home"
 date: 2023 February 20
 ---
 
-# TLDR - We have bar at home
+# We have bar at home
 
 I started casually bartending nearly half a year ago now, and found it a fun and approachable way to enjoy drinking without busting the bank at bars or attending college ragers. I wanted to write something to help others bootstrap their own home bar, including advice on picking equipment, which bottles I've enjoyed, and techniques that I learned either through reading or experimenting.
 

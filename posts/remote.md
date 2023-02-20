@@ -1,9 +1,9 @@
 ---
-title: "How I make the most out of remote work."
+title: "How I do remote work"
 date: 2020 July 9
 ---
 
-# I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.
+# How I do remote work (old title: I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.)
 
 In 1981, the fat-based spreads industry underwent a cataclysmic change that, to this day, still resonates in our stomachs and pantries: I Can’t Believe It’s Not Butter™, a butter substitute, was introduced to the world. I cannot speak for all households, but in mine, this product was highly contentious. Rumours about its poor taste and adverse health effects are forever ingrained in my memory - and yet, when I tasted it for the first time at a childhood friend’s house, I genuinely could not believe it wasn’t butter™.
 

@@ -1,6 +1,7 @@
 ---
 title: "On curricular diversity and a diversity curriculum."
 date: 2020 July 10
+draft: "true"
 ---
 
 # On curricular diversity and a diversity curriculum.

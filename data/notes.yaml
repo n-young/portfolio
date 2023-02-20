@@ -1,35 +1,33 @@
-posts:
-  - title: TLDR - We have bar at home
+tldrs:
+  # - title: Recruiting
+  #   link: notes/recruiting
+  #   bin: TLDR
+
+  - title: We have bar at home
     link: notes/bar
-    bin: chaotics
-    bintitle: Chaotics
+    bin: TLDR
+
+  - title: Concurrent Masters @ Brown
+    link: notes/concurrent
+    bin: TLDR
+
+  - title: Contact tracing
+    link: notes/contact_tracing
+    bin: TLDR
+
+opinions:
+  - title: Discord for the classroom
+    link: notes/discord
+    bin: Opinion
 
   - title: Sundays are for Meetings
     link: notes/sundays
-    bin: chaotics
-    bintitle: Chaotics
-
-  - title: Discord as a Zoom replacement for the classroom
-    link: notes/discord
-    bin: chaotics
-    bintitle: Chaotics
+    bin: Opinion
 
   - title: Why I avoid Slack
     link: notes/slack
-    bin: chaotics
-    bintitle: Chaotics
+    bin: Opinion
 
-  - title: Pursuing a Concurrent Master's Degree at Brown
-    link: notes/concurrent
-    bin: chaotics
-    bintitle: Chaotics
-
-  - title: I took a contact tracing course so you don’t have to!
-    link: notes/contact_tracing
-    bin: chaotics
-    bintitle: Chaotics
-
-  - title: How I make the most out of remote work.
+  - title: How I do remote work
     link: notes/remote
-    bin: computers
-    bintitle: Computers
+    bin: Opinion

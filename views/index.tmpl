@@ -34,11 +34,23 @@
             If you're looking for a good time, click <a href="https://dood.al/pinktrombone/">here</a>.
         </p>
 
-        <h2>writing</h2>
+        <h2>tldrs</h2>
         <ul id="posts">
-            {{ loop notes.posts
+            {{ loop notes.tldrs
             <li>
-                <span class="tooltip ${bin}">&#9632;<span class="tooltiptext">${bintitle}</span></span>
+                <span class="tooltip">&#9632;<span class="tooltiptext">${bin}</span></span>
+                <a class="postLink" href="${link}">
+                    ${title}
+                </a>
+            </li>
+            }}
+        </ul>
+
+        <h2>opinions</h2>
+        <ul id="posts">
+            {{ loop notes.opinions
+            <li>
+                <span class="tooltip">&#9632;<span class="tooltiptext">${bin}</span></span>
                 <a class="postLink" href="${link}">
                     ${title}
                 </a>

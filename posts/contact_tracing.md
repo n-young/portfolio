@@ -1,9 +1,9 @@
 ---
-title: "I took a contact tracing course so you don’t have to!"
+title: "Contact tracing"
 date: 2020 July 9
 ---
 
-# I took a contact tracing course so you don’t have to!
+# Contact tracing
 
 An integral component of the fight against any pandemic is **contact tracing**, the practice of following transmission chains and breaking them off before a disease is able to spread. In response to the COVID-19 pandemic, contact tracing has been used heavily by many organizations and institutions to help limit the spread of the novel coronavirus. Contact tracers often go through preliminary training to prepare them for their role. I enrolled and completed the [COVID-19 Contact Tracing course](https://www.coursera.org/learn/covid-19-contact-tracing/) offered by Johns Hopkins University on Coursera, and in this article, I will summarize the key points of the course so that you, too, can learn about this vital public health tool.
 

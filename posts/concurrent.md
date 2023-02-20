@@ -1,9 +1,9 @@
 ---
-title: "Pursuing a Concurrent Master's Degree at Brown"
+title: "Concurrent Masters @ Brown"
 date: 2021 May 22
 ---
 
-# Pursuing a Concurrent Master's Degree at Brown
+# Concurrent Masters @ Brown
 
 Brown University offers a program wherein students can pursue a Master's degree at the same time as their Bachelor's degree, allowing them to earn two degrees in eight semesters. Considering that Brown (usually) doesn't allow early graduation (see: [advanced standing](https://www.brown.edu/academics/college/degree/policies/advanced-standing)), this is a pretty enticing option for those that want to get a little extra out of their time at Brown. This blog post will unlikely be helpful if you aren't a current or prospective Brown University student.
 

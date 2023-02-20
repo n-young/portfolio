@@ -1,9 +1,9 @@
 ---
-title: "Discord as a Zoom replacement for the classroom"
+title: "Discord for the classroom"
 date: 2021 May 23
 ---
 
-# Discord as a Zoom replacement for the classroom
+# Discord for the classroom
 
 I've TA'd a few courses at Brown during the pandemic, meaning there was a lot of work done to virtualize the classroom and replicate the numerous kinds of meetings we have with students. While Zoom became the _de facto_ platform for most oanline classrooms, there are very clear and jarring drawbacks to using it. Chats are hard to moderate and manage, and don't persist. Managing breakout rooms is a nightmare, and switching between them is slow. There are limited capabilities for presenters (particularly with regard to video). Link-based invites are tedious and potentially insecure.
 
