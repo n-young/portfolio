@@ -1,15 +1,20 @@
 links:
+  - title: Databases Minibook
+    link: "https://db.n-young.me"
+    bin: Minibook
+
+  - title: Cryptography Minibook
+    link: "https://crypto.n-young.me"
+    bin: Minibook
+
   - title: "Literature Review: Making Multiparty Computation Industry-Viable for Data Processing and Retrieval"
     link: /docs/mpc_query_optimization.pdf
-    bin: chaotics
-    bintitle: Link
+    bin: Paper
 
   - title: TRustDB - A Time Series Database for High-Cardinality, Multivariate Data
     link: /docs/trustdb.pdf
-    bin: chaotics
-    bintitle: Link
+    bin: Paper
 
   - title: Abstract Algebra Cheat Sheet
     link: /docs/abstract_algebra.pdf
-    bin: chaotics
-    bintitle: Link
+    bin: Reference
