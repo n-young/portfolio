@@ -1,7 +1,7 @@
 tldrs:
-  # - title: Recruiting
-  #   link: notes/recruiting
-  #   bin: TLDR
+  - title: Recruiting
+    link: notes/recruiting
+    bin: TLDR
 
   - title: We have bar at home
     link: notes/bar
@@ -20,7 +20,7 @@ opinions:
     link: notes/discord
     bin: Opinion
 
-  - title: Sundays are for Meetings
+  - title: Sundays are for meetings
     link: notes/sundays
     bin: Opinion
 
