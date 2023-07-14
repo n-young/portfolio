@@ -1,5 +1,5 @@
 ---
-title: "Discord for the classroom"
+title: "Discord for the Classroom"
 date: 2021 May 23
 ---
 

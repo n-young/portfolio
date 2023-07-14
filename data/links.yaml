@@ -11,7 +11,7 @@ links:
     link: /docs/mpc_query_optimization.pdf
     bin: Paper
 
-  - title: TRustDB - A Time Series Database for High-Cardinality, Multivariate Data
+  - title: "TRustDB: A Time Series Database for High-Cardinality, Multivariate Data"
     link: /docs/trustdb.pdf
     bin: Paper
 

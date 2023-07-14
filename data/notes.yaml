@@ -1,33 +1,33 @@
 tldrs:
-  - title: Recruiting
-    link: notes/recruiting
-    bin: TLDR
-
-  - title: We have bar at home
+  - title: Bartending TLDR
     link: notes/bar
     bin: TLDR
 
-  - title: Concurrent Masters @ Brown
+  - title: Tech Recruiting TLDR
+    link: notes/recruiting
+    bin: TLDR
+
+  - title: Brown University Concurrent Masters TLDR
     link: notes/concurrent
     bin: TLDR
 
-  - title: Contact tracing
+  - title: Contact Tracing TLDR
     link: notes/contact_tracing
     bin: TLDR
 
 opinions:
-  - title: Discord for the classroom
+  - title: Discord for the Classroom
     link: notes/discord
     bin: Opinion
 
-  - title: Sundays are for meetings
+  - title: Sundays are for Meetings
     link: notes/sundays
     bin: Opinion
 
-  - title: Why I avoid Slack
+  - title: Why I Avoid Slack
     link: notes/slack
     bin: Opinion
 
-  - title: How I do remote work
+  - title: How I Work Remotely
     link: notes/remote
     bin: Opinion

@@ -1,5 +1,5 @@
 ---
-title: "How I do remote work"
+title: "How I Work Remotely"
 date: 2020 July 9
 ---
 

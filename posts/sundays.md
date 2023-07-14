@@ -1,5 +1,5 @@
 ---
-title: "Sundays are for meetings"
+title: "Sundays are for Meetings"
 date: 2021 October 9
 ---
 

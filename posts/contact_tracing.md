@@ -1,5 +1,5 @@
 ---
-title: "Contact tracing"
+title: "Contact Tracing TLDR"
 date: 2020 July 9
 ---
 

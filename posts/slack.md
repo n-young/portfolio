@@ -1,5 +1,5 @@
 ---
-title: "Why I avoid Slack"
+title: "Why I Avoid Slack"
 date: 2021 May 23
 ---
 

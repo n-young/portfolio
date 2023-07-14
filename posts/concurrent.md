@@ -1,5 +1,5 @@
 ---
-title: "Concurrent Masters @ Brown"
+title: "Brown University Concurrent Masters TLDR"
 date: 2021 May 22
 ---
 
