@@ -3,8 +3,6 @@ title: "How I do remote work"
 date: 2020 July 9
 ---
 
-# How I do remote work (old title: I Can’t Believe It’s Not Butter! - How remote work, while not the “real deal”, can still be great.)
-
 In 1981, the fat-based spreads industry underwent a cataclysmic change that, to this day, still resonates in our stomachs and pantries: I Can’t Believe It’s Not Butter™, a butter substitute, was introduced to the world. I cannot speak for all households, but in mine, this product was highly contentious. Rumours about its poor taste and adverse health effects are forever ingrained in my memory - and yet, when I tasted it for the first time at a childhood friend’s house, I genuinely could not believe it wasn’t butter™.
 
 In 2020, a global pandemic has shut the world in. Companies and schools alike transitioned to operate nearly fully remotely at a moment’s notice. Some companies have even begun talks of abolishing the workplace entirely to cut costs, after seeing the efficacy of remote work. But it isn’t the same - remote work can be lonely, and potentially less productive as well. For myself, transitioning to studying and working remotely was a challenge, and my initial expectations were grim at best. However, much like the margarine-based butter alternative of my past, the taste of remote work has shattered my hubris, and I have come to spread™ the good word.

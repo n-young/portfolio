@@ -4,8 +4,6 @@ date: 2020 July 10
 draft: "true"
 ---
 
-# On curricular diversity and a diversity curriculum.
-
 <i>Note: I prefer to write on my own platform so that I have complete ownership and control over my own words: how they are presented and how they age. I will, however, not make any substantial edits without tagging them.</i>
 
 On June 21st, 2020, a petition to incorporate DIAP courses in the WRIT requirement at Brown began circulating. In essence, this petition called on Brown University to include courses with Diversity and Inclusion Action Plan (DIAP) designation - courses generally focused on issues surrounding gender, race, and inclusion - to be required alongside WRIT (writing) courses. In light of this petition, I want to explore some of the benefits and drawbacks of such an approach to diversity education, and put forth my own mechanism to achieve the same goals, independent of a DIAP requirement.

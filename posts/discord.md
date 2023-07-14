@@ -3,8 +3,6 @@ title: "Discord for the classroom"
 date: 2021 May 23
 ---
 
-# Discord for the classroom
-
 I've TA'd a few courses at Brown during the pandemic, meaning there was a lot of work done to virtualize the classroom and replicate the numerous kinds of meetings we have with students. While Zoom became the _de facto_ platform for most oanline classrooms, there are very clear and jarring drawbacks to using it. Chats are hard to moderate and manage, and don't persist. Managing breakout rooms is a nightmare, and switching between them is slow. There are limited capabilities for presenters (particularly with regard to video). Link-based invites are tedious and potentially insecure.
 
 Several other platforms have been explored as alternatives to Zoom. A [course at Waterloo](https://student.cs.uwaterloo.ca/~cs246e/F20/index.shtml) used [Twitch](https://twitch.tv/) to do lecture streams, a [compilers course at Brown](http://cs.brown.edu/courses/csci1260/spring-2021/) used [Prismia](https://prismia.chat/) to monitor chat, and several others including a [deep learning course](https://brown-deep-learning.github.io/dl-website-2020/index.html) used [gather.town](https://gather.town/) to manage lab sections. All of these alternatives are great in their own way, and if you're looking for a classroom alternative to Zoom, I encourage you to check those out.

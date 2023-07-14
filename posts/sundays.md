@@ -3,8 +3,6 @@ title: "Sundays are for meetings"
 date: 2021 October 9
 ---
 
-# Sundays are for meetings
-
 _EDIT (2/22/2023): Replace the word "Sunday" with any other day of the week; reclaim the weekend as time for yourself!_
 
 _Like most of my other thoughts, my thoughts on schedule optimization aren't new; check out [this piece by Paul Graham](http://www.paulgraham.com/makersschedule.html) for a more refined take. Here, I offer my perspective as a computer science student._

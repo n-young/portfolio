@@ -3,8 +3,6 @@ title: "Recruiting"
 date: 2023 February 22
 ---
 
-# Recruiting
-
 Recruiting is painful, and there are too many resources out there. My goal is to provide a step-by-step resource to tech recruiting in as few words as possible. There are few steps to the interview process, but they essentially boil down to resume screening, online assessments, and interviewing. We'll go over each step in order.
 
 This guide assumes that you're in a conventional computer science program at a university, or are otherwise educating yourself on the basics of computer science, applying for intern- or entry-level software engineering positions. It is not a zero-to-hero course on computer science; rather, it is a guide on how computer science students can navigate the recruiting process as *slick*ly as possible.
