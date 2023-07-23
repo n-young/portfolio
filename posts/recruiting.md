@@ -1,5 +1,5 @@
 ---
-title: "Tech Recruiting TLDR"
+title: "TLDR: Tech Recruiting"
 date: 2023 February 22
 ---
 

@@ -1,18 +1,36 @@
+books:
+  - title: Databases Minibook
+    link: "https://db.n-young.me"
+    bin: Minibook
+
+  - title: Cryptography Minibook
+    link: "https://crypto.n-young.me"
+    bin: Minibook
+
+links:
+  - title: "Literature Review: Making Multiparty Computation Industry-Viable for Data Processing and Retrieval"
+    link: /docs/mpc_query_optimization.pdf
+    bin: Paper
+
+  - title: "TRustDB: A Time Series Database for High-Cardinality, Multivariate Data"
+    link: /docs/trustdb.pdf
+    bin: Paper
+
+  - title: Abstract Algebra Cheat Sheet
+    link: /docs/abstract_algebra.pdf
+    bin: Reference
+
 tldrs:
-  - title: Bartending TLDR
+  - title: Bartending
     link: notes/bar
     bin: TLDR
 
-  - title: Tech Recruiting TLDR
+  - title: Tech Recruiting
     link: notes/recruiting
     bin: TLDR
 
-  - title: Brown University Concurrent Masters TLDR
+  - title: Concurrent Master's
     link: notes/concurrent
-    bin: TLDR
-
-  - title: Contact Tracing TLDR
-    link: notes/contact_tracing
     bin: TLDR
 
 opinions:

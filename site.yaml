@@ -15,7 +15,6 @@ pages:
       template: views/index.tmpl
       data:
           notes: data/notes.yaml
-          links: data/links.yaml
 
 collections:
     - title: notes

@@ -1,5 +1,5 @@
 ---
-title: "Bartending TLDR"
+title: "TLDR: Bartending, AKA 'We have bar at home'"
 date: 2023 February 20
 ---
 
