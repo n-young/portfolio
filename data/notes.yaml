@@ -16,17 +16,9 @@ links:
     link: /docs/trustdb.pdf
     bin: Paper
 
-  - title: Abstract Algebra Cheat Sheet
-    link: /docs/abstract_algebra.pdf
-    bin: Reference
-
 tldrs:
   - title: Bartending
     link: notes/bar
-    bin: TLDR
-
-  - title: Tech Recruiting
-    link: notes/recruiting
     bin: TLDR
 
   - title: Concurrent Master's
