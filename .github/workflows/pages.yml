@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Go 
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
       - name: Setup goo 
         run: go install -v github.com/n-young/goo/cmd/goo@latest
       - name: Build site
@@ -41,12 +41,12 @@ jobs:
           find build -type d -exec chmod 755 {} \;
           find build -type f -exec chmod 644 {} \;
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: './build'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
