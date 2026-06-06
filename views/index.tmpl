@@ -11,20 +11,18 @@
     <div class="container">
         <h1>welcome!</h1>
         <p>
-            Hey! My name is <strong>Nick Young</strong>, and this is my website.
+            Hey! My name is <strong>Nick Young</strong>.
         </p>
         <p>
-            I work on query optimization at <a href="https://www.databricks.com/">Databricks</a>,
-            with a focus on data pruning and planner infrastructure.
+            I work on query planning at <a href="https://www.databricks.com/">Databricks</a>.
         </p>
         <p>
-            I studied math and computer science at <a href="https://www.brown.edu/">Brown University</a>, where I helped build and run
+            I studied math and computer science at <a href="https://www.brown.edu/">Brown University</a>, where I helped build
             courses on <a href="https://cs.brown.edu/courses/csci1270/website_2021/">databases</a> and
             <a href="https://brownappliedcryptography.github.io/">applied cryptography</a>.
         </p>
         <p>
             On the side, I boil broth, mix concoctions, lift objects, hit shuttlecocks, send betas, and blunder queens.
-            Feel free to talk to me about any of those things.
         </p>
         <p>
             If you're looking for my writing, here's my <a href="https://substack.com/@ndashyoung">Substack</a>.
@@ -47,18 +45,6 @@
         <h2>minibooks</h2>
         <ul id="posts">
             {{ loop notes.books
-            <li>
-                <span class="tooltip">&#9632;<span class="tooltiptext">${bin}</span></span>
-                <a class="postLink" href="${link}">
-                    ${title}
-                </a>
-            </li>
-            }}
-        </ul>
-
-        <h2>links</h2>
-        <ul id="posts">
-            {{ loop notes.links
             <li>
                 <span class="tooltip">&#9632;<span class="tooltiptext">${bin}</span></span>
                 <a class="postLink" href="${link}">
